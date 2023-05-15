@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApi", "StoreApi\StoreApi.csproj", "{D0659D35-BD6E-4CBB-BB20-14F36CEBC676}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{787B501B-D44E-4A14-859B-0646C7B9BC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infrastrucure", "infrastrucure\infrastrucure.csproj", "{2691CC7D-3F92-4AF6-A92D-1EC5A9338103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0659D35-BD6E-4CBB-BB20-14F36CEBC676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0659D35-BD6E-4CBB-BB20-14F36CEBC676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0659D35-BD6E-4CBB-BB20-14F36CEBC676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0659D35-BD6E-4CBB-BB20-14F36CEBC676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787B501B-D44E-4A14-859B-0646C7B9BC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787B501B-D44E-4A14-859B-0646C7B9BC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787B501B-D44E-4A14-859B-0646C7B9BC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787B501B-D44E-4A14-859B-0646C7B9BC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2691CC7D-3F92-4AF6-A92D-1EC5A9338103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2691CC7D-3F92-4AF6-A92D-1EC5A9338103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2691CC7D-3F92-4AF6-A92D-1EC5A9338103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2691CC7D-3F92-4AF6-A92D-1EC5A9338103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67BB6F11-8980-4016-A5EC-F06D4F690DCC}
+	EndGlobalSection
+EndGlobal
