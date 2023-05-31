@@ -1,35 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Sr_JobSWages")]
     public partial class SrJobSwage
     {
-        [Key]
-        [Column("JobSTechId")]
         public int JobStechId { get; set; }
         public int? JorderId { get; set; }
         public int? EmpId { get; set; }
-        [StringLength(50)]
-        public string? EmpCode { get; set; }
-        [StringLength(100)]
-        public string? EmpName1 { get; set; }
-        [Column(TypeName = "numeric(18, 2)")]
+        public string EmpCode { get; set; }
+        public string EmpName1 { get; set; }
         public decimal? TotalHours { get; set; }
-        [Column(TypeName = "numeric(18, 2)")]
         public decimal? HourlyCostRate { get; set; }
-        [Column("WValue", TypeName = "numeric(18, 2)")]
         public decimal? Wvalue { get; set; }
-        [Column("WDescription")]
-        [StringLength(255)]
-        public string? Wdescription { get; set; }
+        public string Wdescription { get; set; }
 
-        [ForeignKey("JorderId")]
-        [InverseProperty("SrJobSwages")]
-        public virtual SrJobOrder? Jorder { get; set; }
+        public virtual SrJobOrder Jorder { get; set; }
     }
 }

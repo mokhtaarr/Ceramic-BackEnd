@@ -1,21 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("G_UserRolePermissions")]
     public partial class GUserRolePermission
     {
-        [Key]
         public int UserRolePermId { get; set; }
         public int? UserRoleId { get; set; }
-        [StringLength(100)]
-        public string ModuleCode { get; set; } = null!;
-        [StringLength(100)]
-        public string? ModuleDescA { get; set; }
+        public string ModuleCode { get; set; }
+        public string ModuleDescA { get; set; }
         /// <summary>
         /// 1 screen, 2 TabPage,3 Label
         /// </summary>
@@ -28,8 +21,6 @@ namespace DAL.Repository.Models
         public bool CanPreView { get; set; }
         public bool CanPost { get; set; }
 
-        [ForeignKey("UserRoleId")]
-        [InverseProperty("GUserRolePermissions")]
-        public virtual GUserRole? UserRole { get; set; }
+        public virtual GUserRole UserRole { get; set; }
     }
 }

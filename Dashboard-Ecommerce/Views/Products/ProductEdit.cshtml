@@ -1,0 +1,88 @@
+﻿@model ProductDto
+
+@{
+    ViewData["Title"] = "Product Form";
+}
+
+@*<h2>@(Model.ItemCardId > 0 ? "Edit" : "Create") Product</h2>
+
+*@<h2>Edit Product</h2>
+
+
+<hr />
+<section class="row justify-content-between">
+    <div class="col-md-5">
+        @*        <form method="POST" asp-action="@(Model.ItemCardId > 0 ? "Edit" : "Create")" enctype="multipart/form-data">
+
+        *@        <form method="POST" asp-action="Edit" enctype="multipart/form-data">
+            <input type="hidden" asp-for="ItemCardId" />
+            <div class="form-group mb-2">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِArabic Product Name</label>
+                <input type="text" class="form-control" asp-for="ItemDescA" maxlength="300">
+                <span asp-validation-for="ItemDescA" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِEnglish Product Name</label>
+                <input type="text" class="form-control" asp-for="ItemDescE" maxlength="300">
+                <span asp-validation-for="ItemDescE" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label class="text-muted" asp-for="BrandId"></label>
+                <select class="form-control" asp-for="BrandId" asp-items="@(new SelectList(Model.Brands,"BrandId","DescE"))" style="background-color: #ffffff;">
+                    <option>Select...</option>
+                </select>
+                <span asp-validation-for="BrandId" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label class="text-muted" asp-for="ItemCategoryId"></label>
+                <select class="form-control" asp-for="ItemCategoryId" asp-items="@(new SelectList(Model.Categories,"ItemCategoryId","ItemCatDescE"))" style="background-color: #ffffff;">
+                    <option>Select...</option>
+                </select>
+                <span asp-validation-for="ItemCategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group w-50 mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِPrice</label>
+                <input type="number" class="form-control" asp-for="Price" value="@Model.Price">
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+          @*  <div class="form-group mb-3">
+                <label for="formFile" class="form-label" asp-for="TaxItemCode">Select Image</label>
+                <input class="form-control" type="file" asp-for="TaxItemCode" style="background-color: #ffffff;" accept=".png, .jpg">
+                <span asp-validation-for="TaxItemCode" class="text-danger"></span>
+
+            </div>
+*@
+            <button type="submit" class="btn btn-primary"><i class="bi bi-check"></i> Save</button>
+            <a asp-controller="Products" asp-action="Index" class="btn btn-outline-secondary"><i class="bi bi-x"></i> Cancel</a>
+        </form>
+    </div>
+
+
+@*
+    <div class="col-md-5">
+        <div id="poster-container" class="d-none">
+            <img src="" alt="image" class="img-thumbnail" />
+        </div>
+    </div>*@
+</section>
+
+
+
+@*@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function () {
+            $('#TaxItemCode').on('change', function () {
+                var selectedFile = $(this).val().split('\\').pop();
+                var posterContainer = $('#poster-container');
+                var image = window.URL.createObjectURL(this.files[0]);
+                console.log('imag' + image);
+                posterContainer.removeClass('d-none');
+                posterContainer.find('img').attr('src', image);
+            });
+        });
+    </script>
+}*@

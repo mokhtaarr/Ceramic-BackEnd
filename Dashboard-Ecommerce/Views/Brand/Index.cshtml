@@ -1,0 +1,117 @@
+﻿@model IEnumerable<SrBrand>
+
+@{
+    ViewData["Title"] = "Our Brands";
+}
+
+<h2>View All Brands</h2>
+
+<div class="mt-4">
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning" role="alert">
+            no Brand Found!
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">Brand Arabic Name</th>
+                        <th scope="col">Brand English Name</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var brand in Model)
+                    {
+                        <tr class="p">
+                            <td>@brand.DescA</td>
+                            <td>@brand.DescE</td>
+                            <td><a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-BrandId="@brand.BrandId">Edit</a></td>
+                            <td><a href="javascript:;" class="btn btn-sm btn-danger js-delete" data-id="@brand.BrandId">Delete</a></td>
+                        </tr>
+                    }
+                    
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var btn = $(this);
+
+                bootbox.confirm({
+                    message: "Are you sure that you need to delete this Brand?",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-danger'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-outline-secondary'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: '/Brand/Delete/' + btn.data('id'),
+                                success: function () {
+                                    var movieContainer = btn.parents('.p');
+                                    movieContainer.addClass('animate__animated animate__zoomOut');
+
+                                    setTimeout(function () {
+                                        movieContainer.remove();
+                                    }, 1000);
+
+                                    toastr.success('Brand Deleted');
+                                },
+                                error: function () {
+                                    toastr.error('Something went wrong!');
+                                }
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+@*@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var btn = $(this);
+                console.log(btn.data('id'));
+
+                //var result = confirm("Are you sure that you need to delete this Brand ?");
+              
+              
+
+
+                if(result){
+                    $.ajax({
+                        url:'/Brand/Delete/' + (btn.data('id')),
+                        success: function () {
+                            btn.parents('.p').fadeOut();
+                            toastr.success('Brand deleted');
+                        },
+                        error: function () {
+                            toastr.error('Something went wrong!');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+}*@

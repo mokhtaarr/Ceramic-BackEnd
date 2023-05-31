@@ -1,5 +1,4 @@
-﻿using DAL.Repository;
-using DAL.Sepecifications;
+﻿using DAL.Sepecifications;
 using System;
 using System.Collections.Generic;
 using System.Linq;

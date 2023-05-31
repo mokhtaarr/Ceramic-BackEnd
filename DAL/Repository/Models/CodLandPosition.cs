@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Cod_LandPositions")]
     public partial class CodLandPosition
     {
         public CodLandPosition()
@@ -14,33 +10,20 @@ namespace DAL.Repository.Models
             CodLandPosJoins = new HashSet<CodLandPosJoin>();
         }
 
-        [Key]
         public int LandPosId { get; set; }
         public int Code { get; set; }
-        [StringLength(100)]
-        public string? DescA { get; set; }
-        [StringLength(100)]
-        public string? DescE { get; set; }
-        [Column("AId")]
+        public string DescA { get; set; }
+        public string DescE { get; set; }
         public int? Aid { get; set; }
-        [StringLength(20)]
-        public string? CreatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string CreatedBy { get; set; }
         public DateTime? CreatedAt { get; set; }
-        [StringLength(20)]
-        public string? UpdatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string UpdatedBy { get; set; }
         public DateTime? UpdatedAt { get; set; }
-        [StringLength(20)]
-        public string? DeletedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
-        [StringLength(255)]
-        public string? RemarksA { get; set; }
-        [StringLength(255)]
-        public string? RemarksE { get; set; }
+        public string RemarksA { get; set; }
+        public string RemarksE { get; set; }
 
-        [InverseProperty("LandPos")]
         public virtual ICollection<CodLandPosJoin> CodLandPosJoins { get; set; }
     }
 }

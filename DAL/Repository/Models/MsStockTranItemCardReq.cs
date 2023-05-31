@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Ms_StockTranItemCardReq")]
     public partial class MsStockTranItemCardReq
     {
         public MsStockTranItemCardReq()
@@ -14,7 +10,6 @@ namespace DAL.Repository.Models
             MsItemSerials = new HashSet<MsItemSerial>();
         }
 
-        [Key]
         public int TranReqItemCardId { get; set; }
         public int? TranReqId { get; set; }
         public int? ItemCardId { get; set; }
@@ -25,78 +20,43 @@ namespace DAL.Repository.Models
         public int? LotNumberExpiryId { get; set; }
         public int? ScaleCardId { get; set; }
         public int? UnitId { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? UnitRate { get; set; }
         public byte? ItemType { get; set; }
-        [StringLength(60)]
-        public string? BarCode { get; set; }
-        [StringLength(20)]
-        public string? BatchNumberFifoOrLifo { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string BarCode { get; set; }
+        public string BatchNumberFifoOrLifo { get; set; }
         public decimal? Quantity { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? QtyBeforRate { get; set; }
-        [Column("QtyIUnit2", TypeName = "numeric(38, 10)")]
         public decimal? QtyIunit2 { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? Value { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? ValueRate { get; set; }
         public bool? IsCollection { get; set; }
-        [Column("FIFOCost", TypeName = "numeric(38, 10)")]
         public decimal? Fifocost { get; set; }
-        [Column("FIFOCostUnit", TypeName = "numeric(38, 10)")]
         public decimal? FifocostUnit { get; set; }
-        [Column("LIFOCost", TypeName = "numeric(38, 10)")]
         public decimal? Lifocost { get; set; }
-        [Column("LIFOCostUnit", TypeName = "numeric(38, 10)")]
         public decimal? LifocostUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? CoastAverage { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? CoastAverageUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? LastCost { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? LastCostUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? ExpenseShare { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? ExpenseShareUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? PriceAfterExpense { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? PriceAfterExpenseUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? PriceAfterCurr { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? PriceAfterCurrUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? ExpenseShareAfterCurr { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? ExpenseShareAfterCurrUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? PriceAfterExpenseAfterCurr { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? PriceAfterExpensAfterCurrUnit { get; set; }
-        [StringLength(100)]
-        public string? Remarks { get; set; }
-        [StringLength(100)]
-        public string? Remarks1 { get; set; }
-        [StringLength(100)]
-        public string? Remarks2 { get; set; }
-        [StringLength(100)]
-        public string? Remarks3 { get; set; }
+        public string Remarks { get; set; }
+        public string Remarks1 { get; set; }
+        public string Remarks2 { get; set; }
+        public string Remarks3 { get; set; }
         public int? ItemAtrribBatchId { get; set; }
-        [StringLength(100)]
-        public string? ItemCardDesc { get; set; }
-        [StringLength(100)]
-        public string? ItemCardDescE { get; set; }
+        public string ItemCardDesc { get; set; }
+        public string ItemCardDescE { get; set; }
 
-        [ForeignKey("TranReqId")]
-        [InverseProperty("MsStockTranItemCardReqs")]
-        public virtual MsStockTransferNoteRequest? TranReq { get; set; }
-        [InverseProperty("TranReqItemCard")]
+        public virtual MsStockTransferNoteRequest TranReq { get; set; }
         public virtual ICollection<MsItemSerial> MsItemSerials { get; set; }
     }
 }

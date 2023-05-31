@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using DAL.Repository.Models;
+using DAL.Models;
 using StoreApi.Dtos;
 
 namespace StoreApi.Helpers

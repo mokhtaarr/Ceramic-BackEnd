@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Stock_SalesPurchase")]
     public partial class StockSalesPurchase
     {
         public StockSalesPurchase()
@@ -14,7 +10,6 @@ namespace DAL.Repository.Models
             StockSalesPurchaseDetails = new HashSet<StockSalesPurchaseDetail>();
         }
 
-        [Key]
         public int StockSalPurchId { get; set; }
         public int? StockTranTypId { get; set; }
         public int? BookId { get; set; }
@@ -23,27 +18,17 @@ namespace DAL.Repository.Models
         public int? FinancialIntervalsId { get; set; }
         public int? StockPortfolioId { get; set; }
         public int TrNo { get; set; }
-        [StringLength(40)]
-        public string? ManualTrNo { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string ManualTrNo { get; set; }
         public DateTime? TrDate { get; set; }
         public bool? FollowCash { get; set; }
-        [StringLength(200)]
-        public string? Remarks { get; set; }
-        [StringLength(20)]
-        public string? CreatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string Remarks { get; set; }
+        public string CreatedBy { get; set; }
         public DateTime? CreatedAt { get; set; }
-        [StringLength(20)]
-        public string? UpdateBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string UpdateBy { get; set; }
         public DateTime? UpdateAt { get; set; }
-        [StringLength(20)]
-        public string? DeletedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
 
-        [InverseProperty("StockSalPurch")]
         public virtual ICollection<StockSalesPurchaseDetail> StockSalesPurchaseDetails { get; set; }
     }
 }

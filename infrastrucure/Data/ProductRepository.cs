@@ -1,6 +1,5 @@
 ﻿using DAL.interfaces;
-using DAL.Repository;
-using DAL.Repository.Models;
+using DAL.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

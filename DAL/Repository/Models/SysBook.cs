@@ -1,24 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Sys_Books")]
     public partial class SysBook
     {
-        [Key]
         public int BookId { get; set; }
-        [StringLength(50)]
-        public string? PrefixCode { get; set; }
-        [Column("BookNameAR")]
-        [StringLength(100)]
-        public string? BookNameAr { get; set; }
-        [Column("BookNameEN")]
-        [StringLength(100)]
-        public string? BookNameEn { get; set; }
+        public string PrefixCode { get; set; }
+        public string BookNameAr { get; set; }
+        public string BookNameEn { get; set; }
         public byte? TermType { get; set; }
         public int? UserId { get; set; }
         public int? StoreId { get; set; }
@@ -28,17 +18,11 @@ namespace DAL.Repository.Models
         public int? StartNum { get; set; }
         public int? EndNum { get; set; }
         public byte? PostType { get; set; }
-        [StringLength(20)]
-        public string? CreatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string CreatedBy { get; set; }
         public DateTime? CreatedAt { get; set; }
-        [StringLength(20)]
-        public string? UpdateBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string UpdateBy { get; set; }
         public DateTime? UpdateAt { get; set; }
-        [StringLength(20)]
-        public string? DeletedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
     }
 }

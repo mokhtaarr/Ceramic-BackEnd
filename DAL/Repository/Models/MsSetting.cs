@@ -1,19 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("MS_Settings")]
     public partial class MsSetting
     {
-        [Key]
         public int SettingId { get; set; }
         public bool? ExpUseColor { get; set; }
         public int? ExpPeriod { get; set; }
-        [Column("chekAlert")]
         public bool? ChekAlert { get; set; }
         public bool? ItemLimitAlert { get; set; }
         public bool? ItemMaxAlert { get; set; }
@@ -49,28 +43,21 @@ namespace DAL.Repository.Models
         public bool? UsePartitionCodeColumn { get; set; }
         public bool? UsePartitionNameColumn { get; set; }
         public byte? NoOfItemRemarksFields { get; set; }
-        [StringLength(50)]
-        public string? ItemCostAffectDoc { get; set; }
-        [StringLength(50)]
-        public string? SalesReturnItemCost { get; set; }
-        [StringLength(50)]
-        public string? PurchReturnItemCost { get; set; }
+        public string ItemCostAffectDoc { get; set; }
+        public string SalesReturnItemCost { get; set; }
+        public string PurchReturnItemCost { get; set; }
         /// <summary>
         /// 1 always copy, 2 always move,3 never copy or move,4 ask to move
         /// </summary>
         public byte? AskForAttachMove { get; set; }
-        [StringLength(2500)]
-        public string? AttachmentPath { get; set; }
+        public string AttachmentPath { get; set; }
         public bool? UseWeightCardSystem { get; set; }
         public bool? UseCurrency { get; set; }
         public bool? UseHijiryDate { get; set; }
-        [StringLength(10)]
-        public string? SysDateFormat { get; set; }
+        public string SysDateFormat { get; set; }
         public bool? ScaleAutoRead { get; set; }
-        [StringLength(2500)]
-        public string? ScaleAppPath { get; set; }
-        [StringLength(2500)]
-        public string? ScaleDataPath { get; set; }
+        public string ScaleAppPath { get; set; }
+        public string ScaleDataPath { get; set; }
         public byte? ItemIssueCostMethod { get; set; }
         public byte? ItemIssueWhichCost { get; set; }
         public bool? UseFinancialQtyOnly { get; set; }
@@ -93,72 +80,31 @@ namespace DAL.Repository.Models
         public bool? PriceIncludTaxInPurch { get; set; }
         public bool? SearchItemWithQtySales { get; set; }
         public bool? UseCatCodInItems { get; set; }
-        [StringLength(10)]
-        public string? ItemSeparator { get; set; }
+        public string ItemSeparator { get; set; }
         public bool? UseCatCodInCust { get; set; }
-        [StringLength(10)]
-        public string? CustSeparator { get; set; }
+        public string CustSeparator { get; set; }
         public bool? UseCatCodInVend { get; set; }
-        [StringLength(10)]
-        public string? VendSeparator { get; set; }
-        [Column("ETaxClientId")]
-        [StringLength(200)]
-        public string? EtaxClientId { get; set; }
-        [Column("ETaxClientSecret")]
-        [StringLength(200)]
-        public string? EtaxClientSecret { get; set; }
-        [Column("ETaxPortalUrl")]
-        [StringLength(300)]
-        public string? EtaxPortalUrl { get; set; }
-        [Column("ETaxTokenUrl")]
-        [StringLength(300)]
-        public string? EtaxTokenUrl { get; set; }
-        [Column("ETaxSubmitUrl")]
-        [StringLength(300)]
-        public string? EtaxSubmitUrl { get; set; }
-        [Column("ETaxActivityCode")]
-        [StringLength(50)]
-        public string? EtaxActivityCode { get; set; }
-        [Column("ETaxIssuerId")]
-        [StringLength(50)]
-        public string? EtaxIssuerId { get; set; }
-        [Column("ETaxIssuerName")]
-        [StringLength(200)]
-        public string? EtaxIssuerName { get; set; }
-        [Column("ETaxTokenPin")]
-        [StringLength(50)]
-        public string? EtaxTokenPin { get; set; }
-        [Column("ETaxInvoiceStatus")]
-        [StringLength(20)]
-        public string? EtaxInvoiceStatus { get; set; }
-        [Column("ETaxCurrency")]
-        [StringLength(20)]
-        public string? EtaxCurrency { get; set; }
-        [Column("ETaxBranchId")]
-        [StringLength(100)]
-        public string? EtaxBranchId { get; set; }
-        [StringLength(20)]
-        public string? EtaxTax { get; set; }
-        [StringLength(20)]
-        public string? EtaxDocVersion { get; set; }
-        [Column("ETaxPortalUrlTest")]
-        [StringLength(300)]
-        public string? EtaxPortalUrlTest { get; set; }
-        [Column("ETaxTokenUrlTest")]
-        [StringLength(300)]
-        public string? EtaxTokenUrlTest { get; set; }
-        [Column("ETaxSubmitUrlTest")]
-        [StringLength(300)]
-        public string? EtaxSubmitUrlTest { get; set; }
-        [Column("ETaxPortalUrlLive")]
-        [StringLength(300)]
-        public string? EtaxPortalUrlLive { get; set; }
-        [Column("ETaxTokenUrlLive")]
-        [StringLength(300)]
-        public string? EtaxTokenUrlLive { get; set; }
-        [Column("ETaxSubmitUrlLive")]
-        [StringLength(300)]
-        public string? EtaxSubmitUrlLive { get; set; }
+        public string VendSeparator { get; set; }
+        public string EtaxClientId { get; set; }
+        public string EtaxClientSecret { get; set; }
+        public string EtaxPortalUrl { get; set; }
+        public string EtaxTokenUrl { get; set; }
+        public string EtaxSubmitUrl { get; set; }
+        public string EtaxActivityCode { get; set; }
+        public string EtaxIssuerId { get; set; }
+        public string EtaxIssuerName { get; set; }
+        public string EtaxTokenPin { get; set; }
+        public string EtaxInvoiceStatus { get; set; }
+        public string EtaxCurrency { get; set; }
+        public string EtaxBranchId { get; set; }
+        public string EtaxTax { get; set; }
+        public string EtaxDocVersion { get; set; }
+        public string EtaxPortalUrlTest { get; set; }
+        public string EtaxTokenUrlTest { get; set; }
+        public string EtaxSubmitUrlTest { get; set; }
+        public string EtaxPortalUrlLive { get; set; }
+        public string EtaxTokenUrlLive { get; set; }
+        public string EtaxSubmitUrlLive { get; set; }
         public bool? ActivateUnit2 { get; set; }
         public bool? JoinBranches { get; set; }
     }

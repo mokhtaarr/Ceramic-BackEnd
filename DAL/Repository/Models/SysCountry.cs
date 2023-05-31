@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Sys_Countries")]
     public partial class SysCountry
     {
         public SysCountry()
@@ -15,19 +11,11 @@ namespace DAL.Repository.Models
         }
 
         public int CountryId { get; set; }
-        [Key]
-        [StringLength(50)]
-        public string CountryCode { get; set; } = null!;
-        [StringLength(100)]
-        public string? CountryName { get; set; }
-        [Column("latitude")]
-        [StringLength(100)]
-        public string? Latitude { get; set; }
-        [Column("longitude")]
-        [StringLength(100)]
-        public string? Longitude { get; set; }
+        public string CountryCode { get; set; }
+        public string CountryName { get; set; }
+        public string Latitude { get; set; }
+        public string Longitude { get; set; }
 
-        [InverseProperty("CountryCodeNavigation")]
         public virtual ICollection<CodCountry> CodCountries { get; set; }
     }
 }

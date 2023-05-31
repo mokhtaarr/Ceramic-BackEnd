@@ -1,0 +1,179 @@
+﻿using DAL.Models;
+using Dashboard_Ecommerce.Dtos;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using NToastNotify;
+using X.PagedList;
+
+namespace Dashboard_Ecommerce.Controllers
+{
+    public class ProductsController : Controller
+    {
+        private readonly MoDbContext _context;
+        private readonly IToastNotification _toastNotification;
+
+        public ProductsController(MoDbContext context, IToastNotification toastNotification)
+        {
+            _context = context;
+            _toastNotification = toastNotification;
+        }
+        public IActionResult Index(int pageIndex = 1 , int pageSize = 12)
+        {
+            var products =  _context.MsItemCards.ToPagedList(pageIndex, pageSize);
+            return View(products);
+        }
+
+        public async Task<IActionResult> Create()
+        {
+            var viewModel = new ProductDto()
+            {
+                Brands = await _context.SrBrands.OrderBy(m=>m.DescE).ToListAsync(),
+                Categories = await _context.MsItemCategories.OrderBy(m=>m.ItemCatDescE).ToListAsync()
+            };
+
+            return View("ProductForm",viewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(ProductDto dto)
+        {
+            if (!ModelState.IsValid)
+            {
+
+                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
+                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
+                return View("ProductForm", dto);
+            }
+            var files = Request.Form.Files;
+
+            if(!files.Any())
+            {
+                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
+                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
+                ModelState.AddModelError("TaxItemCode", "Please select Product image !");
+                return View("ProductForm", dto);
+            }
+
+            var poster = files.FirstOrDefault();
+            var allowedExtenstions = new List<string> { ".jpg",".png"};
+
+            if(!allowedExtenstions.Contains(Path.GetExtension(poster.FileName).ToLower()))
+            {
+                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
+                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
+                ModelState.AddModelError("TaxItemCode", "only png or jpg images allowed !");
+                return View("ProductForm", dto);
+            }
+
+            if(poster.Length > 1048576)
+            {
+                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
+                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
+                ModelState.AddModelError("TaxItemCode", "poster cannot be more than 1 MB!");
+                return View("ProductForm", dto);    
+            }
+
+            using var dataStream = new MemoryStream();
+
+            await poster.CopyToAsync(dataStream);
+
+            var prd = new MsItemCard()
+            {
+                ItemDescA = dto.ItemDescA,
+                ItemDescE = dto.ItemDescE,
+                BrandId = dto.BrandId,
+                ItemCategoryId = dto.ItemCategoryId,
+                FirstPrice = (decimal?)dto.Price,
+                TaxItemCode = "/images/products/" + poster.FileName,
+
+            };
+
+            _context.MsItemCards.Add(prd);
+            _context.SaveChanges();
+
+            _toastNotification.AddSuccessToastMessage("Product Created Successfully");
+
+
+
+            return RedirectToAction(nameof(Index));
+
+
+        }
+
+        public async Task<IActionResult> Edit(int? ItemCardId)
+        {
+            if (ItemCardId == null)
+                return BadRequest();
+
+            var prd = await _context.MsItemCards.FindAsync(ItemCardId);
+
+            if (prd == null)
+                return NotFound();
+
+            var productEdit = new ProductDto()
+            {
+                ItemCardId = prd.ItemCardId, 
+                ItemDescA = prd.ItemDescA,
+                ItemDescE = prd.ItemDescE,
+                Price = (float)prd.FirstPrice,
+                TaxItemCode = prd.TaxItemCode,
+                BrandId = (int)prd.BrandId,
+                ItemCategoryId = (int)prd.ItemCategoryId,
+                Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync(),
+                Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync()
+            };
+
+            return View("ProductEdit", productEdit);
+            
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(ProductDto dto)
+        {
+            if (!ModelState.IsValid)
+            {
+
+                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
+                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
+                return View("ProductEdit", dto);
+            }
+            var prd = await _context.MsItemCards.FindAsync(dto.ItemCardId);
+
+            if (prd == null)
+                return NotFound();
+
+            prd.ItemDescA = dto.ItemDescA;
+            prd.ItemDescE = dto.ItemDescE;
+            prd.BrandId = dto.BrandId;
+            prd.ItemCategoryId = dto.ItemCategoryId;
+            prd.FirstPrice = (decimal?)dto.Price;
+
+            _context.SaveChanges();
+
+            _toastNotification.AddSuccessToastMessage("Product Update Successfully");
+
+            return RedirectToAction(nameof(Index));
+
+
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+                return BadRequest();
+            var prd = await _context.MsItemCards.FindAsync(id);
+            if (prd == null)
+                return NotFound();
+
+            _context.MsItemCards.Remove(prd);
+            _context.SaveChanges();
+            return Ok();
+        }
+
+
+    }
+
+}

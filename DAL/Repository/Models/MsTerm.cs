@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Ms_Terms")]
     public partial class MsTerm
     {
         public MsTerm()
@@ -15,12 +11,9 @@ namespace DAL.Repository.Models
             MsTermsDetails = new HashSet<MsTermsDetail>();
         }
 
-        [Key]
         public int TermId { get; set; }
-        [StringLength(50)]
-        public string? TermCode { get; set; }
-        [StringLength(100)]
-        public string? TermName { get; set; }
+        public string TermCode { get; set; }
+        public string TermName { get; set; }
         public byte? TermType { get; set; }
         public int? BookId { get; set; }
         public bool? SystemIssuedOnly { get; set; }
@@ -33,24 +26,15 @@ namespace DAL.Repository.Models
         public bool? IsStopped { get; set; }
         public bool? IsDefaultTerm { get; set; }
         public byte? UseItemTax { get; set; }
-        [StringLength(500)]
-        public string? ReportPath { get; set; }
-        [StringLength(20)]
-        public string? CreatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string ReportPath { get; set; }
+        public string CreatedBy { get; set; }
         public DateTime? CreatedAt { get; set; }
-        [StringLength(20)]
-        public string? UpdateBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string UpdateBy { get; set; }
         public DateTime? UpdateAt { get; set; }
-        [StringLength(20)]
-        public string? DeletedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
 
-        [InverseProperty("Term")]
         public virtual ICollection<MsTermsCostCenter> MsTermsCostCenters { get; set; }
-        [InverseProperty("Term")]
         public virtual ICollection<MsTermsDetail> MsTermsDetails { get; set; }
     }
 }

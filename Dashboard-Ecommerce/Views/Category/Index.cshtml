@@ -1,0 +1,87 @@
+﻿@model IEnumerable<MsItemCategory>
+
+@{
+    ViewData["Title"] = "Our Categories";
+}
+
+<h1>View All Category</h1>
+
+<div class="mt-4">
+    @if (!Model.Any())
+    {
+      <div class="alert alert-warning" role="alert">
+            no category Found!
+        </div>
+    }else
+    {
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">Category Arabic Name</th>
+                        <th scope="col">Category English Name</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var cat in Model)
+                    {
+                        <tr class="p">
+                            <td>@cat.ItemCatDescA</td>
+                            <td>@cat.ItemCatDescE</td>
+                            <td><a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-ItemCategoryId="@cat.ItemCategoryId">Edit</a></td>
+                            <td><a href="javascript:;" class="btn btn-sm btn-danger js-delete" data-id="@cat.ItemCategoryId">Delete</a></td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var btn = $(this);
+
+                bootbox.confirm({
+                    message: "Are you sure that you need to delete this Category?",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-danger'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-outline-secondary'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: '/Category/Delete/' + btn.data('id'),
+                                success: function () {
+                                    var movieContainer = btn.parents('.p');
+                                    movieContainer.addClass('animate__animated animate__zoomOut');
+
+                                    setTimeout(function () {
+                                        movieContainer.remove();
+                                    }, 1000);
+
+                                    toastr.success('Category Deleted');
+                                },
+                                error: function () {
+                                    toastr.error('Something went wrong!');
+                                }
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

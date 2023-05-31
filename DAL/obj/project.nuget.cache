@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+I0AyLA9eXx7qpsLmaBlx6usjc4pN0rWi06iBgQrjp1dJ0zdsvrwdHIh/MBp/HVo+rO9KG2b9XsXpSF/XvdVGg==",
+  "dgSpecHash": "2EE1ysXp7oGkTx+xSwXWjb3u6Pt0jsM24oLVRhEhMhvjEaU7qRJX1oDZLnruJc57IJUQEXICB4NUPqGihio9gg==",
   "success": true,
-  "projectFilePath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AcTivE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AcTivE\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

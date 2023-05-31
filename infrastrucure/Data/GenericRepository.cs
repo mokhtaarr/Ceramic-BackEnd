@@ -1,5 +1,5 @@
 ﻿using DAL.interfaces;
-using DAL.Repository;
+using DAL.Models;
 using DAL.Sepecifications;
 using Microsoft.EntityFrameworkCore;
 using System;

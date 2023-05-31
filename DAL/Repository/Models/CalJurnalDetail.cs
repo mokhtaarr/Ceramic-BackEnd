@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Cal_JurnalDetail")]
     public partial class CalJurnalDetail
     {
-        [Key]
         public int JurnalDetailId { get; set; }
         public int? JurnalId { get; set; }
-        [Column("AId")]
         public int? Aid { get; set; }
         public int? AccountId { get; set; }
         public int? CustAccountId { get; set; }
@@ -25,27 +19,16 @@ namespace DAL.Repository.Models
         public int? CostCenterId2 { get; set; }
         public int? CostCenterId3 { get; set; }
         public int? CostCenterId4 { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? Rate { get; set; }
-        [StringLength(150)]
-        public string? JurDesc { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string JurDesc { get; set; }
         public decimal? DebitCurrency { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? CreditCurrency { get; set; }
         public int? CurrencyId { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? DebitLocal { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? CreditLocal { get; set; }
-        [StringLength(100)]
-        public string? Remarks { get; set; }
+        public string Remarks { get; set; }
 
-        [ForeignKey("CurrencyId")]
-        [InverseProperty("CalJurnalDetails")]
-        public virtual MsCurrency? Currency { get; set; }
-        [ForeignKey("JurnalId")]
-        [InverseProperty("CalJurnalDetails")]
-        public virtual CalJurnalEntry? Jurnal { get; set; }
+        public virtual MsCurrency Currency { get; set; }
+        public virtual CalJurnalEntry Jurnal { get; set; }
     }
 }

@@ -1,27 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Keyless]
     public partial class VwAccountClassification
     {
         public long? Code { get; set; }
-        [StringLength(100)]
-        public string? DescA { get; set; }
-        [StringLength(100)]
-        public string? DescE { get; set; }
-        [StringLength(17)]
-        [Unicode(false)]
-        public string? ClassLevel { get; set; }
+        public string DescA { get; set; }
+        public string DescE { get; set; }
+        public string ClassLevel { get; set; }
         public long? AccountCatCode { get; set; }
-        [StringLength(100)]
-        public string? AccountCatDescA { get; set; }
-        [StringLength(100)]
-        public string? AccountCatDescE { get; set; }
+        public string AccountCatDescA { get; set; }
+        public string AccountCatDescE { get; set; }
         public byte? AccountClassType { get; set; }
     }
 }

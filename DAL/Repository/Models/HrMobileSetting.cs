@@ -1,15 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("HR_MobileSetting")]
     public partial class HrMobileSetting
     {
-        [Key]
         public int HrMobSetId { get; set; }
         public int? DefPermReqBookId { get; set; }
         public int? DefVacReqBookId { get; set; }

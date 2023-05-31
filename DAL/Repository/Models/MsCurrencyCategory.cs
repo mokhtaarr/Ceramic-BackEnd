@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("MS_CurrencyCategory")]
     public partial class MsCurrencyCategory
     {
         public MsCurrencyCategory()
@@ -14,36 +10,21 @@ namespace DAL.Repository.Models
             MsCurrencyCategoryJoins = new HashSet<MsCurrencyCategoryJoin>();
         }
 
-        [Key]
         public int CurrencyCategoryId { get; set; }
-        [Column("code")]
-        [StringLength(50)]
-        public string? Code { get; set; }
-        [StringLength(100)]
-        public string? CurrencyCategoryNameA { get; set; }
-        [StringLength(100)]
-        public string? CurrencyCategoryNameE { get; set; }
+        public string Code { get; set; }
+        public string CurrencyCategoryNameA { get; set; }
+        public string CurrencyCategoryNameE { get; set; }
         public int? Aid { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? Value { get; set; }
-        [StringLength(255)]
-        public string? RemarksA { get; set; }
-        [StringLength(255)]
-        public string? RemarksE { get; set; }
-        [StringLength(20)]
-        public string? CreatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string RemarksA { get; set; }
+        public string RemarksE { get; set; }
+        public string CreatedBy { get; set; }
         public DateTime? CreatedAt { get; set; }
-        [StringLength(20)]
-        public string? UpdatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string UpdatedBy { get; set; }
         public DateTime? UpdatedAt { get; set; }
-        [StringLength(20)]
-        public string? DeletedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
 
-        [InverseProperty("CurrencyCategory")]
         public virtual ICollection<MsCurrencyCategoryJoin> MsCurrencyCategoryJoins { get; set; }
     }
 }

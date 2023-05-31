@@ -1,24 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Keyless]
     public partial class VwGetItemAlter
     {
-        [StringLength(50)]
-        public string? ItemCode { get; set; }
-        [StringLength(100)]
-        public string? ItemDescA { get; set; }
-        [Column(TypeName = "decimal(38, 10)")]
+        public string ItemCode { get; set; }
+        public string ItemDescA { get; set; }
         public decimal? Qty { get; set; }
         public int? ItemCardId { get; set; }
-        [StringLength(50)]
-        public string? AlterToCod { get; set; }
-        [StringLength(100)]
-        public string? AlterToDesc { get; set; }
+        public string AlterToCod { get; set; }
+        public string AlterToDesc { get; set; }
     }
 }

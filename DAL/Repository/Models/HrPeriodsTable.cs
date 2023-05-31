@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Hr_PeriodsTables")]
     public partial class HrPeriodsTable
     {
         public HrPeriodsTable()
@@ -17,27 +13,19 @@ namespace DAL.Repository.Models
             HrPeriodTableVacations = new HashSet<HrPeriodTableVacation>();
         }
 
-        [Key]
         public int PeriodTableId { get; set; }
-        [StringLength(50)]
-        public string? PeriodCode { get; set; }
-        [StringLength(100)]
-        public string? Name1 { get; set; }
-        [StringLength(100)]
-        public string? Name2 { get; set; }
+        public string PeriodCode { get; set; }
+        public string Name1 { get; set; }
+        public string Name2 { get; set; }
         public bool? AttendanceMachin { get; set; }
         public int? ShiftId { get; set; }
         public byte? PeriodsNum { get; set; }
         public byte? PeriodType { get; set; }
-        [Column(TypeName = "smalldatetime")]
         public DateTime? TableStartDate { get; set; }
-        [Column(TypeName = "smalldatetime")]
         public DateTime? TableEndDate { get; set; }
-        [Column(TypeName = "smalldatetime")]
         public DateTime? FirstDayWork { get; set; }
         public byte? PeriodWorkDays { get; set; }
         public byte? DailyWorkHours { get; set; }
-        [Column(TypeName = "numeric(5, 2)")]
         public decimal? SubPeriodCount { get; set; }
         public byte? SubPeriodType { get; set; }
         public byte? RoundingMethod { get; set; }
@@ -50,46 +38,28 @@ namespace DAL.Repository.Models
         public int? Shift3ShowElementId { get; set; }
         public int? Shift3NoShowElementId { get; set; }
         public int? LateArrivalElementId { get; set; }
-        [StringLength(20)]
-        public string? LateArrivalUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string LateArrivalUnit { get; set; }
         public decimal? LateArrivalRound { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? LateArrivalMinVal { get; set; }
         public int? EarlyLeaveElementId { get; set; }
-        [StringLength(20)]
-        public string? EarlyLeaveUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string EarlyLeaveUnit { get; set; }
         public decimal? EarlyLeaveRound { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? EarlyLeaveMinVal { get; set; }
         public int? EarlyAttendElementId { get; set; }
-        [StringLength(20)]
-        public string? EarlyAttendUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string EarlyAttendUnit { get; set; }
         public decimal? EarlyAttendRound { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? EarlyAttendMinVal { get; set; }
         public int? WorkdayOvertimeElementId { get; set; }
-        [StringLength(20)]
-        public string? WorkdayOvertimeUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string WorkdayOvertimeUnit { get; set; }
         public decimal? WorkdayOvertimeRound { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? WorkdayOvertimeMinVal { get; set; }
         public int? VacationOvertimeElementId { get; set; }
-        [StringLength(20)]
-        public string? VacationOvertimeUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string VacationOvertimeUnit { get; set; }
         public decimal? VacationOvertimeRound { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? VacationOvertimeMinVal { get; set; }
         public int? WeekendOvertimeElementId { get; set; }
-        [StringLength(20)]
-        public string? WeekendOvertimeUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string WeekendOvertimeUnit { get; set; }
         public decimal? WeekendOvertimeRound { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? WeekendOvertimeMinVal { get; set; }
         public byte? WrkOvrTimAfterDismis { get; set; }
         public byte? WeekEndOvrTimAftrDismis { get; set; }
@@ -123,39 +93,23 @@ namespace DAL.Repository.Models
         public bool? CalcLateAttendWeekEnd { get; set; }
         public bool? CalcLateAttendVacation { get; set; }
         public int? WeekEndWorkDayElementId { get; set; }
-        [StringLength(20)]
-        public string? WeekEndWorkUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string WeekEndWorkUnit { get; set; }
         public decimal? WeekEndWorkRound { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? WeekEndWorkMinVal { get; set; }
         public int? VacationWorkDayElementId { get; set; }
-        [StringLength(20)]
-        public string? VacationWorkUnit { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string VacationWorkUnit { get; set; }
         public decimal? VacationWorkRound { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? VacationWorkMinVal { get; set; }
-        [StringLength(20)]
-        public string? CreatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string CreatedBy { get; set; }
         public DateTime? CreatedAt { get; set; }
-        [StringLength(20)]
-        public string? UpdatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string UpdatedBy { get; set; }
         public DateTime? UpdatedAt { get; set; }
-        [StringLength(20)]
-        public string? DeletedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
 
-        [InverseProperty("PeriodTable")]
         public virtual ICollection<HrEmployee> HrEmployees { get; set; }
-        [InverseProperty("PeriodTable")]
         public virtual ICollection<HrPeriodTableDetail> HrPeriodTableDetails { get; set; }
-        [InverseProperty("PeriodTable")]
         public virtual ICollection<HrPeriodTablePolicy> HrPeriodTablePolicies { get; set; }
-        [InverseProperty("PeriodTable")]
         public virtual ICollection<HrPeriodTableVacation> HrPeriodTableVacations { get; set; }
     }
 }

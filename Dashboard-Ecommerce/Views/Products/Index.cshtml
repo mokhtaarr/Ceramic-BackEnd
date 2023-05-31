@@ -1,0 +1,103 @@
+﻿@model IEnumerable<MsItemCard>
+<style>
+    .col:hover{
+        background-color: #00fbf633;
+        
+    }
+</style>
+
+@{
+    ViewData["Title"] = "Our Product";
+}
+
+<h2>View All Products</h2>
+<hr />
+
+<div class="mt-4">
+    @if(!Model.Any())
+    {
+        <div class="alert alert-warning" role="alert">
+            no Product Found!
+        </div>
+    }
+    else
+    {
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    @foreach(var prd in Model)
+                    {
+                        <div class="col">
+                        <div class="card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top" style="height:225px;width:100%" src="https://localhost:7192/@prd.TaxItemCode">
+
+                            <div class="card-body">
+                                    <span style="color: #009cff;font-weight: bold;">Arabic Product Name:</span>
+                                    <p class="card-text text-muted">@prd.ItemDescA</p>
+                                    <span style="color: #009cff;font-weight: bold;">English Product Name:</span>
+                                    <p class="card-text text-muted">@prd.ItemDescE</p>
+                                    <span style="color: #009cff;font-weight: bold;">Product Price:</span>
+                                    <p class="card-text text-muted">@prd.FirstPrice</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                            <a class="btn  btn-primary" asp-action="Edit" asp-route-ItemCardId="@prd.ItemCardId">Edit</a>
+                                        <a href="javascript:;" class="btn btn-danger js-delete" data-id="@prd.ItemCardId">Delete</a>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    }
+                   
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var btn = $(this);
+
+                bootbox.confirm({
+                    message: "Are you sure that you need to delete this Product?",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-danger'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-outline-secondary'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: '/Products/Delete/' + btn.data('id'),
+                                success: function () {
+                                    var movieContainer = btn.parents('.col');
+                                    movieContainer.addClass('animate__animated animate__zoomOut');
+
+                                    setTimeout(function () {
+                                        movieContainer.remove();
+                                    }, 700);
+
+                                    toastr.success('Product Deleted');
+                                },
+                                error: function () {
+                                    toastr.error('Something went wrong!');
+                                }
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}
+

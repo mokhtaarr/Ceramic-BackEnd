@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kDFtpbkxZJh6J/NHGMunriJ17qpaG5TeRVc2d21QI1YhsiHffNAno9dww7YdomPdTeMASAXvGokbjA7LGK4DXw==",
+  "dgSpecHash": "VDSqHvTRUfC70HUaKe825V85s1aKKzrxPJWKxXs2Ozqwoz+y89q7hdSS40uq8aCQGU6NF6SCKMrsUljc7CwWfQ==",
   "success": true,
-  "projectFilePath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
+  "projectFilePath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AcTivE\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\AcTivE\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

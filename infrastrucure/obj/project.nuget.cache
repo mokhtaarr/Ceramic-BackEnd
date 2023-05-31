@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SVG9G7gldRVBx78clNNgCJexTjDDAxpHXEzClTk+V+i9eOvq9gzNiczn7xaNfk26bZQLkukbIY3e6hxINcMXQw==",
+  "dgSpecHash": "lwwRX/bsjGm9eqNhVsj9fzhYXXCqrE0V4hfTyuRfwRdIQNWf6vVCllpX4e5S8MqYZN5CXOpyU6nhFqVWDJ9ung==",
   "success": true,
-  "projectFilePath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+  "projectFilePath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AcTivE\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\AcTivE\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Prod_ItemAttributes")]
     public partial class ProdItemAttribute
     {
         public ProdItemAttribute()
@@ -15,14 +11,10 @@ namespace DAL.Repository.Models
             ProdItemAttributsJoins = new HashSet<ProdItemAttributsJoin>();
         }
 
-        [Key]
         public int AttributId { get; set; }
-        [StringLength(50)]
-        public string? AttributCode { get; set; }
-        [StringLength(100)]
-        public string? AttributName1 { get; set; }
-        [StringLength(100)]
-        public string? AttributName2 { get; set; }
+        public string AttributCode { get; set; }
+        public string AttributName1 { get; set; }
+        public string AttributName2 { get; set; }
         public bool? IsActive { get; set; }
         public bool? IsMandatory { get; set; }
         /// <summary>
@@ -33,30 +25,18 @@ namespace DAL.Repository.Models
         public bool? IsOptionalWithAlarm { get; set; }
         public int? BasUnitId { get; set; }
         public byte? DataType { get; set; }
-        [Column(TypeName = "decimal(38, 10)")]
         public decimal? MinValu { get; set; }
-        [Column(TypeName = "decimal(38, 10)")]
         public decimal? MaxValu { get; set; }
-        [Column(TypeName = "decimal(38, 10)")]
         public decimal? IncrementalValu { get; set; }
-        [StringLength(250)]
-        public string? Remarks { get; set; }
-        [StringLength(20)]
-        public string? CreatedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string Remarks { get; set; }
+        public string CreatedBy { get; set; }
         public DateTime? CreatedAt { get; set; }
-        [StringLength(20)]
-        public string? UpdateBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string UpdateBy { get; set; }
         public DateTime? UpdateAt { get; set; }
-        [StringLength(20)]
-        public string? DeletedBy { get; set; }
-        [Column(TypeName = "smalldatetime")]
+        public string DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
 
-        [InverseProperty("Attribut")]
         public virtual ICollection<ProdAttributeValue> ProdAttributeValues { get; set; }
-        [InverseProperty("Attribut")]
         public virtual ICollection<ProdItemAttributsJoin> ProdItemAttributsJoins { get; set; }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using DAL.interfaces;
-using DAL.Repository;
-using DAL.Repository.Models;
+using DAL.Models;
 using DAL.Sepecifications;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

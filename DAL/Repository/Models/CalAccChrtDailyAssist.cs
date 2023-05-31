@@ -1,21 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Table("Cal_AccChrtDailyAssist")]
     public partial class CalAccChrtDailyAssist
     {
-        [Key]
         public int AccChrtDailyAssistId { get; set; }
         public int? AccountId { get; set; }
         public int? DailyAssisId { get; set; }
 
-        [ForeignKey("AccountId")]
-        [InverseProperty("CalAccChrtDailyAssists")]
-        public virtual CalAccountChart? Account { get; set; }
+        public virtual CalAccountChart Account { get; set; }
     }
 }

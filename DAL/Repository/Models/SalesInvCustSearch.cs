@@ -1,79 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace DAL.Repository.Models
+namespace DAL.Models
 {
-    [Keyless]
     public partial class SalesInvCustSearch
     {
         public int TrNo { get; set; }
-        [Column(TypeName = "smalldatetime")]
         public DateTime? TrDate { get; set; }
-        [StringLength(50)]
-        public string? CustomerCode { get; set; }
-        [StringLength(100)]
-        public string? CustomerDescA { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string CustomerCode { get; set; }
+        public string CustomerDescA { get; set; }
         public decimal? NetPrice { get; set; }
         public int? StoreId { get; set; }
-        [StringLength(100)]
-        public string? InvDescA { get; set; }
-        [StringLength(100)]
-        public string? InvDescE { get; set; }
-        [StringLength(200)]
-        public string? Remarks { get; set; }
-        [StringLength(100)]
-        public string? CustBranchName1 { get; set; }
-        [StringLength(151)]
-        public string? DocTrNo { get; set; }
-        [StringLength(40)]
-        public string? ManualTrNo { get; set; }
+        public string InvDescA { get; set; }
+        public string InvDescE { get; set; }
+        public string Remarks { get; set; }
+        public string CustBranchName1 { get; set; }
+        public string DocTrNo { get; set; }
+        public string ManualTrNo { get; set; }
         public int InvId { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? Rate { get; set; }
         public int? CurrencyId { get; set; }
-        [StringLength(50)]
-        public string? CurrencyCode { get; set; }
-        [StringLength(100)]
-        public string? CurrencyDescA { get; set; }
-        [StringLength(100)]
-        public string? CurrencyDescE { get; set; }
+        public string CurrencyCode { get; set; }
+        public string CurrencyDescA { get; set; }
+        public string CurrencyDescE { get; set; }
         public bool? DefualtCurrency { get; set; }
-        [StringLength(50)]
-        public string? TermCode { get; set; }
-        [StringLength(100)]
-        public string? TermName { get; set; }
+        public string TermCode { get; set; }
+        public string TermName { get; set; }
         public byte? TermType { get; set; }
         public int? TermId { get; set; }
         public int? BookId { get; set; }
-        [StringLength(151)]
-        public string? SalesOfferDocTrNo { get; set; }
+        public string SalesOfferDocTrNo { get; set; }
         public bool IsPos { get; set; }
-        [StringLength(20)]
-        public string? DeletedBy { get; set; }
+        public string DeletedBy { get; set; }
         public bool? IsHold { get; set; }
-        [StringLength(250)]
-        public string? Desc1 { get; set; }
-        [StringLength(250)]
-        public string? Desc2 { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
+        public string Desc1 { get; set; }
+        public string Desc2 { get; set; }
         public decimal? PayMethodPercent { get; set; }
-        [Column(TypeName = "numeric(38, 10)")]
         public decimal? PayMethodValue { get; set; }
-        [StringLength(250)]
-        public string? PayMethodDatafield { get; set; }
-        [StringLength(100)]
-        public string? AddField3 { get; set; }
-        [StringLength(100)]
-        public string? AddField4 { get; set; }
-        [StringLength(100)]
-        public string? AddField5 { get; set; }
-        [StringLength(100)]
-        public string? AddField6 { get; set; }
-        [StringLength(100)]
-        public string? AddField7 { get; set; }
+        public string PayMethodDatafield { get; set; }
+        public string AddField3 { get; set; }
+        public string AddField4 { get; set; }
+        public string AddField5 { get; set; }
+        public string AddField6 { get; set; }
+        public string AddField7 { get; set; }
     }
 }
