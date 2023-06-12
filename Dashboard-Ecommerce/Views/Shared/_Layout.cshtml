@@ -85,10 +85,15 @@
                         <div class="dropdown-menu bg-transparent border-0">
                             <a asp-action="Index" asp-controller="Products" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>View All Product</a>
                             <a asp-controller="Products" asp-action="Create" class="nav-item nav-link"><i class="bi bi-plus-circle-fill me-2"></i>Add New Product</a>
+                            <a asp-controller="Products" asp-action="GetProductsWithOffer" class="nav-item nav-link"><i class="fa fa-bell me-2"></i> offers</a>
+                            <a asp-controller="Products" asp-action="GetProductsWithOutOffer" class="nav-item nav-link"><i class="fa fa-bell-slash me-2"></i>ًًWith Out offers</a>
+                            <a asp-controller="Products" asp-action="GetFinishedProducts" class="nav-item nav-link"><i class="fa fa-eye me-2"></i>Not available</a>
 
                         </div>
                     </div>
-                  
+
+                    <a asp-action="Index" asp-controller="Users" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> Users Orders</a>
+                    
                 </div>
             </nav>
         </div>

@@ -14,9 +14,13 @@ namespace Dashboard_Ecommerce.Dtos
 
         public string ItemDescE { get; set; }
         [Required]
-        public float Price { get; set; }
+        public decimal TotalCost { get; set; }
 
+        public decimal Discount { get;set; }
 
+        [Required]
+        public decimal QtyPartiation { get; set; }
+        
         public string TaxItemCode { get;set; }
         [Display(Name = "Brand")]
         public int BrandId { get; set; }

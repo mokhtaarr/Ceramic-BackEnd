@@ -17,12 +17,30 @@ namespace Dashboard_Ecommerce.Controllers
             _context = context;
             _toastNotification = toastNotification;
         }
-        public IActionResult Index(int pageIndex = 1 , int pageSize = 12)
+        public IActionResult Index(int pageIndex = 1 , int pageSize = 20)
         {
             var products =  _context.MsItemCards.ToPagedList(pageIndex, pageSize);
             return View(products);
         }
 
+        public async Task<IActionResult> GetFinishedProducts()
+        {
+            var FinishedProduct = await _context.MsItemCards.Where(p => p.QtyPartiation <= 0).ToListAsync();
+
+            return View("FinishedProduct", FinishedProduct);
+        }
+
+        public async Task<IActionResult> GetProductsWithOffer()
+        {
+            var productsWithOffer = await _context.MsItemCards.Where(p => p.Discount > 0).ToListAsync();
+            return View("productsWithOffer", productsWithOffer);
+        }
+
+        public async Task<IActionResult> GetProductsWithOutOffer()
+        {
+            var productsWithOffer = await _context.MsItemCards.Where(p => p.Discount == 0).ToListAsync();
+            return View("productsWithOutOffer", productsWithOffer);
+        }
         public async Task<IActionResult> Create()
         {
             var viewModel = new ProductDto()
@@ -84,7 +102,10 @@ namespace Dashboard_Ecommerce.Controllers
                 ItemDescE = dto.ItemDescE,
                 BrandId = dto.BrandId,
                 ItemCategoryId = dto.ItemCategoryId,
-                FirstPrice = (decimal?)dto.Price,
+                QtyPartiation= dto.QtyPartiation,
+                TotalCost = dto.TotalCost,
+                Discount = dto.Discount,
+                FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost),
                 TaxItemCode = "/images/products/" + poster.FileName,
 
             };
@@ -110,13 +131,15 @@ namespace Dashboard_Ecommerce.Controllers
 
             if (prd == null)
                 return NotFound();
-
+          
             var productEdit = new ProductDto()
             {
                 ItemCardId = prd.ItemCardId, 
                 ItemDescA = prd.ItemDescA,
                 ItemDescE = prd.ItemDescE,
-                Price = (float)prd.FirstPrice,
+                QtyPartiation = (int)prd.QtyPartiation,
+                TotalCost = (decimal)prd.TotalCost,
+                Discount = (decimal)prd.Discount,
                 TaxItemCode = prd.TaxItemCode,
                 BrandId = (int)prd.BrandId,
                 ItemCategoryId = (int)prd.ItemCategoryId,
@@ -144,12 +167,19 @@ namespace Dashboard_Ecommerce.Controllers
 
             if (prd == null)
                 return NotFound();
+            //QtyPartiation = dto.QtyPartiation,
+            //    TotalCost = dto.TotalCost,
+            //    Discount = dto.Discount,
+            //    FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost),
 
             prd.ItemDescA = dto.ItemDescA;
             prd.ItemDescE = dto.ItemDescE;
             prd.BrandId = dto.BrandId;
             prd.ItemCategoryId = dto.ItemCategoryId;
-            prd.FirstPrice = (decimal?)dto.Price;
+            prd.QtyPartiation = dto.QtyPartiation;
+            prd.TotalCost = dto.TotalCost;
+            prd.Discount = dto.Discount;
+            prd.FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost);
 
             _context.SaveChanges();
 
