@@ -8,9 +8,7 @@ namespace StoreApi.Helpers
     {
         public MappingProfiles()
         {
-            CreateMap<MsItemCard, ProductDto>()
-                .ForMember(d=>d.TaxItemCode,o=>o.MapFrom<ProductUrlResolver>()) 
-                ;
+            CreateMap<MsItemCard, ProductDto>();
         }
     }
 }

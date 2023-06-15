@@ -66,6 +66,16 @@ namespace StoreApi.Controllers
            return Ok(await _ProductCategoryRepository.ListAllAsync());
         }
 
+        [HttpGet("brandId")]
+        public async Task<IActionResult> GetProductsByBrandId(int BrandId)
+        {
+            var _context = new MoDbContext();
+
+
+            var productsByBrandId = await _context.MsItemCards.Where(p => p.BrandId == BrandId).ToListAsync();
+
+            return Ok(productsByBrandId);
+        }
 
     }
 }
