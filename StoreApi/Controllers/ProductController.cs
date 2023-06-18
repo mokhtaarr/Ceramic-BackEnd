@@ -20,14 +20,16 @@ namespace StoreApi.Controllers
         private readonly IGenericRepository<MsItemCategory> _ProductCategoryRepository;
         private readonly IGenericRepository<MsItemCard> _ProductCardRepository;
         private readonly IMapper _mapper;
+        private readonly MoDbContext _context;
         public ProductController(IProductRepository ProductRepository, IGenericRepository<SrBrand> ProductBrandRepository, 
-            IGenericRepository<MsItemCategory> ProductCategoryRepository, IGenericRepository<MsItemCard> ProductCardRepository, IMapper mapper)
+            IGenericRepository<MsItemCategory> ProductCategoryRepository, IGenericRepository<MsItemCard> ProductCardRepository, IMapper mapper, MoDbContext context)
         {
            _ProductRepository = ProductRepository;
             _ProductBrandRepository = ProductBrandRepository;
             _ProductCategoryRepository = ProductCategoryRepository;
             _ProductCardRepository = ProductCardRepository;
             _mapper = mapper;
+            _context=context;
         }
        
 
@@ -69,12 +71,18 @@ namespace StoreApi.Controllers
         [HttpGet("brandId")]
         public async Task<IActionResult> GetProductsByBrandId(int BrandId)
         {
-            var _context = new MoDbContext();
 
 
             var productsByBrandId = await _context.MsItemCards.Where(p => p.BrandId == BrandId).ToListAsync();
 
             return Ok(productsByBrandId);
+        }
+
+        [HttpGet("CatId")]
+        public async Task<IActionResult> GetProductsByCategoryId(int CatId)
+        {
+            var productByCategoryId = await _context.MsItemCards.Where(c => c.ItemCategoryId == CatId).ToListAsync();
+            return Ok(productByCategoryId);
         }
 
     }
