@@ -154,3 +154,9 @@ D:\BackUp From Cermick project\SeramikProjectApiBackEnd\StoreApi\StoreApi\obj\De
 D:\BackUp From Cermick project\SeramikProjectApiBackEnd\StoreApi\StoreApi\obj\Debug\net6.0\StoreApi.pdb
 D:\BackUp From Cermick project\SeramikProjectApiBackEnd\StoreApi\StoreApi\obj\Debug\net6.0\StoreApi.genruntimeconfig.cache
 D:\BackUp From Cermick project\SeramikProjectApiBackEnd\StoreApi\StoreApi\obj\Debug\net6.0\ref\StoreApi.dll
+D:\BackUp From Cermick project\SeramikProjectApiBackEnd\StoreApi\StoreApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BackUp From Cermick project\SeramikProjectApiBackEnd\StoreApi\StoreApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\BackUp From Cermick project\SeramikProjectApiBackEnd\StoreApi\StoreApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\StoreApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\StoreApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\StoreApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

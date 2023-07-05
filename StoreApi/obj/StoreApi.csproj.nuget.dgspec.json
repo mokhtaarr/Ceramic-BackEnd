@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj": {}
+    "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj": {}
   },
   "projects": {
-    "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
+    "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-        "outputPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\obj\\",
+        "outputPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -81,14 +85,14 @@
         }
       }
     },
-    "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
+    "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+        "projectUniqueName": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
         "projectName": "infrastrucure",
-        "projectPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+        "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
         "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-        "outputPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\obj\\",
+        "outputPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,8 +109,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj"
+              "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj"
               }
             }
           }
@@ -121,9 +125,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.6.111, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             }
           },
           "imports": [
@@ -146,14 +162,14 @@
         }
       }
     },
-    "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj": {
+    "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
+        "projectUniqueName": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
         "projectName": "StoreApi",
-        "projectPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
+        "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
         "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-        "outputPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\obj\\",
+        "outputPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,11 +186,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj"
+              "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj"
               },
-              "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
-                "projectPath": "D:\\BackUp From Cermick project\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj"
+              "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
+                "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj"
               }
             }
           }
@@ -192,6 +208,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

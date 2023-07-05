@@ -7,5 +7,6 @@ namespace StoreApi.Controllers
     [ApiController]
     public class BaseApiController : ControllerBase
     {
+
     }
 }

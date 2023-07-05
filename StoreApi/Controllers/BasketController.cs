@@ -1,7 +1,9 @@
-﻿using DAL.interfaces;
+﻿using AutoMapper;
+using DAL.interfaces;
 using DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using StoreApi.Dtos;
 
 namespace StoreApi.Controllers
 {
@@ -10,10 +12,12 @@ namespace StoreApi.Controllers
     public class BasketController : ControllerBase
     {
         private readonly IBasketRepository _basketRepository;
+        private readonly IMapper _mapper;
 
-        public BasketController(IBasketRepository basketRepository)
+        public BasketController(IBasketRepository basketRepository, IMapper mapper)
         {
             _basketRepository = basketRepository;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -24,9 +28,10 @@ namespace StoreApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<EcomCustomerBasket>> UpdateBasket(EcomCustomerBasket basket)
+        public async Task<ActionResult<EcomCustomerBasket>> UpdateBasket(EcomCustomerBasketDto basket)
         {
-            var updatedBasket = await _basketRepository.UpdateBasketAsync(basket);
+            var customerBasket = _mapper.Map<EcomCustomerBasket>(basket);
+            var updatedBasket = await _basketRepository.UpdateBasketAsync(customerBasket);
             return Ok(updatedBasket);
         }
 
