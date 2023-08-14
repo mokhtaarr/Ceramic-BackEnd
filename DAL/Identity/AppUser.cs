@@ -10,6 +10,9 @@ namespace DAL.Identity
     public class AppUser:IdentityUser
     {
         public string DisplayName { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
+        
         public Address Address { get; set; }
 
 

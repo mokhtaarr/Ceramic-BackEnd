@@ -56,7 +56,10 @@ namespace StoreApi.Controllers
             {
                 Email = user.Email,
                 Token = _tokenService.CreateToken(user),
-                DisplayName = user.DisplayName
+                DisplayName = user.DisplayName,
+                PhoneNumber = user.PhoneNumber,
+                City = user.City,
+                Street = user.Street
             };
         }
 
@@ -68,7 +71,10 @@ namespace StoreApi.Controllers
             {
                 DisplayName = registerDto.DisplayName,
                 Email = registerDto.Email,
-                UserName = registerDto.Email
+                UserName = registerDto.Email,
+                PhoneNumber = registerDto.PhoneNumber,
+                City = registerDto.City,
+                Street = registerDto.Street
             };
 
             var result = await _userManager.CreateAsync(user, registerDto.Password);
@@ -78,7 +84,10 @@ namespace StoreApi.Controllers
             {
                 DisplayName = user.DisplayName,
                 Token = _tokenService.CreateToken(user),
-                Email = user.Email
+                Email = user.Email,
+                PhoneNumber = user.PhoneNumber,
+                City = user.City,
+                Street = user.Street
             };
         }
 

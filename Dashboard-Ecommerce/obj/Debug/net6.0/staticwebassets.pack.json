@@ -25,6 +25,94 @@
       "PackagePath": "staticwebassets\\content\\images\\StaticImages\\admin.png"
     },
     {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CeramikWalls.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\CeramikWalls.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\ChineseBath1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath2.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\ChineseBath2.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath3.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\ChineseBath3.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CleopatraCeramics1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\CleopatraCeramics1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CleopatraCeramics2.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\CleopatraCeramics2.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMarble1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble2.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMarble2.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble3.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMarble3.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMixer1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMixer1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMixer2.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMixer2.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\Floor1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\Floor1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\FrancItaly1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\FrancItaly1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\JewellyCeramics1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\JewellyCeramics1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\JewellyCeramics2.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\JewellyCeramics2.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\ReemasCeramics1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics2.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\ReemasCeramics2.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics3.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\ReemasCeramics3.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\SpanishCeramics1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\SpanishCeramics1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\TecLight1.png",
+      "PackagePath": "staticwebassets\\content\\images\\products\\TecLight1.png"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\img1.PNG",
+      "PackagePath": "staticwebassets\\content\\images\\products\\img1.PNG"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\tree.jpg",
+      "PackagePath": "staticwebassets\\content\\images\\products\\tree.jpg"
+    },
+    {
       "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\js\\main.js",
       "PackagePath": "staticwebassets\\content\\js\\main.js"
     },
@@ -899,6 +987,10 @@
     {
       "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\Capture.PNG",
+      "PackagePath": "staticwebassets\\uploads\\Capture.PNG"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Dashboard-Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props",

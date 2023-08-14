@@ -21,6 +21,7 @@ namespace Dashboard_Ecommerce.Dtos
         [Required]
         public decimal QtyPartiation { get; set; }
         
+        public IFormFile UploadFile { get; set; }
         public string TaxItemCode { get;set; }
         [Display(Name = "Brand")]
         public int BrandId { get; set; }

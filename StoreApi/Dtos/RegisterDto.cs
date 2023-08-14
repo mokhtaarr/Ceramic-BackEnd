@@ -13,5 +13,13 @@ namespace StoreApi.Dtos
         [Required]
 
         public string Password { get; set; }
+        [Required]
+        public string PhoneNumber { get; set; }
+        [Required]
+
+        public string City { get; set; }
+        [Required]
+
+        public string Street { get; set; }
     }
 }

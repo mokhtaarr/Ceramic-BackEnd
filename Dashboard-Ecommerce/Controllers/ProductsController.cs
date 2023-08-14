@@ -2,8 +2,12 @@
 using Dashboard_Ecommerce.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Hosting;
 using NToastNotify;
 using X.PagedList;
+using System.IO;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace Dashboard_Ecommerce.Controllers
 {
@@ -11,11 +15,13 @@ namespace Dashboard_Ecommerce.Controllers
     {
         private readonly MoDbContext _context;
         private readonly IToastNotification _toastNotification;
+        private readonly IHostingEnvironment hosting;
 
-        public ProductsController(MoDbContext context, IToastNotification toastNotification)
+        public ProductsController(MoDbContext context, IToastNotification toastNotification,IHostingEnvironment hosting) 
         {
             _context = context;
             _toastNotification = toastNotification;
+            this.hosting = hosting;
         }
         public IActionResult Index(int pageIndex = 1 , int pageSize = 20)
         {
@@ -58,12 +64,21 @@ namespace Dashboard_Ecommerce.Controllers
         {
             if (!ModelState.IsValid)
             {
-
                 dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
                 dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
                 return View("ProductForm", dto);
             }
             var files = Request.Form.Files;
+
+            string fileName = string.Empty;
+
+            if(dto.UploadFile != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "uploads");
+                fileName = dto.UploadFile.FileName;
+                string fullPath = Path.Combine(uploads,fileName);
+                dto.UploadFile.CopyTo(new FileStream(fullPath,FileMode.Create));
+            }
 
             if(!files.Any())
             {
@@ -96,6 +111,8 @@ namespace Dashboard_Ecommerce.Controllers
 
             await poster.CopyToAsync(dataStream);
 
+           
+
             var prd = new MsItemCard()
             {
                 ItemDescA = dto.ItemDescA,
@@ -105,6 +122,7 @@ namespace Dashboard_Ecommerce.Controllers
                 QtyPartiation= dto.QtyPartiation,
                 TotalCost = dto.TotalCost,
                 Discount = dto.Discount,
+                ImgPath1 = fileName,
                 FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost),
                 TaxItemCode = "/images/products/" + poster.FileName,
 
@@ -145,6 +163,7 @@ namespace Dashboard_Ecommerce.Controllers
                 ItemCategoryId = (int)prd.ItemCategoryId,
                 Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync(),
                 Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync()
+
             };
 
             return View("ProductEdit", productEdit);

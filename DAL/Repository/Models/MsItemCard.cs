@@ -191,6 +191,13 @@ namespace DAL.Models
         public bool? IsSalesStopped { get; set; }
         public bool? IsServerEntity { get; set; }
         public int? MainServerId { get; set; }
+        public string ImgPath1 { get; set; }
+        public string ImgPath2 { get; set; }
+        public string ImgPath3 { get; set; }
+        public string ImgPath4 { get; set; }
+        public string ImgPath5 { get; set; }
+        public string ImgPath6 { get; set; }
+
 
         public virtual MsItemCategory ItemCategory { get; set; }
         public virtual ICollection<MsDeliverItemCard> MsDeliverItemCards { get; set; }
