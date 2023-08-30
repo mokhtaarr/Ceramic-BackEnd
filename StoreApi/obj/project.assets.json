@@ -3716,11 +3716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
+      "projectUniqueName": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\StoreApi.csproj",
       "projectName": "StoreApi",
-      "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
+      "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\StoreApi.csproj",
       "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-      "outputPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\obj\\",
+      "outputPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3737,11 +3737,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj"
+            "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj"
             },
-            "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
-              "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj"
+            "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
+              "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj"
             }
           }
         }

@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dashboard_Ecommerce
 build_property.RootNamespace = Dashboard_Ecommerce
-build_property.ProjectDir = D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\Dashboard-Ecommerce\
+build_property.ProjectDir = D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\Dashboard-Ecommerce
+build_property.MSBuildProjectDirectory = D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Brand/BrandForm.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Brand/BrandForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQnJhbmRGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Brand/Index.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Brand/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Category/CategoryForm.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Category/CategoryForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Category/Index.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Home/Index.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Home/Privacy.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Products/FinishedProduct.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/FinishedProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRmluaXNoZWRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Products/Index.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Products/ProductEdit.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/ProductEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Products/ProductForm.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/ProductForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Products/productsWithOffer.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/productsWithOffer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNccHJvZHVjdHNXaXRoT2ZmZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Products/productsWithOutOffer.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/productsWithOutOffer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNccHJvZHVjdHNXaXRoT3V0T2ZmZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Shared/Error.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Users/Index.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/_ViewImports.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/_ViewStart.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Work Soft Go Soluation/SeramikProjectApiBackEnd/StoreApi/Dashboard-Ecommerce/Views/Shared/_Layout.cshtml]
+[D:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7yn5ovv8jd

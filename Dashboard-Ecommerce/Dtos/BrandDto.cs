@@ -11,5 +11,8 @@ namespace Dashboard_Ecommerce.Dtos
 
         [Required, StringLength(50)]
         public string DescE { get; set; }
+        public IFormFile ImageFile { get; set; } 
+
+        public string ImagePath { get; set; }
     }
 }

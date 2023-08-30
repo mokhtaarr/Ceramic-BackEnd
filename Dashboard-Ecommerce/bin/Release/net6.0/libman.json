@@ -12,6 +12,15 @@
     {
       "library": "animate.css@4.1.1",
       "destination": "wwwroot/content/lib/animate.css/"
+    },
+    {
+      "library": "bootstrap-icons@1.4.1",
+      "destination": "wwwroot/content/lib/bootstrap-icons/",
+      "files": [
+        "font/fonts/bootstrap-icons.woff",
+        "font/fonts/bootstrap-icons.woff2",
+        "font/bootstrap-icons.min.css"
+      ]
     }
   ]
 }

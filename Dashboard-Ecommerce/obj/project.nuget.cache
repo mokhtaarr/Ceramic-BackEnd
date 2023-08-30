@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AEO8JAHT1mCdmzkEL90/XFM5nqgmLhjFT5iY3xG74q6ejn9lMxDMC90vbUmbE37oRG5g+OyP7yQDhlWfoiZVEA==",
+  "dgSpecHash": "SO0D2N+xWlVj8g1LxxiLw45WAySzzgBTPLg36vzjzBaSXXW0/We1SeIjJQSwCgeTMjnOaej7RTk0I+fBFVrh/g==",
   "success": true,
-  "projectFilePath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj",
+  "projectFilePath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AcTivE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AcTivE\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",

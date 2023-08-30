@@ -11,11 +11,14 @@ namespace Dashboard_Ecommerce.Controllers
     {
         private readonly MoDbContext _context;
         private readonly IToastNotification _toastNotification;
+        private readonly IWebHostEnvironment _hosting;
 
-        public CategoryController(MoDbContext context,IToastNotification toastNotification)
+
+        public CategoryController(MoDbContext context,IToastNotification toastNotification,IWebHostEnvironment hosting)
         {
             _context = context;
             _toastNotification = toastNotification;
+            _hosting = hosting;
         }
 
         public async Task<IActionResult> Index()
@@ -38,10 +41,26 @@ namespace Dashboard_Ecommerce.Controllers
             if (!ModelState.IsValid)
                 return View("CategoryForm",dto);
 
+            string FileName = string.Empty;
+            bool CategoryHaveImage = false;
+
+            if (dto.ImageFile != null)
+            {
+                string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
+                FileName = dto.ImageFile.FileName;
+                string FullPath = Path.Combine(uploads, FileName);
+                dto.ImageFile.CopyTo(new FileStream(FullPath, FileMode.Create));
+                CategoryHaveImage = true;
+            }
+
             var catTable = new MsItemCategory()
             {
                 ItemCatDescA = dto.ItemCatDescA,
-                ItemCatDescE = dto.ItemCatDescE
+                ItemCatDescE = dto.ItemCatDescE,
+                ImagePath = FileName,
+                ImageDescription = dto.ImageDescription,
+                ImageDescriptionEn = dto.ImageDescriptionEn,
+                WithImage = CategoryHaveImage
             };
 
             await _context.MsItemCategories.AddAsync(catTable);
@@ -68,7 +87,10 @@ namespace Dashboard_Ecommerce.Controllers
             {
                 ItemCategoryId = cat.ItemCategoryId,
                 ItemCatDescA = cat.ItemCatDescA,
-                ItemCatDescE = cat.ItemCatDescE
+                ItemCatDescE = cat.ItemCatDescE,
+                ImageDescription = cat.ImageDescription,
+                ImageDescriptionEn = cat.ImageDescriptionEn,
+                ImagePath = cat.ImagePath 
             };
 
             return View("CategoryForm", catDto);
@@ -86,9 +108,40 @@ namespace Dashboard_Ecommerce.Controllers
 
             if (catFromTable == null)
                 return NotFound();
+            bool CategoryHaveImage = false;
+
+            string FileName = string.Empty;
+
+            if (dto.ImageFile != null)
+            {
+                string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
+                FileName = dto.ImageFile.FileName;
+                string FullPath = Path.Combine(uploads, FileName);
+                string OldFileName = catFromTable.ImagePath;
+                string FullOldPath = string.Empty;
+                if (!string.IsNullOrEmpty(OldFileName))
+                {
+                    FullOldPath = Path.Combine(uploads, OldFileName);
+                    System.IO.File.Delete(FullOldPath);
+                }
+                //delet old file name
+                dto.ImageFile.CopyTo(new FileStream(FullPath, FileMode.Create));
+                CategoryHaveImage = true;
+
+            }
+
 
             catFromTable.ItemCatDescA = dto.ItemCatDescA;
             catFromTable.ItemCatDescE = dto.ItemCatDescE;
+            if (!string.IsNullOrEmpty(FileName))
+            {
+                catFromTable.ImagePath = FileName;
+                catFromTable.WithImage = CategoryHaveImage;
+
+            }
+
+            catFromTable.ImageDescription = dto.ImageDescription;
+            catFromTable.ImageDescriptionEn = dto.ImageDescriptionEn;
 
             _context.SaveChanges();
 

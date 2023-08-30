@@ -27,23 +27,23 @@
             </div>
             <div class="form-group mb-2">
                 <label class="text-muted" asp-for="BrandId"></label>
-                <select class="form-control" asp-for="BrandId" asp-items="@(new SelectList(Model.Brands,"BrandId","DescE"))" style="background-color: #ffffff;">
+                <select class="form-control" asp-for="BrandId" asp-items="@(new SelectList(Model.Brands,"BrandId","DescA"))" style="background-color: #ffffff;">
                     <option>Select...</option>
                 </select>
                 <span asp-validation-for="BrandId" class="text-danger"></span>
             </div>
             <div class="form-group mb-2">
                 <label class="text-muted" asp-for="ItemCategoryId"></label>
-                <select class="form-control" asp-for="ItemCategoryId" asp-items="@(new SelectList(Model.Categories,"ItemCategoryId","ItemCatDescE"))" style="background-color: #ffffff;">
+                <select class="form-control" asp-for="ItemCategoryId" asp-items="@(new SelectList(Model.Categories,"ItemCategoryId","ItemCatDescA"))" style="background-color: #ffffff;">
                     <option>Select...</option>
                 </select>
                 <span asp-validation-for="ItemCategoryId" class="text-danger"></span>
             </div>
-             <div class="form-group w-50 mb-2">
+          @*   <div class="form-group w-50 mb-2">
                 <label for="exampleInputEmail1" class="form-label text-muted">ِQuantity</label>
                 <input type="number" class="form-control" asp-for="QtyPartiation" value="@(Model.QtyPartiation > 0 ? Model.QtyPartiation : " ")">
                 <span asp-validation-for="QtyPartiation" class="text-danger"></span>
-            </div>
+            </div>*@
 
             <div class="form-group w-50 mb-2">
                 <label for="exampleInputEmail1" class="form-label text-muted">ِTotal Cost</label>
@@ -58,15 +58,44 @@
             </div>
            
             <div class="form-group mb-3">
-                <label for="formFile" class="form-label" asp-for="TaxItemCode">Select Image</label>
-                <input class="form-control" type="file" name="upload"  asp-for="TaxItemCode" style="background-color: #ffffff;" accept=".png, .jpg">
-                <span asp-validation-for="TaxItemCode" class="text-danger"></span>
+                <label  class="form-label" asp-for="UploadFile">Select Image</label>
+                <input class="form-control" type="file" name="UploadFile" asp-for="UploadFile" style="background-color: #ffffff;" accept=".png, .jpg,.jpeg,.tiff,.gif">
+                <span asp-validation-for="UploadFile" class="text-danger"></span>
 
             </div>
+
             <div class="form-group mb-3">
-                <label  class="form-label" asp-for="UploadFile">Select Image</label>
-                <input class="form-control" type="file" name="UploadFile" asp-for="UploadFile" style="background-color: #ffffff;" accept=".png, .jpg">
-                <span asp-validation-for="UploadFile" class="text-danger"></span>
+                <label class="form-label" asp-for="UploadFile2">Select Image 2</label>
+                <input class="form-control" type="file" name="UploadFile2" asp-for="UploadFile2" style="background-color: #ffffff;" accept=".png, .jpg,.jpeg,.tiff,.gif">
+                <span asp-validation-for="UploadFile2" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="form-label" asp-for="UploadFile3">Select Image 3</label>
+                <input class="form-control" type="file" name="UploadFile3" asp-for="UploadFile3" style="background-color: #ffffff;" accept=".png, .jpg,.jpeg,.tiff,.gif">
+                <span asp-validation-for="UploadFile3" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="form-label" asp-for="UploadFile4">Select Image 4</label>
+                <input class="form-control" type="file" name="UploadFile4" asp-for="UploadFile4" style="background-color: #ffffff;" accept=".png, .jpg,.jpeg,.tiff,.gif">
+                <span asp-validation-for="UploadFile4" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="form-label" asp-for="UploadFile5">Select Image 5</label>
+                <input class="form-control" type="file" name="UploadFile5" asp-for="UploadFile5" style="background-color: #ffffff;" accept=".png, .jpg,.jpeg,.tiff,.gif">
+                <span asp-validation-for="UploadFile5" class="text-danger"></span>
+
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="form-label" asp-for="UploadFile4">Select Image 6</label>
+                <input class="form-control" type="file" name="UploadFile6" asp-for="UploadFile6" style="background-color: #ffffff;" accept=".png, .jpg,.jpeg,.tiff,.gif">
+                <span asp-validation-for="UploadFile6" class="text-danger"></span>
 
             </div>
 
@@ -78,11 +107,23 @@
   
 
     <div class="col-md-5">
-        <div id="poster-container" class="d-none">
-            <img src="" alt="image" class="img-thumbnail"/>
+        <div id="poster-container" class="d-none mt-3">
+            <img style="width:400px;height:200px;" src="" alt="image" class="img-thumbnail"/>
         </div>
-        <div id="poster-container2" class="d-none">
-            <img src="" alt="imagePath2" class="img-thumbnail" />
+        <div id="poster-container2" class="d-none mt-3">
+            <img style="width:400px;height:200px;" src="" alt="imagePath2" class="img-thumbnail" />
+        </div>
+        <div id="poster-container3" class="d-none mt-3">
+            <img style="width:400px;height:200px;" src="" alt="imagePath3" class="img-thumbnail" />
+        </div>
+        <div id="poster-container4" class="d-none mt-3">
+            <img style="width:400px;height:200px;" src="" alt="imagePath4" class="img-thumbnail" />
+        </div>
+        <div id="poster-container5" class="d-none mt-3">
+            <img style="width:400px;height:200px;" src="" alt="imagePath5" class="img-thumbnail" />
+        </div>
+        <div id="poster-container6" class="d-none mt-3">
+            <img style="width:400px;height:200px;" src="" alt="imagePath6" class="img-thumbnail" />
         </div>
     </div>
  </section>
@@ -95,7 +136,7 @@
     }
     <script>
         $(document).ready(function () {
-            $('#TaxItemCode').on('change', function () {
+            $('#UploadFile').on('change', function () {
                 var selectedFile = $(this).val().split('\\').pop();
                 var posterContainer = $('#poster-container');
                 var image = window.URL.createObjectURL(this.files[0]);
@@ -105,9 +146,49 @@
             });
         });
         $(document).ready(function () {
-            $('#UploadFile').on('change', function () {
+            $('#UploadFile2').on('change', function () {
                 var selectedFile = $(this).val().split('\\').pop();
                 var posterContainer = $('#poster-container2');
+                var image = window.URL.createObjectURL(this.files[0]);
+                console.log('imag' + image);
+                posterContainer.removeClass('d-none');
+                posterContainer.find('img').attr('src', image);
+            });
+        });
+        $(document).ready(function () {
+            $('#UploadFile3').on('change', function () {
+                var selectedFile = $(this).val().split('\\').pop();
+                var posterContainer = $('#poster-container3');
+                var image = window.URL.createObjectURL(this.files[0]);
+                console.log('imag' + image);
+                posterContainer.removeClass('d-none');
+                posterContainer.find('img').attr('src', image);
+            });
+        });
+        $(document).ready(function () {
+            $('#UploadFile4').on('change', function () {
+                var selectedFile = $(this).val().split('\\').pop();
+                var posterContainer = $('#poster-container4');
+                var image = window.URL.createObjectURL(this.files[0]);
+                console.log('imag' + image);
+                posterContainer.removeClass('d-none');
+                posterContainer.find('img').attr('src', image);
+            });
+        });
+        $(document).ready(function () {
+            $('#UploadFile5').on('change', function () {
+                var selectedFile = $(this).val().split('\\').pop();
+                var posterContainer = $('#poster-container5');
+                var image = window.URL.createObjectURL(this.files[0]);
+                console.log('imag' + image);
+                posterContainer.removeClass('d-none');
+                posterContainer.find('img').attr('src', image);
+            });
+        });
+        $(document).ready(function () {
+            $('#UploadFile6').on('change', function () {
+                var selectedFile = $(this).val().split('\\').pop();
+                var posterContainer = $('#poster-container6');
                 var image = window.URL.createObjectURL(this.files[0]);
                 console.log('imag' + image);
                 posterContainer.removeClass('d-none');

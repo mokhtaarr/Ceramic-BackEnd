@@ -7,7 +7,6 @@ using NToastNotify;
 using X.PagedList;
 using System.IO;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace Dashboard_Ecommerce.Controllers
 {
@@ -15,18 +14,64 @@ namespace Dashboard_Ecommerce.Controllers
     {
         private readonly MoDbContext _context;
         private readonly IToastNotification _toastNotification;
-        private readonly IHostingEnvironment hosting;
+        private readonly IWebHostEnvironment hosting;
 
-        public ProductsController(MoDbContext context, IToastNotification toastNotification,IHostingEnvironment hosting) 
+        public ProductsController(MoDbContext context, IToastNotification toastNotification, IWebHostEnvironment hosting) 
         {
             _context = context;
             _toastNotification = toastNotification;
             this.hosting = hosting;
         }
-        public IActionResult Index(int pageIndex = 1 , int pageSize = 20)
+        public IActionResult Index(int pageIndex = 1, int pageSize = 100)
         {
-            var products =  _context.MsItemCards.ToPagedList(pageIndex, pageSize);
+
+            //var products = _context.MsItemCards.ToPagedList(pageIndex, pageSize);
+
+            var products = (from itemCard in _context.MsItemCards
+                            join itemunit in _context.MsItemUnits on itemCard.ItemCardId equals itemunit.ItemCardId
+                            join img in _context.MsItemImages on itemCard.ItemCardId equals img.ItemCardId
+                            select new
+                            {
+                                itemCard.ItemCardId,
+                                itemCard.ItemDescA,
+                                itemCard.ItemDescE,
+                                itemunit.Price1,
+                                itemunit.PurchDisc,
+                                itemunit.Price3,
+                                img.ImgPath,
+                                img.ImgPath2,
+                                img.ImgPath3,
+                                img.ImgPath4,
+                                img.ImgPath5,
+                                img.ImgPath6,
+                            }).ToPagedList(pageIndex,pageSize);
+
+
             return View(products);
+        }
+
+        public IActionResult Search(string term , int pageIndex = 1, int pageSize = 60)
+        {
+            var products = (from itemCard in _context.MsItemCards
+                            join itemunit in _context.MsItemUnits on itemCard.ItemCardId equals itemunit.ItemCardId
+                            join img in _context.MsItemImages on itemCard.ItemCardId equals img.ItemCardId
+                            where itemCard.ItemDescA.Contains(term) || itemCard.ItemDescE.Contains(term)
+                            select new
+                            {
+                                itemCard.ItemCardId,
+                                itemCard.ItemDescA,
+                                itemCard.ItemDescE,
+                                itemunit.Price1,
+                                itemunit.PurchDisc,
+                                itemunit.Price3,
+                                img.ImgPath,
+                                img.ImgPath2,
+                                img.ImgPath3,
+                                img.ImgPath4,
+                                img.ImgPath5,
+                                img.ImgPath6,
+                            }).ToPagedList(pageIndex,pageSize);
+            return View("Index", products);
         }
 
         public async Task<IActionResult> GetFinishedProducts()
@@ -51,12 +96,84 @@ namespace Dashboard_Ecommerce.Controllers
         {
             var viewModel = new ProductDto()
             {
-                Brands = await _context.SrBrands.OrderBy(m=>m.DescE).ToListAsync(),
-                Categories = await _context.MsItemCategories.OrderBy(m=>m.ItemCatDescE).ToListAsync()
+                Brands = await _context.SrBrands.OrderBy(m=>m.DescA).ToListAsync(),
+                Categories = await _context.MsItemCategories.OrderBy(m=>m.ItemCatDescA).ToListAsync()
             };
 
             return View("ProductForm",viewModel);
         }
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create(ProductDto dto)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        dto.Brands = await _context.SrBrands.OrderBy(m => m.DescA).ToListAsync();
+        //        dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescA).ToListAsync();
+        //        return View("ProductForm", dto);
+        //    }
+
+        //    var uploadPaths = new List<string>();
+
+        //    for (int i = 0; i < 6; i++)
+        //    {
+        //        var uploadFile = dto.GetType().GetProperty($"UploadFile{i + 1}").GetValue(dto) as IFormFile;
+
+        //        if (uploadFile != null)
+        //        {
+        //            string fileName = Path.Combine(hosting.WebRootPath, "Products", uploadFile.FileName);
+        //            using (var stream = new FileStream(fileName, FileMode.Create))
+        //            {
+        //                uploadFile.CopyTo(stream);
+        //                uploadPaths.Add(uploadFile.FileName);
+        //            }
+        //        }
+        //    }
+
+        //    var prd = new MsItemCard()
+        //    {
+        //        ItemDescA = dto.ItemDescA,
+        //        ItemDescE = dto.ItemDescE,
+        //        BrandId = dto.BrandId,
+        //        ItemCategoryId = dto.ItemCategoryId,
+        //    };
+
+        //    _context.MsItemCards.Add(prd);
+        //    _context.SaveChanges();
+
+        //    int newProductId = prd.ItemCardId;
+
+        //    var img = new MsItemImage()
+        //    {
+        //        ItemCardId = newProductId,
+        //        ImgPath = uploadPaths.ElementAtOrDefault(0),
+        //        ImgPath2 = uploadPaths.ElementAtOrDefault(1),
+        //        ImgPath3 = uploadPaths.ElementAtOrDefault(2),
+        //        ImgPath4 = uploadPaths.ElementAtOrDefault(3),
+        //        ImgPath5 = uploadPaths.ElementAtOrDefault(4),
+        //        ImgPath6 = uploadPaths.ElementAtOrDefault(5)
+        //    };
+
+        //    _context.MsItemImages.Add(img);
+        //    _context.SaveChanges();
+
+        //    var unit = new MsItemUnit()
+        //    {
+        //        ItemCardId = newProductId,
+        //        Price1 = dto.TotalCost,
+        //        PurchDisc = dto.Discount,
+        //        Price3 = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost),
+        //    };
+
+        //    _context.MsItemUnits.Add(unit);
+        //    _context.SaveChanges();
+
+        //    _toastNotification.AddSuccessToastMessage("Product Created Successfully");
+
+        //    return RedirectToAction(nameof(Index));
+        //}
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -64,54 +181,72 @@ namespace Dashboard_Ecommerce.Controllers
         {
             if (!ModelState.IsValid)
             {
-                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
-                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
+                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescA).ToListAsync();
+                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescA).ToListAsync();
                 return View("ProductForm", dto);
             }
-            var files = Request.Form.Files;
 
             string fileName = string.Empty;
 
-            if(dto.UploadFile != null)
+            if (dto.UploadFile != null)
             {
-                string uploads = Path.Combine(hosting.WebRootPath, "uploads");
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
                 fileName = dto.UploadFile.FileName;
-                string fullPath = Path.Combine(uploads,fileName);
-                dto.UploadFile.CopyTo(new FileStream(fullPath,FileMode.Create));
+                string fullPath = Path.Combine(uploads, fileName);
+                dto.UploadFile.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
 
-            if(!files.Any())
+
+            string fileName2 = string.Empty;
+
+            if (dto.UploadFile2 != null)
             {
-                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
-                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
-                ModelState.AddModelError("TaxItemCode", "Please select Product image !");
-                return View("ProductForm", dto);
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                fileName2 = dto.UploadFile2.FileName;
+                string fullPath = Path.Combine(uploads, fileName2);
+                dto.UploadFile2.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
 
-            var poster = files.FirstOrDefault();
-            var allowedExtenstions = new List<string> { ".jpg",".png"};
+            string fileName3 = string.Empty;
 
-            if(!allowedExtenstions.Contains(Path.GetExtension(poster.FileName).ToLower()))
+            if (dto.UploadFile3 != null)
             {
-                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
-                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
-                ModelState.AddModelError("TaxItemCode", "only png or jpg images allowed !");
-                return View("ProductForm", dto);
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                fileName3 = dto.UploadFile3.FileName;
+                string fullPath = Path.Combine(uploads, fileName3);
+                dto.UploadFile3.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
 
-            if(poster.Length > 1048576)
+            string fileName4 = string.Empty;
+
+            if (dto.UploadFile4 != null)
             {
-                dto.Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync();
-                dto.Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync();
-                ModelState.AddModelError("TaxItemCode", "poster cannot be more than 1 MB!");
-                return View("ProductForm", dto);    
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                fileName4 = dto.UploadFile4.FileName;
+                string fullPath = Path.Combine(uploads, fileName4);
+                dto.UploadFile4.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
 
-            using var dataStream = new MemoryStream();
+            string fileName5 = string.Empty;
 
-            await poster.CopyToAsync(dataStream);
+            if (dto.UploadFile5 != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                fileName5 = dto.UploadFile5.FileName;
+                string fullPath = Path.Combine(uploads, fileName5);
+                dto.UploadFile5.CopyTo(new FileStream(fullPath, FileMode.Create));
+            }
 
-           
+            string fileName6 = string.Empty;
+
+            if (dto.UploadFile6 != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                fileName6 = dto.UploadFile6.FileName;
+                string fullPath = Path.Combine(uploads, fileName6);
+                dto.UploadFile6.CopyTo(new FileStream(fullPath, FileMode.Create));
+            }
+
 
             var prd = new MsItemCard()
             {
@@ -119,16 +254,41 @@ namespace Dashboard_Ecommerce.Controllers
                 ItemDescE = dto.ItemDescE,
                 BrandId = dto.BrandId,
                 ItemCategoryId = dto.ItemCategoryId,
-                QtyPartiation= dto.QtyPartiation,
-                TotalCost = dto.TotalCost,
-                Discount = dto.Discount,
-                ImgPath1 = fileName,
-                FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost),
-                TaxItemCode = "/images/products/" + poster.FileName,
+                //QtyPartiation = dto.QtyPartiation,
+                //TotalCost = dto.TotalCost,
+                //Discount = dto.Discount,
+                //ImgPath1 = fileName,
+                //FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost),
 
             };
-
             _context.MsItemCards.Add(prd);
+            _context.SaveChanges();
+
+            int newProductId = prd.ItemCardId; // احتفظ بمعرف العنصر الجديد
+
+            var img = new MsItemImage()
+            {
+                ItemCardId = newProductId,
+                ImgPath = fileName,
+                ImgPath2 = fileName2,
+                ImgPath3 = fileName3,
+                ImgPath4 = fileName4,
+                ImgPath5 = fileName5,
+                ImgPath6 = fileName6
+            };
+
+            _context.MsItemImages.Add(img);
+            _context.SaveChanges();
+
+            var unit = new MsItemUnit()
+            {
+                ItemCardId = newProductId,
+                Price1 = dto.TotalCost,
+                PurchDisc = dto.Discount,
+                Price3 = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost),
+            };
+
+            _context.MsItemUnits.Add(unit);
             _context.SaveChanges();
 
             _toastNotification.AddSuccessToastMessage("Product Created Successfully");
@@ -146,6 +306,9 @@ namespace Dashboard_Ecommerce.Controllers
                 return BadRequest();
 
             var prd = await _context.MsItemCards.FindAsync(ItemCardId);
+            var img = await _context.MsItemImages.FirstOrDefaultAsync(p => p.ItemCardId == ItemCardId);
+            var unit = await _context.MsItemUnits.FirstOrDefaultAsync(p => p.ItemCardId == ItemCardId);
+
 
             if (prd == null)
                 return NotFound();
@@ -155,14 +318,20 @@ namespace Dashboard_Ecommerce.Controllers
                 ItemCardId = prd.ItemCardId, 
                 ItemDescA = prd.ItemDescA,
                 ItemDescE = prd.ItemDescE,
-                QtyPartiation = (int)prd.QtyPartiation,
-                TotalCost = (decimal)prd.TotalCost,
-                Discount = (decimal)prd.Discount,
-                TaxItemCode = prd.TaxItemCode,
+                //QtyPartiation = (int)prd.QtyPartiation,
+                TotalCost = (decimal)unit.Price1,
+                Discount = (decimal)unit.PurchDisc,
+                //TaxItemCode = prd.TaxItemCode,
                 BrandId = (int)prd.BrandId,
                 ItemCategoryId = (int)prd.ItemCategoryId,
-                Brands = await _context.SrBrands.OrderBy(m => m.DescE).ToListAsync(),
-                Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescE).ToListAsync()
+                Brands = await _context.SrBrands.OrderBy(m => m.DescA).ToListAsync(),
+                Categories = await _context.MsItemCategories.OrderBy(m => m.ItemCatDescA).ToListAsync(),
+                ImgPath = img.ImgPath,
+                ImgPath2 = img.ImgPath2,
+                ImgPath3 = img.ImgPath3,
+                ImgPath4 = img.ImgPath4,
+                ImgPath5 = img.ImgPath5,
+                ImgPath6 = img.ImgPath6,
 
             };
 
@@ -183,22 +352,177 @@ namespace Dashboard_Ecommerce.Controllers
                 return View("ProductEdit", dto);
             }
             var prd = await _context.MsItemCards.FindAsync(dto.ItemCardId);
+            var img = await _context.MsItemImages.FirstOrDefaultAsync(p => p.ItemCardId == dto.ItemCardId);
+            var unit = await _context.MsItemUnits.FirstOrDefaultAsync(p => p.ItemCardId == dto.ItemCardId);
 
             if (prd == null)
                 return NotFound();
-            //QtyPartiation = dto.QtyPartiation,
-            //    TotalCost = dto.TotalCost,
-            //    Discount = dto.Discount,
-            //    FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost),
 
+            string FileName = string.Empty;
+
+
+
+            if (dto.UploadFile != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                FileName = dto.UploadFile.FileName;
+                string FullPath = Path.Combine(uploads, FileName);
+
+                // حذف الملف القديم إذا كان موجودًا
+                if (!string.IsNullOrEmpty(img.ImgPath))
+                {
+                    string FullOldPath = Path.Combine(uploads,img.ImgPath);
+                    System.IO.File.Delete(FullOldPath);
+                }
+                dto.UploadFile.CopyTo(new FileStream(FullPath, FileMode.Create));
+
+            }
+
+
+            string FileName2 = string.Empty;
+
+            if (dto.UploadFile2 != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                FileName2 = dto.UploadFile2.FileName;
+                string FullPath = Path.Combine(uploads, FileName2);
+
+                // حذف الملف القديم إذا كان موجودًا
+                if (!string.IsNullOrEmpty(img.ImgPath2))
+                {
+                    string FullOldPath = Path.Combine(uploads, img.ImgPath2);
+                    System.IO.File.Delete(FullOldPath);
+                }
+
+
+
+                using (FileStream stream = new FileStream(FullPath, FileMode.Create))
+                {
+                    dto.UploadFile2.CopyTo(stream);
+                }
+            }
+
+
+            string FileName3 = string.Empty;
+
+            if (dto.UploadFile3 != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                FileName3 = dto.UploadFile3.FileName;
+                string FullPath = Path.Combine(uploads, FileName3);
+
+                // حذف الملف القديم إذا كان موجودًا
+                if (!string.IsNullOrEmpty(img.ImgPath3))
+                {
+                    string FullOldPath = Path.Combine(uploads, img.ImgPath3);
+                    System.IO.File.Delete(FullOldPath);
+
+                }
+
+                using (FileStream stream = new FileStream(FullPath, FileMode.Create))
+                {
+                    dto.UploadFile3.CopyTo(stream);
+                }
+            }
+
+            string FileName4 = string.Empty;
+
+            if (dto.UploadFile4 != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                FileName4 = dto.UploadFile4.FileName;
+                string FullPath = Path.Combine(uploads, FileName4);
+
+                // حذف الملف القديم إذا كان موجودًا
+                if (!string.IsNullOrEmpty(img.ImgPath4))
+                {
+                    string FullOldPath = Path.Combine(uploads, img.ImgPath4);
+                    System.IO.File.Delete(FullOldPath);
+                }
+                using (FileStream stream = new FileStream(FullPath, FileMode.Create))
+                {
+                    dto.UploadFile4.CopyTo(stream);
+                }
+            }
+
+            string FileName5 = string.Empty;
+
+            if (dto.UploadFile5 != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                FileName5 = dto.UploadFile5.FileName;
+                string FullPath = Path.Combine(uploads, FileName5);
+
+                // حذف الملف القديم إذا كان موجودًا
+                if (!string.IsNullOrEmpty(img.ImgPath4))
+                {
+                    string FullOldPath = Path.Combine(uploads, img.ImgPath5);
+                    System.IO.File.Delete(FullOldPath);
+                }
+
+                using (FileStream stream = new FileStream(FullPath, FileMode.Create))
+                {
+                    dto.UploadFile5.CopyTo(stream);
+                }
+            }
+
+            string FileName6 = string.Empty;
+
+            if (dto.UploadFile6 != null)
+            {
+                string uploads = Path.Combine(hosting.WebRootPath, "Products");
+                FileName6 = dto.UploadFile6.FileName;
+                string FullPath = Path.Combine(uploads, FileName6);
+
+                // حذف الملف القديم إذا كان موجودًا
+                if (!string.IsNullOrEmpty(img.ImgPath6))
+                {
+                    string FullOldPath = Path.Combine(uploads, img.ImgPath6);
+                    System.IO.File.Delete(FullOldPath);
+                }
+                using (FileStream stream = new FileStream(FullPath, FileMode.Create))
+                {
+                    dto.UploadFile6.CopyTo(stream);
+                }
+
+            }
             prd.ItemDescA = dto.ItemDescA;
             prd.ItemDescE = dto.ItemDescE;
             prd.BrandId = dto.BrandId;
             prd.ItemCategoryId = dto.ItemCategoryId;
-            prd.QtyPartiation = dto.QtyPartiation;
-            prd.TotalCost = dto.TotalCost;
-            prd.Discount = dto.Discount;
-            prd.FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost);
+            unit.Price1 = dto.TotalCost;
+            unit.PurchDisc = dto.Discount;
+            unit.Price3 = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost);
+            if (!string.IsNullOrEmpty(FileName))
+            {
+                img.ImgPath = FileName;
+            }
+            if (!string.IsNullOrEmpty(FileName2))
+            {
+                img.ImgPath2 = FileName2;
+            }
+            if (!string.IsNullOrEmpty(FileName3))
+            {
+                img.ImgPath3 = FileName3;
+            }
+            if (!string.IsNullOrEmpty(FileName4))
+            {
+                img.ImgPath4 = FileName4;
+            }
+            if (!string.IsNullOrEmpty(FileName5))
+            {
+                img.ImgPath5 = FileName5;
+            }
+            if (!string.IsNullOrEmpty(FileName6))
+            {
+                img.ImgPath6 = FileName6;
+            }
+
+
+            //prd.QtyPartiation = dto.QtyPartiation;
+            //prd.TotalCost = dto.TotalCost;
+            //prd.Discount = dto.Discount;
+            //prd.FirstPrice = dto.TotalCost - ((dto.Discount / 100) * dto.TotalCost);
 
             _context.SaveChanges();
 
@@ -209,18 +533,131 @@ namespace Dashboard_Ecommerce.Controllers
 
         }
 
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
                 return BadRequest();
-            var prd = await _context.MsItemCards.FindAsync(id);
-            if (prd == null)
-                return NotFound();
 
-            _context.MsItemCards.Remove(prd);
-            _context.SaveChanges();
-            return Ok();
+            try
+            {
+                var prd = await _context.MsItemCards.FindAsync(id);
+
+                if (prd == null)
+                    return NotFound();
+
+                var imagesToDelete = await _context.MsItemImages
+                    .Where(p => p.ItemCardId == id)
+                    .ToListAsync();
+
+                foreach (var img in imagesToDelete)
+                {
+                    // حذف الملف القديم إذا كان موجودًا
+                    if (!string.IsNullOrEmpty(img.ImgPath))
+                    {
+                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath);
+                        System.IO.File.Delete(FullPath);
+                    }
+
+                    if (!string.IsNullOrEmpty(img.ImgPath2))
+                    {
+                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath2);
+                        System.IO.File.Delete(FullPath);
+                    }
+
+                    if (!string.IsNullOrEmpty(img.ImgPath3))
+                    {
+                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath3);
+                        System.IO.File.Delete(FullPath);
+                    }
+
+                    if (!string.IsNullOrEmpty(img.ImgPath4))
+                    {
+                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath4);
+                        System.IO.File.Delete(FullPath);
+                    }
+
+                    if (!string.IsNullOrEmpty(img.ImgPath5))
+                    {
+                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath5);
+                        System.IO.File.Delete(FullPath);
+                    }
+
+
+                    if (!string.IsNullOrEmpty(img.ImgPath6))
+                    {
+                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath6);
+                        System.IO.File.Delete(FullPath);
+                    }
+
+
+                    _context.MsItemImages.Remove(img);
+                }
+
+                // حذف جميع الصفوف من جدول الصور
+                _context.MsItemImages.RemoveRange(imagesToDelete);
+
+                var units = await _context.MsItemUnits
+                    .Where(p => p.ItemCardId == id)
+                    .ToListAsync();
+                _context.MsItemUnits.RemoveRange(units);
+
+                // حذف الصف من جدول البيانات الرئيسي
+                _context.MsItemCards.Remove(prd);
+
+                await _context.SaveChangesAsync();
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error occurred: " + ex.Message);
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
+                }
+                return StatusCode(500);
+            }
         }
+
+
+        //public async Task<IActionResult> Delete(int? id)
+        //{
+        //    if (id == null)
+        //        return BadRequest();
+        //    var prd = await _context.MsItemCards.FindAsync(id);
+        //    //var img = await _context.MsItemImages.FirstOrDefaultAsync(p => p.ItemCardId == id);
+
+        //    var imagesToDelete = await _context.MsItemImages
+        //           .Where(p => p.ItemCardId == id)
+        //           .ToListAsync();
+
+        //    foreach (var img in imagesToDelete)
+        //    {
+        //        // حذف الملف القديم إذا كان موجودًا
+        //        if (!string.IsNullOrEmpty(img.ImgPath))
+        //        {
+        //            string FullOldPath = Path.Combine(uploads, img.ImgPath);
+        //            System.IO.File.Delete(FullOldPath);
+        //        }
+        //        // تنفيذ عمليات الحذف أو التعديل الأخرى التي تحتاجها
+        //        _context.MsItemImages.Remove(img);
+        //    }
+
+        //    await _context.SaveChangesAsync();
+
+        //    var unit = await _context.MsItemUnits.FirstOrDefaultAsync(p => p.ItemCardId == id);
+
+        //    if (prd == null)
+        //        return NotFound();
+
+        //    _context.MsItemCards.Remove(prd);
+        //    _context.MsItemImages.Remove(img);
+        //    _context.MsItemUnits.Remove(unit);  
+
+        //    _context.SaveChanges();
+        //    return Ok();
+        //}
 
 
     }

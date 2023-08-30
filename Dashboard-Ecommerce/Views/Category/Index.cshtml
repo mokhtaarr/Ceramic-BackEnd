@@ -20,6 +20,9 @@
                     <tr class="text-dark">
                         <th scope="col">Category Arabic Name</th>
                         <th scope="col">Category English Name</th>
+                        <th scope="col">Category Description</th>
+                        <th scope="col">Category DescriptionEn</th>
+                        <th scope="col">Category image</th>
                         <th scope="col">Edit</th>
                         <th scope="col">Delete</th>
                     </tr>
@@ -30,6 +33,14 @@
                         <tr class="p">
                             <td>@cat.ItemCatDescA</td>
                             <td>@cat.ItemCatDescE</td>
+                            <td>@cat.ImageDescription</td>
+                            <td>@cat.ImageDescriptionEn</td>
+                            <td class="d-flex justify-content-center">
+                                @if (cat.ImagePath != null)
+                                {
+                                    <img src="~/uploads/@cat.ImagePath" style="max-width:100px;" class="img-thumbnail" />
+                                }
+                            </td>
                             <td><a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-ItemCategoryId="@cat.ItemCategoryId">Edit</a></td>
                             <td><a href="javascript:;" class="btn btn-sm btn-danger js-delete" data-id="@cat.ItemCategoryId">Delete</a></td>
                         </tr>

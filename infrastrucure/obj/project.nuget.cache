@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sgGHNysfA5qMYIssqqo5hCI+srzrHNkyvzPoR87rM09GjYsB2FPd61xdC1tc3Jx/XSAUIwtnXFVDnXmGEbRx8w==",
+  "dgSpecHash": "cyRPct2gf1JZcUwg6HtHElJzKH4OCOTlsw2FD5ck/NXjtC5hDQ+XJuflKLjT4cD6rlgmlztzUCdjBIulZ198NA==",
   "success": true,
-  "projectFilePath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+  "projectFilePath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AcTivE\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\AcTivE\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

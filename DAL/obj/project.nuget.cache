@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nV/BXRfCYRstvbbFk7M+QTTIOZkj/5F61gIosQdIubvR2It4H+Nz8dLWgjylfWWQq5MJmpvT87UvXyDDI7FkvQ==",
+  "dgSpecHash": "Nax37zgRFqW+ZkxaneRA88Ft51hjott0ItWEKP6Y9MGgamIJEIS91HhK8fTNWmQmQofeKCWLQ2Se4Siu3Y5QTQ==",
   "success": true,
-  "projectFilePath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AcTivE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AcTivE\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",

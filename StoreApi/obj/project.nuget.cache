@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "spnhE3nTzBsAzpyWhpdeZtGBgytucsV80nY8NhSDYdLhqBUbV54n0n3n4OHUzjiem/MLFfQSqUXnF4e+iuWxaw==",
+  "dgSpecHash": "KERM0KvXxgjJ4yBILkHZDo0DL2+ZcKQG8nhxX5kZ7IpakT49bzDNiJyEihX+aigLaTT4Ergs//1AxGno3HgV/w==",
   "success": true,
-  "projectFilePath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\StoreApi.csproj",
+  "projectFilePath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\StoreApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AcTivE\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\AcTivE\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

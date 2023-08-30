@@ -34,9 +34,18 @@ builder.Services.AddDbContext<AppIdentityDbContext>(opt =>
 
 builder.Services.AddIdentityCore<AppUser>(opt =>
 {
+    opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+    opt.User.AllowedUserNameCharacters = "Ï Ì Í Î å Ú Û Ý Þ Ë Õ Ö Ð Ô Ó í È á Ç Ê ä ã ß Ø Ù Ò æ É ì áÇ Ñ Ä Á Æ ";
+    opt.Password.RequireDigit = false;
+    opt.Password.RequireLowercase = false;
+    opt.Password.RequireUppercase = false;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequiredLength = 4;
 
+    opt.User.RequireUniqueEmail = true;
+    opt.SignIn.RequireConfirmedEmail = true;
 })
-    .AddEntityFrameworkStores<AppIdentityDbContext>()
+    .AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders()
     .AddSignInManager<SignInManager<AppUser>>();
 
 var jwt = builder.Configuration.GetSection("Token");
@@ -62,6 +71,8 @@ builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>)); 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+
 
 builder.Services.AddSwaggerGen(c =>
 {

@@ -1,11 +1,221 @@
-﻿@model IEnumerable<MsItemCard>
-@*<style>
-    .col:hover{
-        background-color: #00fbf633;
-        
-    }
-</style>*@
+﻿@model IPagedList<dynamic>
+@*
+@section Styles{
+    <link rel="stylesheet" href="~/content/PagedList.css" />
+}
+*@
 
+
+<style>
+    .pagination {
+        display: inline-block;
+        padding-left: 0;
+        margin: 20px 0;
+        border-radius: 4px;
+    }
+
+        .pagination > li {
+            display: inline;
+        }
+
+            .pagination > li > a,
+            .pagination > li > span {
+                position: relative;
+                float: left;
+                padding: 6px 12px;
+                margin-left: -1px;
+                line-height: 1.428571429;
+                text-decoration: none;
+                background-color: #ffffff;
+                border: 1px solid #dddddd;
+            }
+
+            .pagination > li:first-child > a,
+            .pagination > li:first-child > span {
+                margin-left: 0;
+                border-bottom-left-radius: 4px;
+                border-top-left-radius: 4px;
+            }
+
+            .pagination > li:last-child > a,
+            .pagination > li:last-child > span {
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+            }
+
+            .pagination > li > a:hover,
+            .pagination > li > span:hover,
+            .pagination > li > a:focus,
+            .pagination > li > span:focus {
+                background-color: #eeeeee;
+            }
+
+        .pagination > .active > a,
+        .pagination > .active > span,
+        .pagination > .active > a:hover,
+        .pagination > .active > span:hover,
+        .pagination > .active > a:focus,
+        .pagination > .active > span:focus {
+            z-index: 2;
+            color: #ffffff;
+            cursor: default;
+            background-color: #428bca;
+            border-color: #428bca;
+        }
+
+        .pagination > .disabled > span,
+        .pagination > .disabled > a,
+        .pagination > .disabled > a:hover,
+        .pagination > .disabled > a:focus {
+            color: #999999;
+            cursor: not-allowed;
+            background-color: #ffffff;
+            border-color: #dddddd;
+        }
+
+    .pagination-lg > li > a,
+    .pagination-lg > li > span {
+        padding: 10px 16px;
+        font-size: 18px;
+    }
+
+    .pagination-lg > li:first-child > a,
+    .pagination-lg > li:first-child > span {
+        border-bottom-left-radius: 6px;
+        border-top-left-radius: 6px;
+    }
+
+    .pagination-lg > li:last-child > a,
+    .pagination-lg > li:last-child > span {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+
+    .pagination-sm > li > a,
+    .pagination-sm > li > span {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .pagination-sm > li:first-child > a,
+    .pagination-sm > li:first-child > span {
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+    }
+
+    .pagination-sm > li:last-child > a,
+    .pagination-sm > li:last-child > span {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .pager {
+        padding-left: 0;
+        margin: 20px 0;
+        text-align: center;
+        list-style: none;
+    }
+
+        .pager:before,
+        .pager:after {
+            display: table;
+            content: " ";
+        }
+
+        .pager:after {
+            clear: both;
+        }
+
+        .pager:before,
+        .pager:after {
+            display: table;
+            content: " ";
+        }
+
+        .pager:after {
+            clear: both;
+        }
+
+        .pager li {
+            display: inline;
+        }
+
+            .pager li > a,
+            .pager li > span {
+                display: inline-block;
+                padding: 5px 14px;
+                background-color: #ffffff;
+                border: 1px solid #dddddd;
+                border-radius: 15px;
+            }
+
+                .pager li > a:hover,
+                .pager li > a:focus {
+                    text-decoration: none;
+                    background-color: #eeeeee;
+                }
+
+        .pager .next > a,
+        .pager .next > span {
+            float: right;
+        }
+
+        .pager .previous > a,
+        .pager .previous > span {
+            float: left;
+        }
+
+        .pager .disabled > a,
+        .pager .disabled > a:hover,
+        .pager .disabled > a:focus,
+        .pager .disabled > span {
+            color: #999999;
+            cursor: not-allowed;
+            background-color: #ffffff;
+        }
+
+</style>
+
+@*
+    <style>
+        .product-container {
+            position: absolute;
+            right: -40px;
+            top: 10px;
+            z-index: 4;
+            transition: 0.6s;
+            opacity: 0;
+        }
+
+        .card:hover .product-container {
+            opacity: 1;
+            right: 10px;
+        }
+
+        .card:hover .cart-item {
+            opacity: 1;
+            top: 0;
+        }
+
+        .p {
+            border: 2px;
+            border: 1px solid rgb(233, 233, 233);
+            height: 40px;
+            width: 40px;
+            cursor: pointer;
+        }
+
+            .p img {
+                width: 100%;
+                height: 100%;
+                opacity: 0.8;
+            }
+
+                .p img:hover {
+                    opacity: 1;
+                }
+
+    </style>*@
 @{
     ViewData["Title"] = "Our Product";
 }
@@ -14,37 +224,126 @@
 <hr />
 
 <div class="mt-4">
-    @if(!Model.Any())
-    {
+        @if (Model.Count == 0)
+        {
         <div class="alert alert-warning" role="alert">
             no Product Found!
         </div>
     }
     else
     {
-        <div class="album py-5 bg-light">
+
+
+            <div class="table-responsive">
+                <table class="table text-start align-middle table-bordered table-hover mb-0">
+                    <thead>
+                        <tr class="text-dark">
+                            <th scope="col">Arabic Name</th>
+                            <th scope="col">English Name</th>
+                            <th scope="col">image 1</th>
+                            <th scope="col">image 2</th>
+                            <th scope="col">image 3</th>
+                            <th scope="col">image 4</th>
+                            <th scope="col">image 5</th>
+                            <th scope="col">image 6</th>
+                            <th scope="col">Edit</th>
+                            <th scope="col">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var prd in Model)
+                        {
+                            <tr class="p">
+                                <td>@prd.ItemDescA</td>
+                                <td>@prd.ItemDescE</td>
+                                <td>
+                                    @if (prd.ImgPath != null)
+                                    {
+                                        <img src="~/Products/@prd.ImgPath" style="max-width:150px;" />
+                                    }
+                                </td>
+                                <td>
+                                    @if (prd.ImgPath2 != null)
+                                    {
+                                        <img src="~/Products/@prd.ImgPath2" style="max-width:150px;" class="img-thumbnail" />
+                                    }
+                                </td>
+                                <td>
+                                    @if (prd.ImgPath3 != null)
+                                    {
+                                        <img src="~/Products/@prd.ImgPath3" style="max-width:150px;" class="img-thumbnail" />
+                                    }
+                                </td>
+                                <td>
+                                    @if (prd.ImgPath4 != null)
+                                    {
+                                        <img src="~/Products/@prd.ImgPath4" style="max-width:150px;" class="img-thumbnail" />
+                                    }
+                                </td>
+                                <td>
+                                    @if (prd.ImgPath5 != null)
+                                    {
+                                        <img src="~/Products/@prd.ImgPath5" style="max-width:150px;" class="img-thumbnail" />
+                                    }
+                                </td>
+                                <td>
+                                    @if (prd.ImgPath6 != null)
+                                    {
+                                        <img src="~/Products/@prd.ImgPath6" style="max-width:150px;" class="img-thumbnail" />
+                                    }
+                                </td>
+                                <td><a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-ItemCardId="@prd.ItemCardId">Edit</a></td>
+                                <td><a href="javascript:;" class="btn btn-sm btn-danger js-delete" data-id="@prd.ItemCardId">Delete</a></td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+
+
+@*      <div class="album py-5 bg-light">
             <div class="container">
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     @foreach(var prd in Model)
                     {
                         <div class="col">
-                        <div class="card shadow-sm">
-                                <img class="bd-placeholder-img card-img-top" style="height:225px;width:100%" src="~/uploads/@prd.ImgPath1">
+                            <div class="card shadow-sm">
+                                <img src="~/Products/@prd.ImgPath" class="card-img-top" id="mainImage" alt="...">
+                                <div class="product-container">
+                                    <div class="p">
+                                        <img src="~/Products/@prd.ImgPath" style="max-width:100px;" class="img-thumbnail" data-main-image>
+                                    </div>
+                                    <div class="p">
+                                        <img src="~/Products/@prd.ImgPath2" style="max-width:100px;" class="img-thumbnail" data-main-image>
+                                    </div>
+                                    <div class="p">
+                                        <img src="~/Products/@prd.ImgPath3" style="max-width:100px;" class="img-thumbnail" data-main-image>
+                                    </div>
+                                    <div class="p">
+                                        <img src="~/Products/@prd.ImgPath4" style="max-width:100px;" class="img-thumbnail" data-main-image>
+                                    </div>
+                                    <div class="p">
+                                        <img src="~/Products/@prd.ImgPath5" style="max-width:100px;" class="img-thumbnail" data-main-image>
+                                    </div>
+                                    <div class="p">
+                                        <img src="~/Products/@prd.ImgPath6" style="max-width:100px;" class="img-thumbnail" data-main-image>
+                                    </div>
+                                </div>
+
 
                             <div class="card-body">
                                     <span style="color: #009cff;font-weight: bold;">Arabic Product Name:</span>
                                     <p class="card-text text-muted">@prd.ItemDescA</p>
                                     <span style="color: #009cff;font-weight: bold;">English Product Name:</span>
                                     <p class="card-text text-muted">@prd.ItemDescE</p>
-                                    <span style="color: #009cff;font-weight: bold;">Quantity</span>
-                                    <p class="card-text text-muted">@prd.QtyPartiation</p>
                                     <span style="color: #009cff;font-weight: bold;">Total Cost</span>
-                                    <p class="card-text text-muted">@prd.TotalCost</p>
+                                        <p class="card-text text-muted">@prd.Price1</p>
                                     <span style="color: #009cff;font-weight: bold;">Discount</span>
-                                    <p class="card-text text-muted">@prd.Discount</p>
+                                        <p class="card-text text-muted">@prd.PurchDisc</p>
                                     <span style="color: #009cff;font-weight: bold;">Product Price:</span>
-                                    <p class="card-text text-muted">@prd.FirstPrice</p>
+                                        <p class="card-text text-muted">@prd.Price3</p>
                                     
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
@@ -61,12 +360,29 @@
                 </div>
             </div>
         </div>
-    }
+*@   }
 </div>
+
+@Html.PagedListPager(Model, pageIndex => Url.Action("Index", new { pageIndex  }) )
 
 @section Scripts {
     <script>
+
+            var mainImage = document.getElementById("mainImage");
+            var smallImages = document.querySelectorAll("[data-main-image]");
+
+            smallImages.forEach(function (smallImage) {
+                smallImage.addEventListener("click", function () {
+                    console.log("Before"+mainImage.src);
+                mainImage.setAttribute("src", smallImage.getAttribute("src"));
+                console.log("After" + mainImage.src);
+
+                });
+            });
+        
+
         $(document).ready(function () {
+           
             $('.js-delete').on('click', function () {
                 var btn = $(this);
 
@@ -87,7 +403,8 @@
                             $.ajax({
                                 url: '/Products/Delete/' + btn.data('id'),
                                 success: function () {
-                                    var movieContainer = btn.parents('.col');
+                                    //var movieContainer = btn.parents('.col');
+                                    var movieContainer = btn.parents('.p');
                                     movieContainer.addClass('animate__animated animate__zoomOut');
 
                                     setTimeout(function () {
@@ -105,6 +422,8 @@
                 });
             });
         });
+
+
     </script>
 }
 

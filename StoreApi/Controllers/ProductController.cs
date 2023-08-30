@@ -56,6 +56,41 @@ namespace StoreApi.Controllers
            
         }
 
+        [HttpGet("GetAllBrands")]
+        public async Task<IActionResult> GetAllBrands()
+        {
+            var result = await _context.SrBrands
+                .Where(brand => brand.WithImage == true)
+                .Select(brand => new BrandsDto
+                {
+                    BrandId = brand.BrandId,
+                    DescA = brand.DescA,
+                    DescE = brand.DescE,
+                    ImagePath = brand.ImagePath
+                }).ToListAsync();
+
+            return Ok(result);
+        }
+
+        [HttpGet("GetAllCategory")]
+        public async Task<IActionResult> GetAllCategory()
+        {
+            var result = await _context.MsItemCategories 
+                .Where(cat => cat.WithImage == true)
+                .Select(cat => new CategoryDto
+                {
+                   ItemCategoryId = cat.ItemCategoryId,
+                   ItemCatDescA = cat.ItemCatDescA,
+                   ItemCatDescE= cat.ItemCatDescE,
+                   ImagePath = cat.ImagePath,
+                   ImageDescription = cat.ImageDescription,
+                   ImageDescriptionEn = cat.ImageDescriptionEn
+
+                }).ToListAsync();
+
+            return Ok(result);
+        }
+
         [HttpGet("Brands")]
         public async Task<IActionResult> GetProductBrands()
         {

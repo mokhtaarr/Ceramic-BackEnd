@@ -141,6 +141,18 @@
       "PackagePath": "staticwebassets\\content\\lib\\bootbox.js\\bootbox.min.js"
     },
     {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\content\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
+    },
+    {
       "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap"
     },
@@ -991,6 +1003,46 @@
     {
       "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\Capture.PNG",
       "PackagePath": "staticwebassets\\uploads\\Capture.PNG"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand1.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand10.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand10.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand2.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand3.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand4.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand5.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand6.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand7.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand8.jpg"
+    },
+    {
+      "Id": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\brand9.jpg"
     },
     {
       "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Dashboard-Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props",

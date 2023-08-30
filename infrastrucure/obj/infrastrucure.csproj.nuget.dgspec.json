@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj": {}
+    "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj": {}
   },
   "projects": {
-    "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
+    "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-        "outputPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\obj\\",
+        "outputPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
+    "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+        "projectUniqueName": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj",
         "projectName": "infrastrucure",
-        "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+        "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj",
         "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-        "outputPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\infrastrucure\\obj\\",
+        "outputPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,8 +109,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj"
+              "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj"
               }
             }
           }

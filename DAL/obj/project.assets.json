@@ -2236,11 +2236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\DAL.csproj",
+      "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-      "outputPath": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\DAL\\obj\\",
+      "outputPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",

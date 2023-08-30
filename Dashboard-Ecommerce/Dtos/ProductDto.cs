@@ -13,16 +13,28 @@ namespace Dashboard_Ecommerce.Dtos
         [Display(Name = "English Product Name")]
 
         public string ItemDescE { get; set; }
-        [Required]
         public decimal TotalCost { get; set; }
 
         public decimal Discount { get;set; }
 
-        [Required]
         public decimal QtyPartiation { get; set; }
         
         public IFormFile UploadFile { get; set; }
+        public IFormFile UploadFile2 { get; set; }
+        public IFormFile UploadFile3 { get; set; }
+        public IFormFile UploadFile4 { get; set; }
+        public IFormFile UploadFile5 { get; set; }
+        public IFormFile UploadFile6 { get; set; }
+        public string ImgPath { get;set; }
+        public string ImgPath2 { get;set; }
+        public string ImgPath3 { get;set; }
+        public string ImgPath4 { get;set; }
+        public string ImgPath5 { get;set; }
+        public string ImgPath6 { get;set; }
         public string TaxItemCode { get;set; }
+
+        
+
         [Display(Name = "Brand")]
         public int BrandId { get; set; }
         public IEnumerable<SrBrand> Brands { get; set; }

@@ -23,8 +23,44 @@
                 <span asp-validation-for="DescE" class="text-danger"></span>
             </div>
 
+            <div class="form-group mb-3">
+                <label class="form-label" asp-for="ImageFile">Select Image</label>
+                <input class="form-control" type="file" name="ImageFile" asp-for="ImageFile" style="background-color: #ffffff;" accept=".png, .jpg,.jpeg,.tiff,.gif">
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+               
+            </div>
+
             <button type="submit" class="btn btn-primary"><i class="bi bi-check"></i> Save</button>
             <a asp-controller="Brand" asp-action="Index" class="btn btn-outline-secondary"><i class="bi bi-x"></i> Cancel</a>
         </form>
     </div>
+
+     <div class="col-md-5">
+        @if (Model.ImagePath != null)
+        {
+            <h3>old image</h3>
+            <img src="~/uploads/@Model.ImagePath" class="img-thumbnail mt-4" />
+        }
+        <div id="poster-container" class="d-none mt-4">
+            <h3 style="color:#009cff">New image</h3>
+            <img src="" alt="image" class="img-thumbnail" />
+        </div>
+    </div>
 </section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function () {
+            $('#ImageFile').on('change', function () {
+                var selectedFile = $(this).val().split('\\').pop();
+                var posterContainer = $('#poster-container');
+                var image = window.URL.createObjectURL(this.files[0]);
+                posterContainer.removeClass('d-none');
+                posterContainer.find('img').attr('src', image);
+            });
+        });
+    </script>
+}

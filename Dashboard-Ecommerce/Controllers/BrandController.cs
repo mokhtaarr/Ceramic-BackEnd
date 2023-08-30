@@ -2,8 +2,10 @@
 using Dashboard_Ecommerce.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Routing;
+using Microsoft.AspNetCore.SignalR.Protocol;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
+
 
 namespace Dashboard_Ecommerce.Controllers
 {
@@ -11,10 +13,14 @@ namespace Dashboard_Ecommerce.Controllers
     {
         private readonly MoDbContext _context;
         private readonly IToastNotification _toastNotification;
-        public BrandController(MoDbContext context, IToastNotification toastNotification)
+        private readonly IWebHostEnvironment _hosting;
+
+
+        public BrandController(MoDbContext context, IToastNotification toastNotification, IWebHostEnvironment hosting)
         {
             _context = context;
             _toastNotification = toastNotification;
+            _hosting = hosting;
         }
         public async Task<IActionResult> Index()
         {
@@ -37,10 +43,25 @@ namespace Dashboard_Ecommerce.Controllers
                 return View("BrandForm", dto);
             }
 
+            string FileName = string.Empty;
+            bool BrandHaveImage = false;
+
+            if(dto.ImageFile != null)
+            {
+                string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
+                FileName = dto.ImageFile.FileName;
+                string FullPath = Path.Combine(uploads, FileName);
+                dto.ImageFile.CopyTo(new FileStream(FullPath, FileMode.Create));
+                BrandHaveImage = true;
+            }
+
+
             var brand = new SrBrand()
             {
                 DescA = dto.DescA,
-                DescE = dto.DescE
+                DescE = dto.DescE,
+                ImagePath = FileName,
+                WithImage = BrandHaveImage
             };
 
             _context.SrBrands.Add(brand);
@@ -66,7 +87,8 @@ namespace Dashboard_Ecommerce.Controllers
             {
                 BrandId = brand.BrandId,
                 DescA = brand.DescA,
-                DescE = brand.DescE
+                DescE = brand.DescE,
+                ImagePath = brand.ImagePath
             };
 
 
@@ -85,8 +107,38 @@ namespace Dashboard_Ecommerce.Controllers
             if (brand == null)
                 return NotFound();
 
+            string FileName = string.Empty;
+            bool BrandHaveImage = false;
+
+
+
+            if (dto.ImageFile != null)
+            {
+                string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
+                FileName = dto.ImageFile.FileName;
+                string FullPath = Path.Combine(uploads, FileName);
+
+                // حذف الملف القديم إذا كان موجودًا
+                if (!string.IsNullOrEmpty(brand.ImagePath))
+                {
+                    string FullOldPath = Path.Combine(uploads, brand.ImagePath);
+                    System.IO.File.Delete(FullOldPath);
+                }
+
+                dto.ImageFile.CopyTo(new FileStream(FullPath, FileMode.Create));
+                BrandHaveImage = true;
+            }
+
+
             brand.DescA = dto.DescA;
             brand.DescE = dto.DescE;
+            if (!string.IsNullOrEmpty(FileName))
+            {
+                brand.ImagePath = FileName;
+                brand.WithImage = BrandHaveImage;
+
+            }
+
 
             _context.SaveChanges();
 
