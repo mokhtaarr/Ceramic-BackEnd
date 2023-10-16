@@ -113,6 +113,7 @@ namespace DAL.Models
         public bool? IsServerEntity { get; set; }
         public int? MainServerId { get; set; }
         public bool? IsMobile { get; set; }
+        public bool? IsWebsite { get; set; }
 
         public virtual MsCurrency Currency { get; set; }
         public virtual MsCustomerCategory CustomerCat { get; set; }

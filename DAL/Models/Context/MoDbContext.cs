@@ -1,20 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using DAL.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.AspNetCore.Identity;
 
 namespace DAL.Models
 {
-    public partial class MoDbContext : DbContext
+    public partial class MoDbContext : IdentityDbContext<DashBoardUser>
     {
         public MoDbContext()
         {
         }
-
+        
         public MoDbContext(DbContextOptions<MoDbContext> options)
             : base(options)
         {
         }
+
+        public virtual DbSet<MS_ItemCardView> MS_ItemCardView { get; set; }
 
         public virtual DbSet<AnAnimalDeath> AnAnimalDeaths { get; set; }
         public virtual DbSet<AnAnimalDeathDetail> AnAnimalDeathDetails { get; set; }
@@ -873,10 +878,16 @@ namespace DAL.Models
             {
                 optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=SeramikDbNew;User Id=softgo;Password=A271185b;TrustServerCertificate=True;");
             }
+
+            base.OnConfiguring(optionsBuilder);
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<AnAnimalDeath>(entity =>
             {
                 entity.HasKey(e => e.AnDeathId);
@@ -44486,7 +44497,6 @@ namespace DAL.Models
 
             OnModelCreatingPartial(modelBuilder);
         }
-
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }

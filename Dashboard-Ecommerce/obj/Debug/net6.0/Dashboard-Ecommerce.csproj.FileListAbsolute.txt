@@ -802,15 +802,6 @@ D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\Dashboard-Ecommerce\
 D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.pdb
 D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.genruntimeconfig.cache
 D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\ref\Dashboard-Ecommerce.dll
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.csproj.AssemblyReference.cache
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.GeneratedMSBuildEditorConfig.editorconfig
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.AssemblyInfoInputs.cache
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.AssemblyInfo.cs
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.csproj.CoreCompileInputs.cache
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.MvcApplicationPartsAssemblyInfo.cs
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.MvcApplicationPartsAssemblyInfo.cache
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.RazorAssemblyInfo.cache
-D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.RazorAssemblyInfo.cs
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\bin\Debug\net6.0\appsettings.Development.json
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\bin\Debug\net6.0\appsettings.json
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\bin\Debug\net6.0\libman.json
@@ -1188,6 +1179,15 @@ D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الدات
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\bin\Debug\net6.0\DAL.dll
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\bin\Debug\net6.0\DAL.pdb
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.csproj.AssemblyReference.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.AssemblyInfoInputs.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.AssemblyInfo.cs
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.csproj.CoreCompileInputs.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.MvcApplicationPartsAssemblyInfo.cs
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.MvcApplicationPartsAssemblyInfo.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.RazorAssemblyInfo.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\Dashboard-Ecommerce.RazorAssemblyInfo.cs
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\staticwebassets\msbuild.Dashboard-Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\staticwebassets\msbuild.build.Dashboard-Ecommerce.props
 D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Dashboard-Ecommerce.props

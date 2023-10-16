@@ -1,11 +1,14 @@
-﻿<!DOCTYPE html>
+﻿@inject SignInManager<DashBoardUser> UserManager;
+
+
+<!DOCTYPE html>
 
 
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>E-commerce DashBoard </title>
+    <title>E-Commerce DashBoard</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -47,8 +50,8 @@
         <div class="sidebar pe-4 pb-3">
 
             <nav class="navbar bg-light navbar-light">
-                <a href="" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>DashBoard</h3>
+                <a asp-action="Index" asp-controller="Home" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary" style="font-size:larger">Eldolia DashBoard</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                    
@@ -94,15 +97,18 @@
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="cursor:pointer"><i class="bi bi-diagram-3-fill me-2" aria-hidden="true"></i>Our Products</a>
                         <div class="dropdown-menu bg-transparent border-0">
                             <a asp-action="Index" asp-controller="Products" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>View All Product</a>
-                            <a asp-controller="Products" asp-action="Create" class="nav-item nav-link"><i class="bi bi-plus-circle-fill me-2"></i>Add New Product</a>
-                            <a asp-controller="Products" asp-action="GetProductsWithOffer" class="nav-item nav-link"><i class="fa fa-bell me-2"></i> offers</a>
+                            <a asp-controller="Products" asp-action="Create" class="nav-item nav-link"><i class="bi bi-plus-circle-fill me-2"></i>Add Product</a>
+                        @*    <a asp-controller="Products" asp-action="GetProductsWithOffer" class="nav-item nav-link"><i class="fa fa-bell me-2"></i> offers</a>
                             <a asp-controller="Products" asp-action="GetProductsWithOutOffer" class="nav-item nav-link"><i class="fa fa-bell-slash me-2"></i>ًًWith Out offers</a>
-                            <a asp-controller="Products" asp-action="GetFinishedProducts" class="nav-item nav-link"><i class="fa fa-eye me-2"></i>Not available</a>
+                            <a asp-controller="Products" asp-action="GetFinishedProducts" class="nav-item nav-link"><i class="fa fa-eye me-2"></i>Not available</a>*@
 
                         </div>
                     </div>
 
                     <a asp-action="Index" asp-controller="Users" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> Users Orders</a>
+                    <a asp-action="SignUp" asp-controller="User" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> Resgister</a>
+                    <a asp-action="SignIn" asp-controller="User" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> SignIn</a>
+
                     
                 </div>
             </nav>
@@ -128,10 +134,17 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                             <img class="rounded-circle me-lg-2" src="~/content/images/StaticImages/admin.png" alt="" style="width: 40px; height: 40px;">
+                            @if (UserManager.IsSignedIn(User) == true)
+                            {
+                                <span class="d-none d-lg-inline-flex">@User.Identity.Name</span>
+                            }else
+                            {
                             <span class="d-none d-lg-inline-flex">Admin</span>
+
+                            }
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">Log Out</a>
+                            <a class="dropdown-item" asp-action="SignOut" asp-controller="User">Log Out</a>
                         </div>
                     </div>
                 </div>

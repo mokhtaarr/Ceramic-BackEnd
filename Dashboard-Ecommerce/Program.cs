@@ -1,5 +1,7 @@
+using DAL.Identity;
 using DAL.Models;
 using DAL.Smtp;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
 
@@ -15,7 +17,11 @@ builder.Services.AddMvc().AddNToastNotifyToastr(new ToastrOptions()
     PreventDuplicates = true,
     CloseButton = true
 });
-
+builder.Services.AddIdentity<DashBoardUser,IdentityRole>().AddEntityFrameworkStores<MoDbContext>();
+builder.Services.ConfigureApplicationCookie(opt =>
+{
+    opt.LoginPath = "/User/SignIn";
+});
 
 var app = builder.Build();
 
@@ -34,6 +40,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

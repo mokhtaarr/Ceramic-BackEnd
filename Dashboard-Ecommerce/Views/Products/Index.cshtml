@@ -176,7 +176,7 @@
 
 </style>
 
-@*
+
     <style>
         .product-container {
             position: absolute;
@@ -200,8 +200,8 @@
         .p {
             border: 2px;
             border: 1px solid rgb(233, 233, 233);
-            height: 40px;
-            width: 40px;
+            height: 90px;
+            width: 100px;
             cursor: pointer;
         }
 
@@ -215,7 +215,7 @@
                     opacity: 1;
                 }
 
-    </style>*@
+    </style>
 @{
     ViewData["Title"] = "Our Product";
 }
@@ -234,7 +234,7 @@
     {
 
 
-            <div class="table-responsive">
+         @*   <div class="table-responsive">
                 <table class="table text-start align-middle table-bordered table-hover mb-0">
                     <thead>
                         <tr class="text-dark">
@@ -299,10 +299,10 @@
 
                     </tbody>
                 </table>
-            </div>
+            </div>*@
 
 
-@*      <div class="album py-5 bg-light">
+     <div class="album py-5 bg-light">
             <div class="container">
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -310,7 +310,7 @@
                     {
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="~/Products/@prd.ImgPath" class="card-img-top" id="mainImage" alt="...">
+                                <img src="~/Products/@prd.ImgPath" class="card-img-top" id="mainImage" alt="..." style="height:200px;">
                                 <div class="product-container">
                                     <div class="p">
                                         <img src="~/Products/@prd.ImgPath" style="max-width:100px;" class="img-thumbnail" data-main-image>
@@ -360,27 +360,56 @@
                 </div>
             </div>
         </div>
-*@   }
+   }
 </div>
 
 @Html.PagedListPager(Model, pageIndex => Url.Action("Index", new { pageIndex  }) )
 
 @section Scripts {
     <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var btn = $(this);
 
-            var mainImage = document.getElementById("mainImage");
-            var smallImages = document.querySelectorAll("[data-main-image]");
+                bootbox.confirm({
+                    message: "Are you sure that you need to delete this Product?",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-danger'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-outline-secondary'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: '/Products/Delete/' + btn.data('id'),
+                                success: function () {
+                                    var movieContainer = btn.parents('.col');
+                                    movieContainer.addClass('animate__animated animate__zoomOut');
 
-            smallImages.forEach(function (smallImage) {
-                smallImage.addEventListener("click", function () {
-                    console.log("Before"+mainImage.src);
-                mainImage.setAttribute("src", smallImage.getAttribute("src"));
-                console.log("After" + mainImage.src);
+                                    setTimeout(function () {
+                                        movieContainer.remove();
+                                    }, 700);
 
+                                    toastr.success('Product Deleted');
+                                },
+                                error: function () {
+                                    toastr.error('Something went wrong!');
+                                }
+                            });
+                        }
+                    }
                 });
             });
-        
+        });
+    </script>
 
+@*@section Scripts {
+    <script>
         $(document).ready(function () {
            
             $('.js-delete').on('click', function () {
@@ -403,8 +432,7 @@
                             $.ajax({
                                 url: '/Products/Delete/' + btn.data('id'),
                                 success: function () {
-                                    //var movieContainer = btn.parents('.col');
-                                    var movieContainer = btn.parents('.p');
+                                    var movieContainer = btn.parents('.col');
                                     movieContainer.addClass('animate__animated animate__zoomOut');
 
                                     setTimeout(function () {
@@ -424,6 +452,6 @@
         });
 
 
-    </script>
+    </script>*@
 }
 

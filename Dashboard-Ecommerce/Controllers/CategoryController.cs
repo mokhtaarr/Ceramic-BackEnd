@@ -1,5 +1,6 @@
 ﻿using DAL.Models;
 using Dashboard_Ecommerce.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Dashboard_Ecommerce.Controllers
 {
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly MoDbContext _context;

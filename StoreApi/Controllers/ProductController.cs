@@ -15,16 +15,15 @@ namespace StoreApi.Controllers
     public class ProductController : BaseApiController
     {
         //private readonly MoDbContext _db;
-        private readonly IProductRepository _ProductRepository;
+        //private readonly IProductRepository _ProductRepository;
         private readonly IGenericRepository<SrBrand> _ProductBrandRepository;
         private readonly IGenericRepository<MsItemCategory> _ProductCategoryRepository;
-        private readonly IGenericRepository<MsItemCard> _ProductCardRepository;
+        private readonly IGenericRepository<MS_ItemCardView> _ProductCardRepository;
         private readonly IMapper _mapper;
         private readonly MoDbContext _context;
-        public ProductController(IProductRepository ProductRepository, IGenericRepository<SrBrand> ProductBrandRepository, 
-            IGenericRepository<MsItemCategory> ProductCategoryRepository, IGenericRepository<MsItemCard> ProductCardRepository, IMapper mapper, MoDbContext context)
+        public ProductController(IGenericRepository<SrBrand> ProductBrandRepository, 
+            IGenericRepository<MsItemCategory> ProductCategoryRepository, IGenericRepository<MS_ItemCardView> ProductCardRepository, IMapper mapper, MoDbContext context)
         {
-           _ProductRepository = ProductRepository;
             _ProductBrandRepository = ProductBrandRepository;
             _ProductCategoryRepository = ProductCategoryRepository;
             _ProductCardRepository = ProductCardRepository;
@@ -42,7 +41,7 @@ namespace StoreApi.Controllers
             var totalItems = await _ProductCardRepository.CountAsync(countSpec);
 
             var products = await _ProductCardRepository.ListAsync(spec);
-            var data = _mapper.Map<IReadOnlyList<MsItemCard>, IReadOnlyList<ProductDto>>(products);
+            var data = _mapper.Map<IReadOnlyList<MS_ItemCardView>, IReadOnlyList<ProductDto>>(products);
 
             return Ok(new Pagination<ProductDto>(productParams.PageIndex, productParams.PageSize, totalItems, data));
         }
@@ -52,7 +51,7 @@ namespace StoreApi.Controllers
         {
             var spec = new ProducctWithTypesAndBrandsSpecification(id);
             var prd = await _ProductCardRepository.GetEntityWithSpec(spec);
-            return _mapper.Map<MsItemCard, ProductDto>(prd);
+            return _mapper.Map<MS_ItemCardView, ProductDto>(prd);
            
         }
 
@@ -108,7 +107,7 @@ namespace StoreApi.Controllers
         {
 
 
-            var productsByBrandId = await _context.MsItemCards.Where(p => p.BrandId == BrandId).ToListAsync();
+            var productsByBrandId = await _context.MS_ItemCardView.Where(p => p.BrandId == BrandId).ToListAsync();
 
             return Ok(productsByBrandId);
         }
@@ -116,9 +115,21 @@ namespace StoreApi.Controllers
         [HttpGet("CatId")]
         public async Task<IActionResult> GetProductsByCategoryId(int CatId)
         {
-            var productByCategoryId = await _context.MsItemCards.Where(c => c.ItemCategoryId == CatId).ToListAsync();
+            var productByCategoryId = await _context.MS_ItemCardView.Where(c => c.ItemCategoryId == CatId).ToListAsync();
             return Ok(productByCategoryId);
         }
 
+
+        [HttpGet("ProductWithOffer")]
+        public async Task<IActionResult> GetOfferProducts()
+        {
+            return Ok(await _context.MS_ItemCardView.Where(prd => prd.Discount > 0).ToListAsync());
+        }
+
+        [HttpGet("View")]
+        public IActionResult getDataFromView()
+        {
+            return Ok(_context.MS_ItemCardView.ToList());
+        }
     }
 }

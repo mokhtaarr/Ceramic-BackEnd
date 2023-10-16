@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Sepecifications
 {
-    public class ProducctWithTypesAndBrandsSpecification : BaseSpecification<MsItemCard>
+    public class ProducctWithTypesAndBrandsSpecification : BaseSpecification<MS_ItemCardView>
     {
         public ProducctWithTypesAndBrandsSpecification(ProductSpecParams productParams)
              : base(x =>

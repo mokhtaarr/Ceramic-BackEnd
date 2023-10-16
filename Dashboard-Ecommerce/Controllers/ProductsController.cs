@@ -7,9 +7,11 @@ using NToastNotify;
 using X.PagedList;
 using System.IO;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Dashboard_Ecommerce.Controllers
 {
+    [Authorize]
     public class ProductsController : Controller
     {
         private readonly MoDbContext _context;
@@ -22,10 +24,8 @@ namespace Dashboard_Ecommerce.Controllers
             _toastNotification = toastNotification;
             this.hosting = hosting;
         }
-        public IActionResult Index(int pageIndex = 1, int pageSize = 100)
+        public IActionResult Index(int pageIndex = 1, int pageSize = 50)
         {
-
-            //var products = _context.MsItemCards.ToPagedList(pageIndex, pageSize);
 
             var products = (from itemCard in _context.MsItemCards
                             join itemunit in _context.MsItemUnits on itemCard.ItemCardId equals itemunit.ItemCardId
@@ -35,9 +35,9 @@ namespace Dashboard_Ecommerce.Controllers
                                 itemCard.ItemCardId,
                                 itemCard.ItemDescA,
                                 itemCard.ItemDescE,
-                                itemunit.Price1,
-                                itemunit.PurchDisc,
-                                itemunit.Price3,
+                                Price1 = $"{itemunit.Price1:F2}", // تنسيق السعر هنا
+                                PurchDisc = $"{itemunit.PurchDisc:F2}", // تنسيق PurchDisc هنا
+                                Price3 = $"{itemunit.Price3:F2}", // تنسيق Price3 هنا
                                 img.ImgPath,
                                 img.ImgPath2,
                                 img.ImgPath3,
@@ -619,7 +619,11 @@ namespace Dashboard_Ecommerce.Controllers
                 return StatusCode(500);
             }
         }
-
+        [HttpGet("View")]
+        public IActionResult getDataFromView()
+        {
+            return Ok(_context.MS_ItemCardView.ToList());
+        }
 
         //public async Task<IActionResult> Delete(int? id)
         //{

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xt1CEzxRks9QR2irHB/q5BqxhncuWZaVqcO/YIsPH0Q=",
+  "Hash": "E/hWb5KCWG15/Y+jTChwG0Ij5pNhfC1BPs7ywlXg264=",
   "Source": "StoreApi",
   "BasePath": "_content/StoreApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "StoreApi\\wwwroot",
       "Source": "StoreApi",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CeramikWalls.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CeramikWalls.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/CeramikWalls.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\CeramikWalls.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/ChineseBath1.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ChineseBath1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath2.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath2.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/ChineseBath2.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ChineseBath2.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath3.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath3.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/ChineseBath3.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ChineseBath3.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CleopatraCeramics1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CleopatraCeramics1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/CleopatraCeramics1.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\CleopatraCeramics1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CleopatraCeramics2.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CleopatraCeramics2.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/CleopatraCeramics2.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\CleopatraCeramics2.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/EgyptionMarble1.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\EgyptionMarble1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble2.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble2.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/EgyptionMarble2.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\EgyptionMarble2.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble3.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble3.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/EgyptionMarble3.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\EgyptionMarble3.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMixer1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMixer1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/EgyptionMixer1.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\EgyptionMixer1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMixer2.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMixer2.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/EgyptionMixer2.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\EgyptionMixer2.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\Floor1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\Floor1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/Floor1.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\Floor1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\FrancItaly1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\FrancItaly1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/FrancItaly1.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\FrancItaly1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\img1.PNG",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\img1.PNG",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/img1.PNG",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\img1.PNG"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\JewellyCeramics1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\JewellyCeramics1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/JewellyCeramics1.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\JewellyCeramics1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\JewellyCeramics2.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\JewellyCeramics2.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/JewellyCeramics2.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\JewellyCeramics2.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/ReemasCeramics1.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ReemasCeramics1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics2.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics2.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/ReemasCeramics2.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ReemasCeramics2.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics3.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics3.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/ReemasCeramics3.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ReemasCeramics3.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\SpanishCeramics1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\SpanishCeramics1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/SpanishCeramics1.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\SpanishCeramics1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\TecLight1.png",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\TecLight1.png",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/TecLight1.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\TecLight1.png"
     },
     {
-      "Identity": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\images\\products\\tree.jpg",
+      "Identity": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\tree.jpg",
       "SourceId": "StoreApi",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Work Soft Go Soluation\\SeramikProjectApiBackEnd\\StoreApi\\StoreApi\\wwwroot\\",
+      "ContentRoot": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\",
       "BasePath": "_content/StoreApi",
       "RelativePath": "images/products/tree.jpg",
       "AssetKind": "All",

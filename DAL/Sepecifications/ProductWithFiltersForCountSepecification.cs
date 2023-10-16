@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Sepecifications
 {
-    public class ProductWithFiltersForCountSepecification : BaseSpecification<MsItemCard>
+    public class ProductWithFiltersForCountSepecification : BaseSpecification<MS_ItemCardView>
     {
         public ProductWithFiltersForCountSepecification(ProductSpecParams productParams)
             : base(x =>

@@ -35,6 +35,7 @@
       "Dashboard-Ecommerce/1.0.0": {
         "dependencies": {
           "DAL": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.11",
           "Microsoft.EntityFrameworkCore.Design": "6.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.11",

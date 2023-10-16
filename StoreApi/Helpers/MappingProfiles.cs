@@ -9,7 +9,7 @@ namespace StoreApi.Helpers
     {
         public MappingProfiles()
         {
-            CreateMap<MsItemCard, ProductDto>();
+            CreateMap<MS_ItemCardView, ProductDto>();
 
             CreateMap<Address,AddressDto>().ReverseMap();
             CreateMap<EcomBasketItemDto,EcomBasketItem>().ReverseMap();

@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Dashboard_Ecommerce.Controllers
 {
+    [Authorize]
     public class UsersController : Controller
     {
         public IActionResult Index()

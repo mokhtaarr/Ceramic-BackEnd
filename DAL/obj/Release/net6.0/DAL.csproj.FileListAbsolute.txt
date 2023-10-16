@@ -12,3 +12,17 @@ D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\DAL\obj\Release\net6
 D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\DAL\obj\Release\net6.0\DAL.pdb
 D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
 D:\Work Soft Go Soluation\SeramikProjectApiBackEnd\StoreApi\DAL\obj\Release\net6.0\ref\DAL.dll
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\bin\Release\net6.0\DAL.deps.json
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\bin\Release\net6.0\DAL.runtimeconfig.json
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\bin\Release\net6.0\DAL.dll
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\bin\Release\net6.0\DAL.pdb
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\DAL.dll
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\refint\DAL.dll
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\DAL.pdb
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache
+D:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\DAL\obj\Release\net6.0\ref\DAL.dll

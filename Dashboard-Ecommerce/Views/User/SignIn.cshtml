@@ -1,0 +1,79 @@
+﻿@model UserLoginDto
+
+@{
+    Layout = null;
+}
+
+<link href="~/content/css/bootstrap.min.css" rel="stylesheet">
+<link href="~/content/loginStyle.css" />
+@*
+<section>
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center h-100">
+            <!-- الصورة -->
+            <div class="col-md-8 col-lg-7 col-xl-6 order-2 order-md-1">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+                     class="img-fluid" alt="Phone image">
+            </div>
+            <!-- الفورم -->
+            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1 order-1 order-md-2">
+                <form method="post" asp-action="SignIn" asp-controller="User">
+                    <div style="color:red" asp-validation-summary="ModelOnly"></div>
+
+                    <div class="text-center mb-4">
+                        <h1 class="mb-3">DashBoard LogIn</h1>
+                    </div>
+
+                    <div class="form-floating">
+                        <input asp-for="UserName" type="text" class="form-control" id="floatingInputFirstName">
+                        <label asp-for="UserName"></label>
+                        <span asp-validation-for="UserName" style="color:red"></span>
+                    </div>
+
+                    <div class="form-floating mt-2">
+                        <input asp-for="Password" type="password" class="form-control" id="floatingInputLastName">
+                        <label asp-for="Password"></label>
+                        <span asp-validation-for="Password" style="color:red"></span>
+                    </div>
+                    <button class="w-100 btn btn-lg btn btn-outline-primary mt-3" type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>*@
+
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center" style="height:70%">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                     class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <form method="post" asp-action="SignIn" asp-controller="User">
+                    <div style="color:red" asp-validation-summary="ModelOnly"></div>
+
+                    <div class="text-center mb-4">
+                        <h1 class="mb-3" style="color:#1fa0ff;">DashBoard LogIn</h1>
+                    </div>
+
+                    <div class="form-floating">
+                        <input asp-for="UserName" type="text" class="form-control" id="floatingInputFirstName">
+                        <label asp-for="UserName"></label>
+                        <span asp-validation-for="UserName" style="color:red"></span>
+                    </div>
+
+                    <div class="form-floating mt-2">
+                        <input asp-for="Password" type="password" class="form-control" id="floatingInputLastName">
+                        <label asp-for="Password"></label>
+                        <span asp-validation-for="Password" style="color:red"></span>
+                    </div>
+                    <button class="w-100 btn btn-lg btn btn-primary mt-3" type="submit" style="color:white">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<script src="~/content/lib/bootstrap/dist/js/bootstrap.js"></script>

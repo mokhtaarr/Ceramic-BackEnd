@@ -4,7 +4,7 @@ using StoreApi.Dtos;
 
 namespace StoreApi.Helpers
 {
-    public class ProductUrlResolver : IValueResolver<MsItemCard, ProductDto, string>
+    public class ProductUrlResolver : IValueResolver<MS_ItemCardView, ProductDto, string>
     {
         private readonly IConfiguration _config;
         public ProductUrlResolver(IConfiguration config)
@@ -12,7 +12,7 @@ namespace StoreApi.Helpers
             _config = config;
         }
 
-        public string Resolve(MsItemCard source, ProductDto destination, string destMember, ResolutionContext context)
+        public string Resolve(MS_ItemCardView source, ProductDto destination, string destMember, ResolutionContext context)
         {
           
             if (!string.IsNullOrEmpty(source.TaxItemCode))

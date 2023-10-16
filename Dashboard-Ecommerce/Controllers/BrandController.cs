@@ -1,5 +1,6 @@
 ﻿using DAL.Models;
 using Dashboard_Ecommerce.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.SignalR.Protocol;
@@ -9,6 +10,7 @@ using NToastNotify;
 
 namespace Dashboard_Ecommerce.Controllers
 {
+    [Authorize]
     public class BrandController : Controller
     {
         private readonly MoDbContext _context;
