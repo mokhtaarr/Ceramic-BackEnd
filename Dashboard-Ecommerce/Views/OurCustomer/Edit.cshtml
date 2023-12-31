@@ -1,0 +1,79 @@
+﻿@model CustomerDto
+
+@{
+    ViewData["Title"] = "Customer Form";
+}
+
+<h2>Edit Customer</h2>
+
+<hr />
+
+<section class="row">
+    <div class="col-md-5">
+        <form method="POST" asp-action="Edit" enctype="multipart/form-data">
+            <input type="hidden" asp-for="CustomerId" />
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِCustomer Name</label>
+                <input type="text" class="form-control" asp-for="CustomerDescA" maxlength="100">
+                <span asp-validation-for="CustomerDescA" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِCustomer Code</label>
+                <input type="text" class="form-control" asp-for="CustomerCode" maxlength="100">
+                <span asp-validation-for="CustomerCode" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِTelePhone</label>
+                <input type="text" class="form-control" asp-for="Tel" maxlength="100">
+                <span asp-validation-for="Tel" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِCustomer Category</label>
+                <select class="form-control" asp-for="CustomerCatId" asp-items="@(new SelectList(Model.CustomerCategory,"CustomerCatId","CatDescA"))">
+                    <option></option>
+                </select>
+                <span asp-validation-for="CustomerCatId" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِCity</label>
+                <input type="text" class="form-control" asp-for="Address" maxlength="100">
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِCountry</label>
+                <input type="text" class="form-control" asp-for="Address2" maxlength="100">
+                <span asp-validation-for="Address2" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِstreet</label>
+                <input type="text" class="form-control" asp-for="Address3" maxlength="100">
+                <span asp-validation-for="Address3" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِspecial Mark</label>
+                <input type="text" class="form-control" asp-for="Remarks" maxlength="100">
+                <span asp-validation-for="Remarks" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِbuilding</label>
+                <input type="text" class="form-control" asp-for="AddField1" maxlength="100">
+                <span asp-validation-for="AddField1" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِfloor</label>
+                <input type="text" class="form-control" asp-for="AddField2" maxlength="100">
+                <span asp-validation-for="AddField2" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِapartment</label>
+                <input type="text" class="form-control" asp-for="AddField3" maxlength="100">
+                <span asp-validation-for="AddField3" class="text-danger"></span>
+            </div>
+         
+
+            <button type="submit" class="btn btn-primary"><i class="bi bi-check"></i> Save</button>
+            <a  asp-action="index" class="btn btn-outline-secondary"><i class="bi bi-x"></i> Cancel</a>
+        </form>
+    </div>
+
+</section>

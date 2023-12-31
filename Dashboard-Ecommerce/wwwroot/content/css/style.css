@@ -312,3 +312,9 @@ input[type=number] {
     background-color: #262626;
     padding-left: 8px;
 }
+
+@media (max-width: 768px) {
+    .FormHidden {
+        display: none;
+    }
+}

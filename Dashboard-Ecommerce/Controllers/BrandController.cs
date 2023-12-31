@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.SignalR.Protocol;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
-
+using X.PagedList;
 
 namespace Dashboard_Ecommerce.Controllers
 {
@@ -24,9 +24,9 @@ namespace Dashboard_Ecommerce.Controllers
             _toastNotification = toastNotification;
             _hosting = hosting;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pageIndex = 1, int pageSize = 50)
         {
-            var Brands = await _context.SrBrands.ToListAsync();
+            var Brands = await _context.SrBrands.ToPagedListAsync(pageIndex,pageSize);
             return View(Brands);
         }
 

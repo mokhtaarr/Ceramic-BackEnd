@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
 using System.Threading.Tasks;
+using X.PagedList;
 
 namespace Dashboard_Ecommerce.Controllers
 {
@@ -23,9 +24,9 @@ namespace Dashboard_Ecommerce.Controllers
             _hosting = hosting;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pageIndex = 1, int pageSize = 50)
         {
-            var cat = await _context.MsItemCategories.ToListAsync();
+            var cat = await _context.MsItemCategories.Where(c=>c.DeletedAt == null).ToPagedListAsync(pageIndex, pageSize);
             
             return View(cat);
         }
@@ -162,8 +163,10 @@ namespace Dashboard_Ecommerce.Controllers
             if (cat == null)
                 return NotFound();
 
+
             _context.MsItemCategories.Remove(cat);
             _context.SaveChanges();
+
             return Ok();
         }
     }

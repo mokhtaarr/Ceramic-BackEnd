@@ -1,8 +1,9 @@
-﻿@model IEnumerable<MsItemCategory>
+﻿@model IPagedList<MsItemCategory>
 
 @{
     ViewData["Title"] = "Our Categories";
 }
+<link href="~/content/pagedlist.css" rel="stylesheet" />
 
 <h1>View All Category</h1>
 
@@ -38,7 +39,7 @@
                             <td class="d-flex justify-content-center">
                                 @if (cat.ImagePath != null)
                                 {
-                                    <img src="~/uploads/@cat.ImagePath" style="max-width:100px;" class="img-thumbnail" />
+                                    <img src="~/uploads/@cat.ImagePath" style="max-width:100px;" class="img-thumbnail" alt="" />
                                 }
                             </td>
                             <td><a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-ItemCategoryId="@cat.ItemCategoryId">Edit</a></td>
@@ -51,6 +52,8 @@
         </div>
     }
 </div>
+
+@Html.PagedListPager(Model, pageIndex => Url.Action("Index", new { pageIndex  }) )
 
 
 @section Scripts {
@@ -76,17 +79,11 @@
                             $.ajax({
                                 url: '/Category/Delete/' + btn.data('id'),
                                 success: function () {
-                                    var movieContainer = btn.parents('.p');
-                                    movieContainer.addClass('animate__animated animate__zoomOut');
-
-                                    setTimeout(function () {
-                                        movieContainer.remove();
-                                    }, 1000);
-
+                                    btn.parents('.p').fadeOut();
                                     toastr.success('Category Deleted');
                                 },
                                 error: function () {
-                                    toastr.error('Something went wrong!');
+                                    toastr.error('! لايمكنك مسح هذه الفئه لانها مرتبطه بمنتج');
                                 }
                             });
                         }

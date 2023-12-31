@@ -23,8 +23,14 @@ namespace StoreApi.Controllers
         {
             var clientCurrency = _db.MsCurrencies.Where(p => (bool)p.DefualtCurrency).FirstOrDefault();
 
+            MsCustomer ExistingCustomer = await  _db.MsCustomers.FirstOrDefaultAsync(c=>c.CustomerCode== dto.CustomerCode);
 
-            var customer = new MsCustomer()
+            if (ExistingCustomer != null)
+            {
+                return Ok(ExistingCustomer.CustomerId);
+            }
+
+            MsCustomer customer = new MsCustomer()
             {
                 CustomerCode = dto.CustomerCode,
                 CustomerDescA = dto.CustomerDescA,
@@ -32,11 +38,19 @@ namespace StoreApi.Controllers
                 CurrencyId = clientCurrency.CurrencyId,
                 Tel = dto.Tel,
                 Address = dto.Address,
+                Address2 = dto.Address2,
+                Address3 = dto.Address3,
+                AddField1 = dto.AddField1,
+                AddField2 = dto.AddField2,
+                AddField3 = dto.AddField3,
+                Remarks = dto.Remarks,
                 IsWebsite = true
             };
 
             await _db.MsCustomers.AddAsync(customer);
             _db.SaveChanges();
+            return Ok(customer.CustomerId);
+
 
             //var customerAccountIds = _db.MsPossettings.Select(p => new
             //{
@@ -61,7 +75,6 @@ namespace StoreApi.Controllers
             //await _db.CalCustAccounts.AddAsync(Account);
             //_db.SaveChanges();
 
-            return Ok(customer.CustomerId);
         }
 
     }

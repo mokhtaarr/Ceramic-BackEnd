@@ -1,0 +1,70 @@
+﻿@model IPagedList<dynamic>
+
+@{
+    ViewData["Title"] = "Our Customer";
+}
+<link href="~/content/pagedlist.css" rel="stylesheet" />
+
+<h2>
+    <i class="fa fa-user" aria-hidden="true"></i> Our Customer
+</h2>
+
+<hr />
+
+<div class="mt-4">
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning" role="alert">
+            no Customer Found!
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">customer Name</th>
+                        <th scope="col">customer Code</th>
+                        <th scope="col">mobile</th>
+                        <th scope="col">city</th>
+                        <th scope="col">country</th>
+                        <th scope="col">street</th>
+                        <th scope="col">mark</th>
+                        <th scope="col">building</th>
+                        <th scope="col">floor</th>
+                        <th scope="col">apartment</th>
+                        <th scope="col">Category</th>
+                        <th scope="col">Edit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in Model)
+                    {
+                        <tr class="p">
+                            <td>@customer.CustomerDescA</td>
+                            <td>@customer.Tel</td>
+                            <td>@customer.Tel</td>
+                            <td>@customer.Address</td>
+                            <td>@customer.Address2</td>
+                            <td>@customer.Address3</td>
+                            <td>@customer.Remarks</td>
+                            <td>@customer.AddField1</td>
+                            <td>@customer.AddField2</td>
+                            <td>@customer.AddField3</td>
+                            <td>@customer.CatDescA</td>
+
+                            <td><a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-CustomerId="@customer.CustomerId">Edit</a></td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @Html.PagedListPager(Model, pageIndex => Url.Action("Index", new { pageIndex  }) )
+
+    }
+    
+</div>
+

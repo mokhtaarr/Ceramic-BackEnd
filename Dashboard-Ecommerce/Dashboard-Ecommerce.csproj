@@ -63,6 +63,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\infrastrucure\infrastrucure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

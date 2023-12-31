@@ -55,10 +55,36 @@ namespace StoreApi.Controllers
         public async Task<ActionResult<UserDto>> login(LoginDto loginDto)
         {
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
-            if (user == null) return Unauthorized(new ApiResponse(401));
+
+            if (user == null)
+            {
+                var response = new UserDto
+                {
+                    statu = false,
+                    Message = ". يوجد خطا فى البريد الإلكترونى",
+
+                };
+
+                return response;
+            }
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
-            if (!result.Succeeded) return Unauthorized(new ApiResponse(401));
+
+
+
+            if (!result.Succeeded)
+            {
+                {
+                    var response = new UserDto
+                    {
+                        statu = false,
+                        Message = ". يوجد خطا فى كلمه السر",
+
+                    };
+
+                    return response;
+                }
+            }
 
             return new UserDto
             {
@@ -67,13 +93,43 @@ namespace StoreApi.Controllers
                 DisplayName = user.DisplayName,
                 PhoneNumber = user.PhoneNumber,
                 City = user.City,
-                Street = user.Street
+                Street = user.Street,
+                statu = true,
+                Message = "تمت عميله الدخول بنجاح "
             };
         }
 
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Regitser(RegisterDto registerDto)
         {
+
+            var exitingUserName = _userManager.Users.FirstOrDefault(u => u.UserName == registerDto.DisplayName);
+
+            if (exitingUserName != null)
+            {
+                var response = new UserDto
+                {
+                    statu = false,
+                    Message = ". الاسم مستخدم من قبل",
+
+                };
+
+                return response;
+            };
+
+            var exitingEmail = _userManager.Users.FirstOrDefault(u => u.Email == registerDto.Email);
+
+            if (exitingEmail != null)
+            {
+                var response = new UserDto
+                {
+                    statu = false,
+                    Message = ". البريد الإلكتروني مستخدم من قبل",
+                };
+
+                return response;
+            }
+
 
             var user = new AppUser
             {
@@ -84,9 +140,21 @@ namespace StoreApi.Controllers
                 City = registerDto.City,
                 Street = registerDto.Street
             };
-
+            
             var result = await _userManager.CreateAsync(user, registerDto.Password);
-            if (!result.Succeeded) return BadRequest(new ApiResponse(400));
+
+            if (!result.Succeeded)
+            {
+                var response = new UserDto
+                {
+                    statu = false,
+                    Message = "فشل في التسجيل",
+                };
+
+                return response;
+            }
+
+
 
             var userFromDb = await _userManager.FindByEmailAsync(registerDto.Email);
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(userFromDb);
@@ -94,9 +162,19 @@ namespace StoreApi.Controllers
             var uriBuilder = new UriBuilder(_config["ReturnPaths:ConfirmEmail"]);
             var query = HttpUtility.ParseQueryString(uriBuilder.Query);
             query["token"] = token;
+
             query["userid"] = userFromDb.Id;
             uriBuilder.Query = query.ToString();
-            var urlString = uriBuilder.ToString();
+
+
+            var url = uriBuilder.ToString();
+
+            var urlString = $"Hello : {user.DisplayName}  " +
+                "please Confirm your Email address by clicking on the following link  :  " +
+
+                $"{url}"
+                ;
+
 
             var senderEmail = _config["ReturnPaths:SenderEmail"];
 
@@ -110,6 +188,8 @@ namespace StoreApi.Controllers
                 PhoneNumber = user.PhoneNumber,
                 City = user.City,
                 Street = user.Street,
+                statu = true,
+                Message = "تم تسجيل جديد بنجاح. يرجى تأكيد عنوان بريدك الإلكتروني عن طريق النقر على رابط التأكيد المرسل إليك"
             };
         }
 

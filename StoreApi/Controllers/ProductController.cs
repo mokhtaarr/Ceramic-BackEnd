@@ -131,5 +131,15 @@ namespace StoreApi.Controllers
         {
             return Ok(_context.MS_ItemCardView.ToList());
         }
+
+        [HttpGet("GetAllProductName")]
+
+        public async Task<IActionResult> GetAllProductName()
+        {
+            return Ok(await _context.MsItemCards
+             .Select(p => new { productName = p.ItemDescA , productNameEn = p.ItemDescE })
+             .ToListAsync());
+
+        }
     }
 }

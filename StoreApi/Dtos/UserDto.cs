@@ -8,5 +8,8 @@
         public string City { get; set; }
         public string Street { get; set; }
         public string Token { get; set; }
+
+        public string Message { get; set; } 
+        public bool statu { get; set; }
     }
 }

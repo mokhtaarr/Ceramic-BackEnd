@@ -41,6 +41,7 @@ namespace StoreApi.Controllers
                 TaxesId1 = dto.Header_TaxesId1 == 0 ? null : dto.Header_TaxesId1,
                 TaxesId2 = dto.Header_TaxesId2 == 0 ? null : dto.Header_TaxesId2,
                 TaxesId3 = dto.Header_TaxesId3 == 0 ? null : dto.Header_TaxesId3,
+                IsWebsite = true
 
                 //Remarks = dto.Remarks,
                 //Rate = dto.Header_Rate,
@@ -96,6 +97,7 @@ namespace StoreApi.Controllers
                     SalesOfferId = salesOrder.SalesOfferId,
                     ItemCardId = item.ItemCardId,
                     Price = item.Price,
+                    Quantity = item.Quantity,
                     ItemType = itmType.ItemType,
                     TaxesId1 = item.Detail_TaxesId1 == 0 ? null : item.Detail_TaxesId1,
                     TaxesId2 = item.Detail_TaxesId2 == 0 ? null : item.Detail_TaxesId2,

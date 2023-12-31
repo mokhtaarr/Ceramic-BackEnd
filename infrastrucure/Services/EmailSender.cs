@@ -19,29 +19,48 @@ namespace infrastrucure.Services
             _config = config;
 
         }
-        public async Task SendEmailAsync(string fromAddress, string toAddress, string subject, string message)
-        {
+        //public async Task SendEmailAsync(string fromAddress, string toAddress, string subject, string message)
+        //{
+        //    var mailMessage = new MailMessage(fromAddress, toAddress, subject, message);
+        //    using (var smtp = new SmtpClient())
+        //    {
+        //        var credential = new NetworkCredential
+        //        {
+        //            UserName = "eldoliaeldolia@gmail.com",
+        //            Password = "ntchwlibrrkpejkv"
+        //        };
+        //        try
+        //        {
+        //            smtp.Host = "smtp.gmail.com";
+        //            smtp.Port = 587;
+        //            smtp.EnableSsl = true;
+        //            smtp.UseDefaultCredentials = false;
+        //            smtp.Credentials = credential;
+        //            smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+        //            smtp.Send(mailMessage);
+        //            await smtp.SendMailAsync(mailMessage);
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            throw;
+        //        }
+        //    }
+           
+        //}
 
-            //var mailMessage = new MailMessage(fromAddress, toAddress, subject, message);
-            //using (var client = new SmtpClient(_config["SMTP:Host"], int.Parse(_config["SMTP:Port"]))
-            //{
-            //    Credentials = new NetworkCredential(_config["SMTP:Username"], _config["SMTP:Password"])
-            //})
-            //{
-            //    await client.SendMailAsync(mailMessage);
-            //}
-
+         public async Task SendEmailAsync(string fromAddress, string toAddress, string subject, string message)
+         {
             var mailMessage = new MailMessage(fromAddress, toAddress, subject, message);
             using (var smtp = new SmtpClient())
             {
                 var credential = new NetworkCredential
                 {
-                    UserName = "eldoliaeldolia@gmail.com",
-                    Password = "ntchwlibrrkpejkv"
+                    UserName = "Info@beshayholding.com",
+                    Password = "Eldolia@123456"
                 };
                 try
                 {
-                    smtp.Host = "smtp.gmail.com";
+                    smtp.Host = "mail.beshayholding.com";
                     smtp.Port = 587;
                     smtp.EnableSsl = true;
                     smtp.UseDefaultCredentials = false;
@@ -56,6 +75,6 @@ namespace infrastrucure.Services
                 }
             }
            
-        }
+         }
     }
 }

@@ -1,6 +1,7 @@
 using DAL.Identity;
 using DAL.Models;
 using DAL.Smtp;
+using infrastrucure.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
@@ -10,6 +11,19 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MoDbContext>(options => options.UseSqlServer(SmtpConfig.GetConnectionString()));
+
+builder.Services.AddDbContext<AppIdentityDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
+});
+builder.Services.AddIdentityCore<AppUser>(opt =>
+{
+   
+})
+    .AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders()
+    .AddSignInManager<SignInManager<AppUser>>();
+
+
 builder.Services.AddMvc().AddNToastNotifyToastr(new ToastrOptions()
 {
     ProgressBar = true,

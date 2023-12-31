@@ -1,0 +1,96 @@
+﻿@model PaginatedViewModel<OrderDataDto>
+
+
+<div class="mt-4">
+     @if (!Model.Items.Any())
+    {
+        <div class="alert alert-warning" role="alert">
+            no Order Found!
+        </div>
+    }
+    else
+    {
+        <div class="container">
+        @foreach (var order in Model.Items)
+            {
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>Order Number: @order.SalesOfferId</h5>
+                        <p>Customer Name: @order.CustomerDescA</p>
+                        <p>Phone: @order.CustomerCode</p>
+                        <p>Created At: @order.CreatedAt</p>
+                        <p>Order Total: @order.NotPaid?.ToString("F2")</p>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>product Name</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var detail in order.Details)
+                                {
+                                    <tr>
+                                        <td>@detail.ItemDescA</td>
+                                        <td>@detail.Quantity</td>
+                                        <td>@detail.Price?.ToString("F2")</td>
+                                        @*<td>@Math.Round(detail.Price * detail.Quantity, 2).ToString("F2")</td>*@
+                                       <td>@Math.Round((detail.Price ?? 0) * detail.Quantity, 2).ToString("F2")</td>
+
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer d-flex justify-content-end">
+                        <a href="javascript:;" class="btn btn-outline-primary js-accept" data-id="@order.SalesOfferId">
+                                   تم التنفيذ
+                            <i class="bi bi-check-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            }
+
+        <!-- Pagination Controls -->
+        <div class="mt-4">
+            <ul class="pagination">
+                @for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                        <a class="page-link" href="?page=@i">@i</a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        </div>
+        }
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function (){
+            $('.js-accept').on('click',function(){
+                var btn = $(this);
+                var result = confirm('هل تم تنفيذ الطلب ؟');
+                if(result){
+                    $.ajax({
+                        url: '/UsersOrder/OrderAccept/' + btn.data('id'),
+                        success:function(){
+                            btn.parents('.card').fadeOut();
+                            toastr.success('تم تاكيد تنفيذ الطلب بنجاح')
+
+                        },
+                        error: function () {
+                            toastr.error('حدث خطا يرجي المحاوله مره اخرى')
+                        }
+                    })
+                }
+            });
+        });
+    </script>
+}

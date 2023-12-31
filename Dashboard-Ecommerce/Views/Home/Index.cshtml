@@ -1,49 +1,85 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    .card-link {
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.3s, box-shadow 0.3s;
+        display: block;
+    }
 
+        .card-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+        }
+</style>
 <div class="text-center">
     <!-- Sale & Revenue Start -->
-    @*<div class="container-fluid pt-4 px-4">
+    <div class="container-fluid pt-4 px-4">
         <div class="row g-4">
+
             <div class="col-sm-6 col-xl-3">
-                <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                    <i class="fa fa-chart-line fa-3x text-primary"></i>
-                    <div class="ms-3">
-                        <p class="mb-2">Today Sale</p>
-                        <h6 class="mb-0">$1234</h6>
+                <a href="/UsersOrder/Index" class="card-link">
+                    <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                        <i class="fa fa-chart-line fa-3x text-primary"></i>
+                        <div class="ms-3">
+                            <p class="mb-2">Client Orders</p>
+                            <h6 class="mb-0">@ViewBag.CustomerOrders</h6>
+                        </div>
                     </div>
-                </div>
+                </a> 
             </div>
             <div class="col-sm-6 col-xl-3">
-                <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                    <i class="fa fa-chart-bar fa-3x text-primary"></i>
-                    <div class="ms-3">
-                        <p class="mb-2">Total Sale</p>
-                        <h6 class="mb-0">$1234</h6>
+                <a href="/OurCustomer/Index" class="card-link">
+                    <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                        <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                        <div class="ms-3">
+                            <p class="mb-2">Customers</p>
+                            <h6 class="mb-0">@ViewBag.CustomerCount</h6>
+                        </div>
                     </div>
-                </div>
+                    </a>
             </div>
             <div class="col-sm-6 col-xl-3">
-                <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <a href="/Products/Index" class="card-link">
+                    <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                     <i class="fa fa-chart-area fa-3x text-primary"></i>
                     <div class="ms-3">
-                        <p class="mb-2">Today Revenue</p>
-                        <h6 class="mb-0">$1234</h6>
-                    </div>
+                        <p class="mb-2">Products</p>
+                            <h6 class="mb-0">@ViewBag.Products</h6>
+                        </div>
                 </div>
+                </a>
+                
             </div>
             <div class="col-sm-6 col-xl-3">
-                <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                <a href="/Category/Index" class="card-link">
+                    <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                     <i class="fa fa-chart-pie fa-3x text-primary"></i>
                     <div class="ms-3">
-                        <p class="mb-2">Total Revenue</p>
-                        <h6 class="mb-0">$1234</h6>
+                            <p class="mb-2">Categories</p>
+                            <h6 class="mb-0">@ViewBag.Categories</h6>
                     </div>
                 </div>
+                </a>
+               
+            </div>
+
+            <div class="col-sm-6 col-xl-3">
+                <a href="/Brand/Index" class="card-link">
+                    <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                        <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                        <div class="ms-3">
+                            <p class="mb-2">Brands</p>
+                            <h6 class="mb-0">@ViewBag.Brands</h6>
+                        </div>
+                    </div>
+                </a>
+
             </div>
         </div>
-    </div>*@
+    </div>
     <!-- Sale & Revenue End -->
     <!-- Sales Chart Start -->
     @*<div class="container-fluid pt-4 px-4">
@@ -70,7 +106,7 @@
     </div>*@
     <!-- Widgets Start -->
 
-    <div class="container my-5">
+    @*<div class="container my-5">
         <div class="bg-light p-5 rounded">
             <div class="col-sm-8 py-5 mx-auto text-center">
                 <img src="~/content/images/StaticImages/Eldwlia.jpg" class="img-fluid" alt="صورة متجاوبة"> 
@@ -78,7 +114,7 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div>*@
 
     <div class="container-fluid pt-4 px-4">
         <div class="row g-4">

@@ -34,8 +34,7 @@ builder.Services.AddDbContext<AppIdentityDbContext>(opt =>
 
 builder.Services.AddIdentityCore<AppUser>(opt =>
 {
-    opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
-    opt.User.AllowedUserNameCharacters = "Ï Ì Í Î å Ú Û Ý Þ Ë Õ Ö Ð Ô Ó í È á Ç Ê ä ã ß Ø Ù Ò æ É ì áÇ Ñ Ä Á Æ ";
+    opt.User.AllowedUserNameCharacters = "Ï Ì Í Î å Ú Û Ý Þ Ë Õ Ö Ð Ô Ó í È á Ç Ê ä ã ß Ø Ù Ò æ É ì áÇ Ñ Ä Á Æ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+ ";
     opt.Password.RequireDigit = false;
     opt.Password.RequireLowercase = false;
     opt.Password.RequireUppercase = false;
@@ -44,6 +43,7 @@ builder.Services.AddIdentityCore<AppUser>(opt =>
 
     opt.User.RequireUniqueEmail = true;
     opt.SignIn.RequireConfirmedEmail = true;
+
 })
     .AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders()
     .AddSignInManager<SignInManager<AppUser>>();

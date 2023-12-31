@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj": {}
+    "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj": {}
   },
   "projects": {
-    "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
+    "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
+        "projectUniqueName": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-        "outputPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\obj\\",
+        "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Facebook\\.nuget\\packages\\",
+        "outputPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Facebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,21 +81,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj": {
+    "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj",
+        "projectUniqueName": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj",
         "projectName": "Dashboard-Ecommerce",
-        "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj",
-        "packagesPath": "C:\\Users\\AcTivE\\.nuget\\packages\\",
-        "outputPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\obj\\",
+        "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\Dashboard-Ecommerce.csproj",
+        "packagesPath": "C:\\Users\\Facebook\\.nuget\\packages\\",
+        "outputPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AcTivE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Facebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -109,8 +109,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj"
+              "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
+                "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj"
+              },
+              "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
+                "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj"
               }
             }
           }
@@ -171,7 +174,84 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+        "projectName": "infrastrucure",
+        "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+        "packagesPath": "C:\\Users\\Facebook\\.nuget\\packages\\",
+        "outputPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Facebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
+                "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,7 +14,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="~/content/images/StaticImages/admin.png" rel="icon">
+    <link href="~/content/images/Beshai Logo_Final Ceramic Final-01.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,6 +35,7 @@
     <!-- Template Stylesheet -->
     <link href="~/content/css/style.css" rel="stylesheet">
     <link href="~/content/lib/animate.css/animate.min.css" rel="stylesheet" />
+    
 </head>
 
 <body>
@@ -51,9 +52,11 @@
 
             <nav class="navbar bg-light navbar-light">
                 <a asp-action="Index" asp-controller="Home" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary" style="font-size:larger">Eldolia DashBoard</h3>
+                   @* <h3 class="text-primary" style="font-size:larger">Eldolia DashBoard</h3>*@
+                    <img src="~/content/images/Beshai Logo_Final Ceramic Final-01.png" style="width:150px"/>
+
                 </a>
-                <div class="d-flex align-items-center ms-4 mb-4">
+             @*   <div class="d-flex align-items-center ms-4 mb-4">
                    
          
 
@@ -67,7 +70,7 @@
                     <div class="ms-3">
                         <a href="" class="mb-0" style="text-decoration:none;font-weight: 700;line-height: 1.2;color: #191C24;">Admin</a>
                     </div>
-                </div>
+                </div>*@
 
                 <div class="navbar-nav w-100">
                      <a asp-action="Index" asp-controller="Home" class="nav-item nav-link"><i class="fa fa-home me-2" aria-hidden="true"></i>Home Page</a>
@@ -105,10 +108,12 @@
                         </div>
                     </div>
 
-                    <a asp-action="Index" asp-controller="Users" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> Users Orders</a>
+                    <a asp-action="Index" asp-controller="Members" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> Our Members</a>
+                    <a asp-action="Index" asp-controller="OurCustomer" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> Our Customer</a>
+                    <a asp-action="Index" asp-controller="UsersOrder" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> Client Orders</a>
                     <a asp-action="SignUp" asp-controller="User" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> Resgister</a>
-                    <a asp-action="SignIn" asp-controller="User" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> SignIn</a>
-
+@*                    <a asp-action="SignIn" asp-controller="User" class="nav-item nav-link"><i class="fa fa-user-circle" aria-hidden="true"></i> SignIn</a>
+*@
                     
                 </div>
             </nav>
@@ -124,11 +129,11 @@
                 <a href="#" class="sidebar-toggler flex-shrink-0">
                     <i class="fa fa-bars"></i>
                 </a>
-                <form class="d-flex" asp-controller="Products" asp-action="Search">
+               @* <form class="d-flex FormHidden" asp-controller="Products" asp-action="Search">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" name="term" style="margin-right:5px;margin-left:10px;" />
                     <button type="submit" class="btn btn-outline-success btn-sm">Search</button>
                     <a asp-controller="Products" asp-action="index" class="btn btn-secondary btn-sm" style="font-size: initial;margin-left:5px;">Reset</a>
-                </form>
+                </form>*@
                 <div class="navbar-nav align-items-center ms-auto">
                  
                     <div class="nav-item dropdown">
