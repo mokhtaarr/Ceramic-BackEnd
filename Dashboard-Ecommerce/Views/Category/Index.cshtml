@@ -1,11 +1,15 @@
 ﻿@model IPagedList<MsItemCategory>
 
 @{
-    ViewData["Title"] = "Our Categories";
+    ViewData["Title"] = "Our Types";
 }
 <link href="~/content/pagedlist.css" rel="stylesheet" />
 
-<h1>View All Category</h1>
+<h1>View All Types</h1>
+
+<hr />
+
+
 
 <div class="mt-4">
     @if (!Model.Any())
@@ -15,6 +19,44 @@
         </div>
     }else
     {
+        <form id="frmCreate" method="post" asp-action="IndexFilter">
+            <div class="row d-flex justify-content-end">
+
+                <div class="col-md-2">
+                    <div class="mb-3 custom-form mt-4">
+                        <a class="btn btn-outline-secondary" asp-action="index">إلغاء</a>
+
+                        <button type="submit" class="btn btn-primary">بحث </button>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="mb-3 custom-form">
+                        <label for="productname" class="d-flex justify-content-end">ابحث  باسم الفئه</label>
+                        <select id="ItemCatDescA" name="ItemCatDescA" class="form-control select2" style="direction:rtl;background-color:white;">
+                            <option></option>
+                            @foreach (var cat in Model)
+                            {
+                                @if (ViewBag.SelectedItemCatDescA == cat.ItemCatDescA)
+                                {
+                                    <option selected>@cat.ItemCatDescA</option>
+                                }
+                                else
+                                {
+                                    <option>@cat.ItemCatDescA</option>
+
+                                }
+
+                            }
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
         <div class="table-responsive">
             <table class="table text-start align-middle table-bordered table-hover mb-0">
                 <thead>

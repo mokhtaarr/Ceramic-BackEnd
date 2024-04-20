@@ -10,6 +10,7 @@
         public string Token { get; set; }
 
         public string Message { get; set; } 
+        public string MessageEn { get; set; }
         public bool statu { get; set; }
     }
 }

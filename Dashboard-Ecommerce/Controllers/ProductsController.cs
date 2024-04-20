@@ -30,11 +30,14 @@ namespace Dashboard_Ecommerce.Controllers
             var products = (from itemCard in _context.MsItemCards
                             join itemunit in _context.MsItemUnits on itemCard.ItemCardId equals itemunit.ItemCardId
                             join img in _context.MsItemImages on itemCard.ItemCardId equals img.ItemCardId
+                            where itemCard.IsSalesStopped == null
                             select new
                             {
                                 itemCard.ItemCardId,
                                 itemCard.ItemDescA,
                                 itemCard.ItemDescE,
+                                itemCard.ProductDescA,
+                                itemCard.ProductDescE,
                                 Price1 = $"{itemunit.Price1:F2}", // تنسيق السعر هنا
                                 PurchDisc = $"{itemunit.PurchDisc:F2}", // تنسيق PurchDisc هنا
                                 Price3 = $"{itemunit.Price3:F2}", // تنسيق Price3 هنا
@@ -55,12 +58,14 @@ namespace Dashboard_Ecommerce.Controllers
             var products = (from itemCard in _context.MsItemCards
                             join itemunit in _context.MsItemUnits on itemCard.ItemCardId equals itemunit.ItemCardId
                             join img in _context.MsItemImages on itemCard.ItemCardId equals img.ItemCardId
-                            where itemCard.ItemDescA.Contains(term) || itemCard.ItemDescE.Contains(term)
+                            where (itemCard.ItemDescA.Contains(term) || itemCard.ItemDescE.Contains(term)) && itemCard.IsSalesStopped == null
                             select new
                             {
                                 itemCard.ItemCardId,
                                 itemCard.ItemDescA,
                                 itemCard.ItemDescE,
+                                itemCard.ProductDescA,
+                                itemCard.ProductDescE,
                                 itemunit.Price1,
                                 itemunit.PurchDisc,
                                 itemunit.Price3,
@@ -71,6 +76,10 @@ namespace Dashboard_Ecommerce.Controllers
                                 img.ImgPath5,
                                 img.ImgPath6,
                             }).ToPagedList(pageIndex,pageSize);
+            if(term != string.Empty)
+            {
+                ViewBag.term = term;
+            }
             return View("Index", products);
         }
 
@@ -191,7 +200,7 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                fileName = dto.UploadFile.FileName;
+                fileName = Guid.NewGuid().ToString() + dto.UploadFile.FileName;
                 string fullPath = Path.Combine(uploads, fileName);
                 dto.UploadFile.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
@@ -202,7 +211,7 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile2 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                fileName2 = dto.UploadFile2.FileName;
+                fileName2 = Guid.NewGuid().ToString() + dto.UploadFile2.FileName;
                 string fullPath = Path.Combine(uploads, fileName2);
                 dto.UploadFile2.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
@@ -212,7 +221,7 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile3 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                fileName3 = dto.UploadFile3.FileName;
+                fileName3 = Guid.NewGuid().ToString() + dto.UploadFile3.FileName;
                 string fullPath = Path.Combine(uploads, fileName3);
                 dto.UploadFile3.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
@@ -222,7 +231,7 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile4 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                fileName4 = dto.UploadFile4.FileName;
+                fileName4 = Guid.NewGuid().ToString() + dto.UploadFile4.FileName;
                 string fullPath = Path.Combine(uploads, fileName4);
                 dto.UploadFile4.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
@@ -232,7 +241,7 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile5 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                fileName5 = dto.UploadFile5.FileName;
+                fileName5 = Guid.NewGuid().ToString() + dto.UploadFile5.FileName;
                 string fullPath = Path.Combine(uploads, fileName5);
                 dto.UploadFile5.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
@@ -242,7 +251,7 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile6 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                fileName6 = dto.UploadFile6.FileName;
+                fileName6 = Guid.NewGuid().ToString() + dto.UploadFile6.FileName;
                 string fullPath = Path.Combine(uploads, fileName6);
                 dto.UploadFile6.CopyTo(new FileStream(fullPath, FileMode.Create));
             }
@@ -254,6 +263,8 @@ namespace Dashboard_Ecommerce.Controllers
                 ItemDescE = dto.ItemDescE,
                 BrandId = dto.BrandId,
                 ItemCategoryId = dto.ItemCategoryId,
+                ProductDescA = dto.ProductDescA,
+                ProductDescE = dto.ProductDescE,
                 //QtyPartiation = dto.QtyPartiation,
                 //TotalCost = dto.TotalCost,
                 //Discount = dto.Discount,
@@ -318,6 +329,10 @@ namespace Dashboard_Ecommerce.Controllers
                 ItemCardId = prd.ItemCardId, 
                 ItemDescA = prd.ItemDescA,
                 ItemDescE = prd.ItemDescE,
+            // التعديل الخاص بالوصف بتاع المنتج
+
+                ProductDescA = prd.ProductDescA,
+                ProductDescE = prd.ProductDescE,
                 //QtyPartiation = (int)prd.QtyPartiation,
                 TotalCost = (decimal)unit.Price1,
                 Discount = (decimal)unit.PurchDisc,
@@ -365,15 +380,9 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                FileName = dto.UploadFile.FileName;
+                FileName = Guid.NewGuid().ToString() + dto.UploadFile.FileName;
                 string FullPath = Path.Combine(uploads, FileName);
 
-                // حذف الملف القديم إذا كان موجودًا
-                if (!string.IsNullOrEmpty(img.ImgPath))
-                {
-                    string FullOldPath = Path.Combine(uploads,img.ImgPath);
-                    System.IO.File.Delete(FullOldPath);
-                }
                 dto.UploadFile.CopyTo(new FileStream(FullPath, FileMode.Create));
 
             }
@@ -384,16 +393,8 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile2 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                FileName2 = dto.UploadFile2.FileName;
+                FileName2 = Guid.NewGuid().ToString() + dto.UploadFile2.FileName;
                 string FullPath = Path.Combine(uploads, FileName2);
-
-                // حذف الملف القديم إذا كان موجودًا
-                if (!string.IsNullOrEmpty(img.ImgPath2))
-                {
-                    string FullOldPath = Path.Combine(uploads, img.ImgPath2);
-                    System.IO.File.Delete(FullOldPath);
-                }
-
 
 
                 using (FileStream stream = new FileStream(FullPath, FileMode.Create))
@@ -408,16 +409,9 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile3 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                FileName3 = dto.UploadFile3.FileName;
+                FileName3 = Guid.NewGuid().ToString() + dto.UploadFile3.FileName;
                 string FullPath = Path.Combine(uploads, FileName3);
 
-                // حذف الملف القديم إذا كان موجودًا
-                if (!string.IsNullOrEmpty(img.ImgPath3))
-                {
-                    string FullOldPath = Path.Combine(uploads, img.ImgPath3);
-                    System.IO.File.Delete(FullOldPath);
-
-                }
 
                 using (FileStream stream = new FileStream(FullPath, FileMode.Create))
                 {
@@ -430,15 +424,10 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile4 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                FileName4 = dto.UploadFile4.FileName;
+                FileName4 = Guid.NewGuid().ToString() + dto.UploadFile4.FileName;
                 string FullPath = Path.Combine(uploads, FileName4);
 
-                // حذف الملف القديم إذا كان موجودًا
-                if (!string.IsNullOrEmpty(img.ImgPath4))
-                {
-                    string FullOldPath = Path.Combine(uploads, img.ImgPath4);
-                    System.IO.File.Delete(FullOldPath);
-                }
+               
                 using (FileStream stream = new FileStream(FullPath, FileMode.Create))
                 {
                     dto.UploadFile4.CopyTo(stream);
@@ -450,15 +439,10 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile5 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                FileName5 = dto.UploadFile5.FileName;
+                FileName5 = Guid.NewGuid().ToString() + dto.UploadFile5.FileName;
                 string FullPath = Path.Combine(uploads, FileName5);
 
-                // حذف الملف القديم إذا كان موجودًا
-                if (!string.IsNullOrEmpty(img.ImgPath4))
-                {
-                    string FullOldPath = Path.Combine(uploads, img.ImgPath5);
-                    System.IO.File.Delete(FullOldPath);
-                }
+                
 
                 using (FileStream stream = new FileStream(FullPath, FileMode.Create))
                 {
@@ -471,15 +455,10 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.UploadFile6 != null)
             {
                 string uploads = Path.Combine(hosting.WebRootPath, "Products");
-                FileName6 = dto.UploadFile6.FileName;
+                FileName6 = Guid.NewGuid().ToString() + dto.UploadFile6.FileName;
                 string FullPath = Path.Combine(uploads, FileName6);
 
-                // حذف الملف القديم إذا كان موجودًا
-                if (!string.IsNullOrEmpty(img.ImgPath6))
-                {
-                    string FullOldPath = Path.Combine(uploads, img.ImgPath6);
-                    System.IO.File.Delete(FullOldPath);
-                }
+             
                 using (FileStream stream = new FileStream(FullPath, FileMode.Create))
                 {
                     dto.UploadFile6.CopyTo(stream);
@@ -488,6 +467,11 @@ namespace Dashboard_Ecommerce.Controllers
             }
             prd.ItemDescA = dto.ItemDescA;
             prd.ItemDescE = dto.ItemDescE;
+
+            // التعديل الخاص بالوصف 
+            prd.ProductDescA = dto.ProductDescA;
+            prd.ProductDescE = dto.ProductDescE;
+
             prd.BrandId = dto.BrandId;
             prd.ItemCategoryId = dto.ItemCategoryId;
             unit.Price1 = dto.TotalCost;
@@ -546,68 +530,77 @@ namespace Dashboard_Ecommerce.Controllers
                 if (prd == null)
                     return NotFound();
 
-                var imagesToDelete = await _context.MsItemImages
-                    .Where(p => p.ItemCardId == id)
-                    .ToListAsync();
-
-                foreach (var img in imagesToDelete)
-                {
-                    // حذف الملف القديم إذا كان موجودًا
-                    if (!string.IsNullOrEmpty(img.ImgPath))
-                    {
-                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath);
-                        System.IO.File.Delete(FullPath);
-                    }
-
-                    if (!string.IsNullOrEmpty(img.ImgPath2))
-                    {
-                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath2);
-                        System.IO.File.Delete(FullPath);
-                    }
-
-                    if (!string.IsNullOrEmpty(img.ImgPath3))
-                    {
-                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath3);
-                        System.IO.File.Delete(FullPath);
-                    }
-
-                    if (!string.IsNullOrEmpty(img.ImgPath4))
-                    {
-                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath4);
-                        System.IO.File.Delete(FullPath);
-                    }
-
-                    if (!string.IsNullOrEmpty(img.ImgPath5))
-                    {
-                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath5);
-                        System.IO.File.Delete(FullPath);
-                    }
-
-
-                    if (!string.IsNullOrEmpty(img.ImgPath6))
-                    {
-                        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath6);
-                        System.IO.File.Delete(FullPath);
-                    }
-
-
-                    _context.MsItemImages.Remove(img);
-                }
-
-                // حذف جميع الصفوف من جدول الصور
-                _context.MsItemImages.RemoveRange(imagesToDelete);
-
-                var units = await _context.MsItemUnits
-                    .Where(p => p.ItemCardId == id)
-                    .ToListAsync();
-                _context.MsItemUnits.RemoveRange(units);
-
-                // حذف الصف من جدول البيانات الرئيسي
-                _context.MsItemCards.Remove(prd);
-
-                await _context.SaveChangesAsync();
+                 prd.IsSalesStopped = true;
+                _context.SaveChanges();
 
                 return Ok();
+
+
+
+
+
+                //var imagesToDelete = await _context.MsItemImages
+                //    .Where(p => p.ItemCardId == id)
+                //    .ToListAsync();
+
+                //foreach (var img in imagesToDelete)
+                //{
+                //    // حذف الملف القديم إذا كان موجودًا
+                //    if (!string.IsNullOrEmpty(img.ImgPath))
+                //    {
+                //        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath);
+                //        System.IO.File.Delete(FullPath);
+                //    }
+
+                //    if (!string.IsNullOrEmpty(img.ImgPath2))
+                //    {
+                //        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath2);
+                //        System.IO.File.Delete(FullPath);
+                //    }
+
+                //    if (!string.IsNullOrEmpty(img.ImgPath3))
+                //    {
+                //        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath3);
+                //        System.IO.File.Delete(FullPath);
+                //    }
+
+                //    if (!string.IsNullOrEmpty(img.ImgPath4))
+                //    {
+                //        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath4);
+                //        System.IO.File.Delete(FullPath);
+                //    }
+
+                //    if (!string.IsNullOrEmpty(img.ImgPath5))
+                //    {
+                //        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath5);
+                //        System.IO.File.Delete(FullPath);
+                //    }
+
+
+                //    if (!string.IsNullOrEmpty(img.ImgPath6))
+                //    {
+                //        string FullPath = Path.Combine(hosting.WebRootPath, "Products", img.ImgPath6);
+                //        System.IO.File.Delete(FullPath);
+                //    }
+
+
+                //    _context.MsItemImages.Remove(img);
+                //}
+
+                // حذف جميع الصفوف من جدول الصور
+                //_context.MsItemImages.RemoveRange(imagesToDelete);
+
+                //var units = await _context.MsItemUnits
+                //    .Where(p => p.ItemCardId == id)
+                //    .ToListAsync();
+                //_context.MsItemUnits.RemoveRange(units);
+
+                //// حذف الصف من جدول البيانات الرئيسي
+                //_context.MsItemCards.Remove(prd);
+
+                //await _context.SaveChangesAsync();
+
+                //return Ok();
             }
             catch (Exception ex)
             {

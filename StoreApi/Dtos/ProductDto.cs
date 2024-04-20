@@ -5,6 +5,9 @@
         public int ItemCardId { get; set; }
         public string ItemDescA { get; set; }
         public string ItemDescE { get; set; }
+        public string ProductDescA { get; set; }
+        public string ProductDescE { get; set; }
+
         public decimal FirstPrice { get; set; }
         public string TaxItemCode { get; set; }
         public string ImgPath2 { get; set; }

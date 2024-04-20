@@ -24,10 +24,27 @@ namespace Dashboard_Ecommerce.Controllers
             _toastNotification = toastNotification;
             _hosting = hosting;
         }
+
+        [HttpGet]
         public async Task<IActionResult> Index(int pageIndex = 1, int pageSize = 50)
         {
-            var Brands = await _context.SrBrands.ToPagedListAsync(pageIndex,pageSize);
+            var Brands = await _context.SrBrands.OrderByDescending(b=>b.BrandId).ToPagedListAsync(pageIndex,pageSize);
             return View(Brands);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> IndexFilter(int pageIndex = 1, int pageSize = 50,string DescA = "")
+        {
+            IPagedList<SrBrand> Brands = await _context.SrBrands.ToPagedListAsync(pageIndex, pageSize);
+
+            if(DescA != string.Empty)
+            {
+                Brands = await _context.SrBrands.Where(b=>b.DescA == DescA).ToPagedListAsync(pageIndex, pageSize);
+                ViewBag.SelectedDescA = DescA; 
+
+            }
+
+            return View("Index", Brands);
         }
 
         public IActionResult Create()
@@ -37,7 +54,6 @@ namespace Dashboard_Ecommerce.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult Create(BrandDto dto)
         {
             if (!ModelState.IsValid)
@@ -51,7 +67,7 @@ namespace Dashboard_Ecommerce.Controllers
             if(dto.ImageFile != null)
             {
                 string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
-                FileName = dto.ImageFile.FileName;
+                FileName = Guid.NewGuid().ToString() + dto.ImageFile.FileName;
                 string FullPath = Path.Combine(uploads, FileName);
                 dto.ImageFile.CopyTo(new FileStream(FullPath, FileMode.Create));
                 BrandHaveImage = true;
@@ -117,15 +133,8 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.ImageFile != null)
             {
                 string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
-                FileName = dto.ImageFile.FileName;
+                FileName = Guid.NewGuid().ToString() + dto.ImageFile.FileName;
                 string FullPath = Path.Combine(uploads, FileName);
-
-                // حذف الملف القديم إذا كان موجودًا
-                if (!string.IsNullOrEmpty(brand.ImagePath))
-                {
-                    string FullOldPath = Path.Combine(uploads, brand.ImagePath);
-                    System.IO.File.Delete(FullOldPath);
-                }
 
                 dto.ImageFile.CopyTo(new FileStream(FullPath, FileMode.Create));
                 BrandHaveImage = true;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MNAj7nS24pIUmucsLErXvPZx1s+X0/HQwPbQfCm30rBJqei/Z2q79ClI8pSu6QWlJxThxa89VgDBi9qsB2yAgg==",
+  "dgSpecHash": "uDLvse2l+umiLJttiU4xONSSkIOqVlUWt/HTSjz5Y3+sUDHVGWQP2hJAtgrT1IEW5rTa0+n8TlXojzDYGml7ow==",
   "success": true,
-  "projectFilePath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\StoreApi.csproj",
+  "projectFilePath": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\StoreApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Facebook\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Facebook\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

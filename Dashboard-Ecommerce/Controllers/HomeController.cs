@@ -20,7 +20,7 @@ namespace Dashboard_Ecommerce.Controllers
 
         public IActionResult Index()
         {
-            ViewData["CustomerOrders"] = _db.MsSalesOffers.Where(c => c.DeletedAt == null).Count();
+            ViewData["CustomerOrders"] = _db.MsSalesOffers.Where(c => c.CloseDate == null).Count();
             ViewData["CustomerCount"] = _db.MsCustomers.Where(c=>c.DeletedAt == null).Count();
             ViewData["Products"] = _db.MsItemCards.Where(c=>c.DeletedAt == null).Count();
             ViewData["Categories"] = _db.MsItemCategories.Where(c=>c.DeletedAt == null).Count();

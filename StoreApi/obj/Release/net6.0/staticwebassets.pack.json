@@ -1,92 +1,176 @@
 {
   "Files": [
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CeramikWalls.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\UnvaliabProducts\\0971efe6-fb6e-40df-a195-2bdcb2b2fec1_loggo.png",
+      "PackagePath": "staticwebassets\\UnvaliabProducts\\0971efe6-fb6e-40df-a195-2bdcb2b2fec1_loggo.png"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\UnvaliabProducts\\25112e4a-945c-4bc8-9aea-f8c825b81e42_بلاط.jpg",
+      "PackagePath": "staticwebassets\\UnvaliabProducts\\25112e4a-945c-4bc8-9aea-f8c825b81e42_بلاط.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\UnvaliabProducts\\895daf61-1d48-48ca-8a2d-212c2ede6229_loggo.png",
+      "PackagePath": "staticwebassets\\UnvaliabProducts\\895daf61-1d48-48ca-8a2d-212c2ede6229_loggo.png"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CeramikWalls.png",
       "PackagePath": "staticwebassets\\images\\products\\CeramikWalls.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath1.png",
       "PackagePath": "staticwebassets\\images\\products\\ChineseBath1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath2.png",
       "PackagePath": "staticwebassets\\images\\products\\ChineseBath2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ChineseBath3.png",
       "PackagePath": "staticwebassets\\images\\products\\ChineseBath3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CleopatraCeramics1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CleopatraCeramics1.png",
       "PackagePath": "staticwebassets\\images\\products\\CleopatraCeramics1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CleopatraCeramics2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\CleopatraCeramics2.png",
       "PackagePath": "staticwebassets\\images\\products\\CleopatraCeramics2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble1.png",
       "PackagePath": "staticwebassets\\images\\products\\EgyptionMarble1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble2.png",
       "PackagePath": "staticwebassets\\images\\products\\EgyptionMarble2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMarble3.png",
       "PackagePath": "staticwebassets\\images\\products\\EgyptionMarble3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMixer1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMixer1.png",
       "PackagePath": "staticwebassets\\images\\products\\EgyptionMixer1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMixer2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\EgyptionMixer2.png",
       "PackagePath": "staticwebassets\\images\\products\\EgyptionMixer2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\Floor1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\Floor1.png",
       "PackagePath": "staticwebassets\\images\\products\\Floor1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\FrancItaly1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\FrancItaly1.png",
       "PackagePath": "staticwebassets\\images\\products\\FrancItaly1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\JewellyCeramics1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\JewellyCeramics1.png",
       "PackagePath": "staticwebassets\\images\\products\\JewellyCeramics1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\JewellyCeramics2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\JewellyCeramics2.png",
       "PackagePath": "staticwebassets\\images\\products\\JewellyCeramics2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics1.png",
       "PackagePath": "staticwebassets\\images\\products\\ReemasCeramics1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics2.png",
       "PackagePath": "staticwebassets\\images\\products\\ReemasCeramics2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\ReemasCeramics3.png",
       "PackagePath": "staticwebassets\\images\\products\\ReemasCeramics3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\SpanishCeramics1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\SpanishCeramics1.png",
       "PackagePath": "staticwebassets\\images\\products\\SpanishCeramics1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\TecLight1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\TecLight1.png",
       "PackagePath": "staticwebassets\\images\\products\\TecLight1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\img1.PNG",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\img1.PNG",
       "PackagePath": "staticwebassets\\images\\products\\img1.PNG"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\StoreApi\\wwwroot\\images\\products\\tree.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\images\\products\\tree.jpg",
       "PackagePath": "staticwebassets\\images\\products\\tree.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\18609d2f-289e-4f4e-b98e-77d13713f861_home-bg-white.jpg",
+      "PackagePath": "staticwebassets\\uploads\\18609d2f-289e-4f4e-b98e-77d13713f861_home-bg-white.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\299afa30-4bb6-467e-a80d-c57d695d1cf1_build-rocket.png",
+      "PackagePath": "staticwebassets\\uploads\\299afa30-4bb6-467e-a80d-c57d695d1cf1_build-rocket.png"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\31a0c76f-6203-4353-ab23-c198d42ef30c_Capture.PNG",
+      "PackagePath": "staticwebassets\\uploads\\31a0c76f-6203-4353-ab23-c198d42ef30c_Capture.PNG"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\3de5a453-fe77-434a-bd1b-fdc91eb7c1da_rocket.png",
+      "PackagePath": "staticwebassets\\uploads\\3de5a453-fe77-434a-bd1b-fdc91eb7c1da_rocket.png"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\4f8b8283-bbb2-4e0d-b272-0ec53dc9a4b1_7.jfif",
+      "PackagePath": "staticwebassets\\uploads\\4f8b8283-bbb2-4e0d-b272-0ec53dc9a4b1_7.jfif"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\55f24740-73f0-4cea-a70c-3f2d1a401179_homebgwhite.jpg",
+      "PackagePath": "staticwebassets\\uploads\\55f24740-73f0-4cea-a70c-3f2d1a401179_homebgwhite.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\820037f4-0177-4291-a0dc-bfc91f5cedbc_home-bg-white.jpg",
+      "PackagePath": "staticwebassets\\uploads\\820037f4-0177-4291-a0dc-bfc91f5cedbc_home-bg-white.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\8a5aaead-2827-4536-8b38-2eaa3cb42a5a_homebgwhite.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8a5aaead-2827-4536-8b38-2eaa3cb42a5a_homebgwhite.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\92433461-1b5c-4cdb-b386-9e2b5f459f3e_1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\92433461-1b5c-4cdb-b386-9e2b5f459f3e_1.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\a353a03b-c1b5-4f5f-a5e4-35457bd4dec0_homebgwhite.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a353a03b-c1b5-4f5f-a5e4-35457bd4dec0_homebgwhite.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\aef97f33-f111-4884-a781-ccc4a3bada82_2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\aef97f33-f111-4884-a781-ccc4a3bada82_2.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\af889b34-922c-4b53-9479-3b810659efc0_build-rocket.png",
+      "PackagePath": "staticwebassets\\uploads\\af889b34-922c-4b53-9479-3b810659efc0_build-rocket.png"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\b76d35de-3bf8-4b88-8a0c-1ec159c3f7db_build-rocket.png",
+      "PackagePath": "staticwebassets\\uploads\\b76d35de-3bf8-4b88-8a0c-1ec159c3f7db_build-rocket.png"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\baa06a8f-7199-40ea-a04e-4d3b48fccd09_62f38eb0-7cc1-48cb-8607-3224340e64104.jpg",
+      "PackagePath": "staticwebassets\\uploads\\baa06a8f-7199-40ea-a04e-4d3b48fccd09_62f38eb0-7cc1-48cb-8607-3224340e64104.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\cba6325c-e499-4611-8984-f0ee43de307e_8.jfif",
+      "PackagePath": "staticwebassets\\uploads\\cba6325c-e499-4611-8984-f0ee43de307e_8.jfif"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\cbd7cc21-062e-4a99-b817-6c753c2eeac0_3.jfif",
+      "PackagePath": "staticwebassets\\uploads\\cbd7cc21-062e-4a99-b817-6c753c2eeac0_3.jfif"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\ccef4d49-5bfe-4303-92a8-a86aa509a656_homebgwhite.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ccef4d49-5bfe-4303-92a8-a86aa509a656_homebgwhite.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\StoreApi\\wwwroot\\uploads\\fd28e676-43d8-46fe-87f0-5eb3fa375904_build-rocket.png",
+      "PackagePath": "staticwebassets\\uploads\\fd28e676-43d8-46fe-87f0-5eb3fa375904_build-rocket.png"
     },
     {
       "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.StoreApi.Microsoft.AspNetCore.StaticWebAssets.props",

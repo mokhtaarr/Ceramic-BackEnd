@@ -169,6 +169,7 @@ namespace DAL.Models
         public virtual DbSet<HrAttendanceDoc> HrAttendanceDocs { get; set; }
         public virtual DbSet<HrAttendanceElement> HrAttendanceElements { get; set; }
         public virtual DbSet<HrAttendhestory> HrAttendhestories { get; set; }
+        public virtual DbSet<UnavailableProduct> UnavailableProducts { get; set; }
         public virtual DbSet<HrAttendop> HrAttendops { get; set; }
         public virtual DbSet<HrAttendrole> HrAttendroles { get; set; }
         public virtual DbSet<HrDepartment> HrDepartments { get; set; }
@@ -876,7 +877,7 @@ namespace DAL.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=SeramikDbNew;User Id=softgo;Password=A271185b;TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=SeramikDbNew;User Id=sa;Password=A271185b;TrustServerCertificate=True;");
             }
 
             base.OnConfiguring(optionsBuilder);
@@ -13597,6 +13598,25 @@ namespace DAL.Models
                     .WithMany(p => p.MsItemAlternatives)
                     .HasForeignKey(d => d.ItemCardId)
                     .HasConstraintName("FK_MS_ItemAlternatives_MS_ItemCard");
+            });
+
+            modelBuilder.Entity<UnavailableProduct>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+
+                entity.ToTable("unavailable_Product");
+
+                entity.Property(e => e.ProductNameAr).HasMaxLength(100);
+                entity.Property(e => e.ProductNameEn).HasMaxLength(100);
+                entity.Property(e => e.ProductDescA).HasMaxLength(500);
+                entity.Property(e => e.ProductDescE).HasMaxLength(500);
+                entity.Property(e => e.Price).HasColumnType("decimal(18,2)");
+                entity.Property(e => e.Image).HasMaxLength(500);
+                entity.Property(e => e.Email).HasMaxLength(50);
+                entity.Property(e => e.Phone).HasMaxLength(20);
+                entity.Property(e => e.DeletedAt).HasColumnType("smalldatetime");
+
+
             });
 
             modelBuilder.Entity<MsItemCard>(entity =>

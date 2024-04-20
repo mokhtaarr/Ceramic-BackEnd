@@ -66,7 +66,7 @@ namespace infrastrucure.Services
                     smtp.UseDefaultCredentials = false;
                     smtp.Credentials = credential;
                     smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-                    smtp.Send(mailMessage);
+                    //smtp.Send(mailMessage);
                     await smtp.SendMailAsync(mailMessage);
                 }
                 catch (Exception ex)

@@ -2236,11 +2236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
+      "projectUniqueName": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
+      "projectPath": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Facebook\\.nuget\\packages\\",
-      "outputPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\obj\\",
+      "outputPath": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Facebook\\AppData\\Roaming\\NuGet\\NuGet.Config",

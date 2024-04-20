@@ -3318,11 +3318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+      "projectUniqueName": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\infrastrucure\\infrastrucure.csproj",
       "projectName": "infrastrucure",
-      "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+      "projectPath": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\infrastrucure\\infrastrucure.csproj",
       "packagesPath": "C:\\Users\\Facebook\\.nuget\\packages\\",
-      "outputPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\obj\\",
+      "outputPath": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\infrastrucure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Facebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3339,8 +3339,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj": {
-              "projectPath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj"
+            "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\DAL\\DAL.csproj": {
+              "projectPath": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\DAL\\DAL.csproj"
             }
           }
         }
@@ -3391,5 +3391,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.27.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.27.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

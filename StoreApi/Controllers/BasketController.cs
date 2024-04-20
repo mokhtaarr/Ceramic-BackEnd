@@ -41,5 +41,13 @@ namespace StoreApi.Controllers
         {
             await _basketRepository.DeleteBasketAsync(id);
         }
+
+
+        [HttpDelete("ClearBasketAsync")]
+        public async Task ClearBasketAsync(string id)
+        {
+
+            await _basketRepository.ClearBasketAsync(id);
+        }
     }
 }

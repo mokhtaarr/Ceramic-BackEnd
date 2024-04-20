@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>H:\Publishing\api eldolia</_PublishTargetUrl>
-    <History>True|2023-12-28T10:24:10.3627483Z;True|2023-12-27T22:38:33.1269098+02:00;True|2023-12-27T20:31:00.9743188+02:00;</History>
+    <History>True|2024-01-23T15:30:35.0324042Z;True|2024-01-23T17:14:06.9010316+02:00;True|2023-12-28T12:24:10.3627483+02:00;True|2023-12-27T22:38:33.1269098+02:00;True|2023-12-27T20:31:00.9743188+02:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

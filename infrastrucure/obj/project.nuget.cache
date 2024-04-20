@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jwbs+sN7yWbxtPzPv53E4KbGAxrDDHI14xK9Yo95ulmoPipO1Di1il5UEMAUsbWECokCeQ5PR3GDlyO+rLW85g==",
+  "dgSpecHash": "5d1/TPkxXSjq8wbVGZclNDMUEhBMoCcAnFageZ+v476BqiznU9qtfrcCuHYYOfDGTkkTqkq/0zVEYZm7n/2GcA==",
   "success": true,
-  "projectFilePath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\infrastrucure\\infrastrucure.csproj",
+  "projectFilePath": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\infrastrucure\\infrastrucure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Facebook\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Facebook\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -82,5 +82,26 @@
     "C:\\Users\\Facebook\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\Facebook\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.27.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.27.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

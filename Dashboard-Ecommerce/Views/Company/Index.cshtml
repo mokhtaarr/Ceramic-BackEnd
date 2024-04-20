@@ -1,0 +1,42 @@
+﻿@model MsCompany
+
+@{
+    ViewData["Title"] = "Company word";
+}
+
+<h2>View All user complaints</h2>
+<hr />
+
+
+<div class="mt-4">
+    @if (Model == null)
+    {
+        <div class="alert alert-info" role="alert">
+            no Company Word Found!
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">company's word in Arabic</th>
+                        <th scope="col">company's word in English</th>
+                        <th scope="col">Edit</th>
+                    </tr>
+                </thead>
+                <tbody>             
+                   <tr class="p">
+                       <td>@Model.RemarksA</td>
+                       <td>@Model.RemarksE</td>
+                        <td><a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-CompanyId="@Model.CompanyId">Edit</a></td>
+                   </tr>
+                </tbody>
+            </table>
+        </div>
+
+    }
+
+</div>
+

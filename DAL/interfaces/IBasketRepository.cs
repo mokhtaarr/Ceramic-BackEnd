@@ -12,5 +12,6 @@ namespace DAL.interfaces
         Task<EcomCustomerBasket> GetBasketAsync(string basketId);
         Task<EcomCustomerBasket> UpdateBasketAsync(EcomCustomerBasket basket);
         Task<bool> DeleteBasketAsync(string BasketId);
+        Task<bool> ClearBasketAsync(string BasketId);
     }
 }

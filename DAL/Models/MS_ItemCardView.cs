@@ -13,6 +13,8 @@ namespace DAL.Models
         public int ItemCardId { get; set; }
         public string ItemDescA { get; set; }
         public string ItemDescE { get; set; }
+        public string ProductDescA { get; set; }
+        public string ProductDescE { get; set; }
         public int BrandId { get; set; }
         public int ItemCategoryId { get; set; }
         public decimal TotalCost { get; set; }

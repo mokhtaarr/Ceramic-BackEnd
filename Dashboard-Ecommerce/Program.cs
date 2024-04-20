@@ -1,7 +1,11 @@
 using DAL.Identity;
+using DAL.interfaces;
 using DAL.Models;
 using DAL.Smtp;
+using Dashboard_Ecommerce.services;
+using Dashboard_Ecommerce.Setting;
 using infrastrucure.Identity;
+using infrastrucure.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
@@ -12,17 +16,30 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MoDbContext>(options => options.UseSqlServer(SmtpConfig.GetConnectionString()));
 
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+builder.Services.AddTransient<IMailingService, MailingService>();
+
+
+
 builder.Services.AddDbContext<AppIdentityDbContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
 });
 builder.Services.AddIdentityCore<AppUser>(opt =>
 {
-   
+    opt.User.AllowedUserNameCharacters = "Ï Ì Í Î å Ú Û Ý Þ Ë Õ Ö Ð Ô Ó í È á Ç Ê ä ã ß Ø Ù Ò æ É ì áÇ Ñ Ä Á Æ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+ ";
+    opt.Password.RequireDigit = false;
+    opt.Password.RequireLowercase = false;
+    opt.Password.RequireUppercase = false;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequiredLength = 4;
+
 })
     .AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders()
     .AddSignInManager<SignInManager<AppUser>>();
 
+
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("mailSetting"));
 
 builder.Services.AddMvc().AddNToastNotifyToastr(new ToastrOptions()
 {
@@ -40,6 +57,7 @@ builder.Services.ConfigureApplicationCookie(opt =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

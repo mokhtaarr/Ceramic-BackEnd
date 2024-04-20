@@ -74,3 +74,19 @@ H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الدات
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\infrastrucure\obj\Debug\net6.0\refint\infrastrucure.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.pdb
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\infrastrucure\obj\Debug\net6.0\ref\infrastrucure.dll
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\bin\Debug\net6.0\infrastrucure.deps.json
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\bin\Debug\net6.0\infrastrucure.dll
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\bin\Debug\net6.0\infrastrucure.pdb
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\bin\Debug\net6.0\DAL.dll
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\bin\Debug\net6.0\DAL.pdb
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.csproj.AssemblyReference.cache
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.GeneratedMSBuildEditorConfig.editorconfig
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.AssemblyInfoInputs.cache
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.AssemblyInfo.cs
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.csproj.CoreCompileInputs.cache
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.sourcelink.json
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.csproj.CopyComplete
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.dll
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\refint\infrastrucure.dll
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\infrastrucure.pdb
+H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\infrastrucure\obj\Debug\net6.0\ref\infrastrucure.dll

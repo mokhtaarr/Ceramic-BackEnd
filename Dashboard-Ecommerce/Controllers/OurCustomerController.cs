@@ -24,7 +24,7 @@ namespace Dashboard_Ecommerce.Controllers
                      from customer in _db.MsCustomers
                      join category in _db.MsCustomerCategories on customer.CustomerCatId equals category.CustomerCatId into joinedCategory
                      from cat in joinedCategory.DefaultIfEmpty() // هنا يتم تعيين LEFT JOIN
-                     where (bool)customer.IsWebsite
+                     where (bool)customer.IsWebsite && customer.DeletedAt == null
                      select new
                       {
                          customer.CustomerId,
@@ -43,6 +43,39 @@ namespace Dashboard_Ecommerce.Controllers
                   ).ToPagedListAsync(pageIndex, pageSize);
             return View(OurCustomers);
         }
+
+        public async Task<IActionResult> search(int pageIndex = 1, int pageSize = 50,string phone = "")
+        {
+
+            if(phone != string.Empty)
+            {
+                ViewBag.term = phone;
+            }
+
+            var OurCustomers = await (
+                     from customer in _db.MsCustomers
+                     join category in _db.MsCustomerCategories on customer.CustomerCatId equals category.CustomerCatId into joinedCategory
+                     from cat in joinedCategory.DefaultIfEmpty() // هنا يتم تعيين LEFT JOIN
+                     where (bool)customer.IsWebsite && customer.DeletedAt == null && customer.Tel == phone
+                     select new
+                     {
+                         customer.CustomerId,
+                         customer.CustomerDescA,
+                         customer.CustomerCode,
+                         customer.Tel,
+                         customer.Address,
+                         customer.Address2,
+                         customer.Address3,
+                         customer.AddField1,
+                         customer.AddField2,
+                         customer.AddField3,
+                         customer.Remarks,
+                         CatDescA = cat != null ? cat.CatDescA : null // استخدام null إذا لم يتم العثور على تطابق في LEFT JOIN
+                     }
+                  ).ToPagedListAsync(pageIndex, pageSize);
+            return View(OurCustomers);
+        }
+
 
         public async Task<IActionResult> Edit(int? customerId)
         {
@@ -109,6 +142,26 @@ namespace Dashboard_Ecommerce.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public async Task<IActionResult> delete(int id)
+        {
+            if (id == 0)
+            {
+                _toastNotification.AddErrorToastMessage("Bad Request");
+                return RedirectToAction(nameof(Index));
+            }
 
+            MsCustomer customer = await _db.MsCustomers.FindAsync(id);
+
+            if (customer == null)
+            {
+                 _toastNotification.AddErrorToastMessage("customer not exisit");
+                return RedirectToAction(nameof(Index));
+            }
+
+            customer.DeletedAt = DateTime.Now;
+             await _db.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
+        }
     }
 }

@@ -26,6 +26,30 @@
                 <input type="text" class="form-control" asp-for="ItemDescE" maxlength="300">
                 <span asp-validation-for="ItemDescE" class="text-danger"></span>
             </div>
+
+            
+            <div class="form-group mb-2">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِArabic Product Description</label>
+                <div class="form-floating">
+                    <textarea class="form-control" style="height:100px" asp-for="ProductDescA" placeholder="" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Arabic Product Description</label>
+                    <span asp-validation-for="ProductDescA" class="text-danger"></span>
+
+                </div>
+
+            </div>
+
+            <div class="form-group mb-2">
+                <label for="exampleInputEmail1" class="form-label text-muted">ِEnglish Product Description</label>
+                <div class="form-floating">
+                    <textarea class="form-control" style="height:100px" asp-for="ProductDescE" placeholder="" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">English Product Description</label>
+                    <span asp-validation-for="ProductDescE" class="text-danger"></span>
+
+                </div>
+
+            </div>
+
             <div class="form-group mb-2">
                 <label class="text-muted" asp-for="BrandId"></label>
                 <select class="form-control" asp-for="BrandId" asp-items="@(new SelectList(Model.Brands,"BrandId","DescA"))" style="background-color: #ffffff;">

@@ -4,11 +4,11 @@ namespace Dashboard_Ecommerce.Dtos
 {
     public class UserDto
     {
-        [Required,MaxLength(200),MinLength(3),Display(Name = "First Name")]
-        public string FirstName { get; set; }
-        [Required, MaxLength(200), MinLength(3), Display(Name = "Last Name")]
+        //[Required,MaxLength(200),MinLength(3),Display(Name = "First Name")]
+        //public string FirstName { get; set; }
+        //[Required, MaxLength(200), MinLength(3), Display(Name = "Last Name")]
 
-        public string LastName { get; set; }
+        //public string LastName { get; set; }
         [Required, MaxLength(15), MinLength(3), Display(Name = "User Name")]
 
         public string UserName { get; set; }

@@ -5,9 +5,9 @@ namespace Dashboard_Ecommerce.Dtos
     public class CategoryDto
     {
         public int ItemCategoryId { get; set; }
-        [Required,StringLength(50)]
+        [Required,StringLength(20)]
         public string ItemCatDescA { get; set; }
-        [Required, StringLength(50)]
+        [Required, StringLength(20)]
         public string ItemCatDescE { get; set; }
 
         public IFormFile ImageFile { get; set; }

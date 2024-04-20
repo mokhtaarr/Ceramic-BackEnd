@@ -1,0 +1,40 @@
+﻿@model MsCompanyDto
+
+
+
+
+<h1>Edit</h1>
+
+<hr />
+
+<section class="row">
+    <div class="col-md-5">
+        <form method="POST" asp-action="Edit">
+            <input type="hidden" asp-for="CompanyId" />
+
+            <div class="mb-3">
+                <textarea style="height: 100px" type="text" class="form-control" asp-for="RemarksA"></textarea>
+                <label asp-for="RemarksA" class="form-label text-muted">ِ</label>
+
+                <span asp-validation-for="RemarksA" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="RemarksE" class="form-label text-muted"></label>
+                <textarea style="height: 100px" type="text" class="form-control" asp-for="RemarksE"></textarea>
+                <span asp-validation-for="RemarksE" class="text-danger"></span>
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary"><i class="bi bi-check"></i> Save</button>
+            <a asp-controller="Brand" asp-action="Index" class="btn btn-outline-secondary"><i class="bi bi-x"></i> Cancel</a>
+        </form>
+    </div>
+</section>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

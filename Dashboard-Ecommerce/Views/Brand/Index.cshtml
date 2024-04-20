@@ -2,10 +2,13 @@
 
 @{
     ViewData["Title"] = "Our Brands";
+
 }
 <link href="~/content/pagedlist.css" rel="stylesheet" />
 
 <h2>View All Brands</h2>
+<hr />
+
 
 <div class="mt-4">
     @if (!Model.Any())
@@ -16,6 +19,44 @@
     }
     else
     {
+        <form id="frmCreate" method="post" asp-action="IndexFilter">
+            <div class="row d-flex justify-content-end">
+
+                <div class="col-md-2">
+                    <div class="mb-3 custom-form mt-4">
+                        <a class="btn btn-outline-secondary" asp-action="index">إلغاء</a>
+
+                        <button type="submit" class="btn btn-primary">بحث </button>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="mb-3 custom-form">
+                        <label for="productname" class="d-flex justify-content-end">ابحث  باسم البراند</label>
+                        <select name="DescA" id="DescA" class="form-control select2" style="direction:rtl;background-color:white;">
+                            <option></option>
+                            @foreach (var brand in Model)
+                            {
+                                @if (ViewBag.SelectedDescA == brand.DescA)
+                                {
+                                    <option selected>@brand.DescA</option>
+                                }else
+                                {
+                                    <option>@brand.DescA</option>
+                                }
+
+ 
+                            }
+                        </select>
+                    </div>
+                </div>
+               
+            </div>
+        </form>
+
+
         <div class="table-responsive">
             <table class="table text-start align-middle table-bordered table-hover mb-0">
                 <thead>

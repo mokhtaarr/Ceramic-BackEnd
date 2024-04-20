@@ -1,0 +1,115 @@
+﻿@model IPagedList<DashBoardUser>
+
+@{
+    ViewData["Title"] = "Our Admin";
+}
+<link href="~/content/pagedlist.css" rel="stylesheet" />
+
+<h2>View All Admins</h2>
+
+<div class="mt-4">
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning" role="alert">
+            no Admins Found!
+        </div>
+    }
+    else
+    {
+
+        <form id="frmCreate" method="post" asp-action="search">
+            <div class="row d-flex justify-content-end">
+
+                <div class="col-md-2">
+                    <div class="mb-3 custom-form mt-4">
+                        <a class="btn btn-outline-secondary" asp-action="GetAllAdmin">إلغاء</a>
+
+                        <button type="submit" class="btn btn-primary">بحث </button>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="mb-3 custom-form">
+                        <label for="productname" class="d-flex justify-content-end">ابحث بأسم الإدمن</label>
+                        <input class="form-control mr-sm-2" type="search" placeholder="ابحث" name="userName"
+                               style="margin-right:5px;margin-left:10px;direction:rtl" value="@ViewBag.Term" />
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
+
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">User Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr class="p">
+                            <td>@user.UserName</td>
+                            <td>@user.Email</td>
+                            <td>
+                                <a href="javascript:;" class="btn btn-danger js-delete m-1" data-id="@user.Id">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+@Html.PagedListPager(Model, pageIndex => Url.Action("Index", new { pageIndex }))
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var btn = $(this);
+
+                bootbox.confirm({
+                    message: "هل انت متاكد انك تريد مسح هذا الادمن ؟",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-danger'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-outline-secondary'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: '/user/delete/' + btn.data('id'),
+                                success: function () {
+                                    var ComplaintContainer = btn.parents('.p');
+                                    ComplaintContainer.addClass('animate__animated animate__zoomOut');
+
+                                    setTimeout(function () {
+                                        ComplaintContainer.remove();
+                                    }, 1000);
+
+                                },
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

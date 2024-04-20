@@ -120,6 +120,7 @@ namespace DAL.Models
         public int? ShiftId { get; set; }
         public bool? IsMobile { get; set; }
         public bool? IsWebsite { get; set; }
+        public string Email { get; set; }
 
         public virtual ICollection<MsSalesInvoice> MsSalesInvoices { get; set; }
         public virtual ICollection<MsSalesOfferItemCard> MsSalesOfferItemCards { get; set; }

@@ -12,7 +12,8 @@ namespace DAL.Identity
         public string DisplayName { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
-        
+        public DateTime? DeletedAt { get; set; }
+
         public Address Address { get; set; }
 
 

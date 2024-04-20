@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fmlu5gL30wXsF7vfAfI3aMvRgKN6fzm2hEuG8DAou1OK/06hZ2SW/Beu0PHeIWvZy87vOS3fKFsed305y4YELg==",
+  "dgSpecHash": "nZAdvEuoeThzcaQ3cZl+UCUbypmP/ZaLaL+RtABw1N+bC7ynCxfhAbQHM7caePhb/HquT/eehUGNfAUUtpWE3Q==",
   "success": true,
-  "projectFilePath": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\DAL\\DAL.csproj",
+  "projectFilePath": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Facebook\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Facebook\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",

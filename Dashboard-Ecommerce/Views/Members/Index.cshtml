@@ -6,6 +6,8 @@
 <link href="~/content/pagedlist.css" rel="stylesheet" />
 
 <h2>View All Members</h2>
+<hr />
+
 
 <div class="mt-4">
     @if (!Model.Any())
@@ -16,6 +18,30 @@
     }
     else
     {
+         <form id="frmCreate" method="post" asp-action="search">
+            <div class="row d-flex justify-content-end">
+
+                <div class="col-md-2">
+                    <div class="mb-3 custom-form mt-4">
+                        <a class="btn btn-outline-secondary" asp-action="index">إلغاء</a>
+
+                        <button type="submit" class="btn btn-primary">بحث </button>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="mb-3 custom-form">
+                        <label for="productname" class="d-flex justify-content-end">ابحث برقم التلفون</label>
+                        <input class="form-control mr-sm-2" type="search" placeholder="ابحث" name="phone"
+                               style="margin-right:5px;margin-left:10px;direction:rtl" value="@ViewBag.Term" />
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
         <div class="table-responsive">
             <table class="table text-start align-middle table-bordered table-hover mb-0">
                 <thead>
@@ -25,6 +51,7 @@
                         <th scope="col">Phone</th>
                         <th scope="col">City</th>
                         <th scope="col">Street</th>
+                        <th scope="col">Delete</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -36,7 +63,11 @@
                             <td>@user.PhoneNumber</td>
                             <td>@user.City</td>
                             <td>@user.Street</td>
-                           
+                            <td>
+                                <a href="javascript:;" class="btn btn-danger js-delete m-1" data-id="@user.Id">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
                         </tr>
                     }
 
@@ -47,3 +78,48 @@
 </div>
 
 @Html.PagedListPager(Model, pageIndex => Url.Action("Index", new { pageIndex }))
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var btn = $(this);
+
+                bootbox.confirm({
+                    message: "هل انت متاكد انك تريد مسح هذا المستخدم ؟",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-danger'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-outline-secondary'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: '/Members/delete/' + btn.data('id'),
+                                success: function () {
+                                    var ComplaintContainer = btn.parents('.p');
+                                    ComplaintContainer.addClass('animate__animated animate__zoomOut');
+
+                                    setTimeout(function () {
+                                        ComplaintContainer.remove();
+                                    }, 1000);
+
+                                    toastr.success('تم المسح بنجاح');
+                                },
+                                error: function () {
+                                    toastr.error('حدث خطا اثناء مسح  المستخدم!');
+                                }
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

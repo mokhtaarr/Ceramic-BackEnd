@@ -251,6 +251,7 @@ H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الدات
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\refs\System.Security.Cryptography.Csp.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\refs\System.Security.Cryptography.Encoding.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\refs\System.Security.Cryptography.OpenSsl.dll
+H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\refs\System.Security.Cryptography.Pkcs.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\refs\System.Security.Cryptography.Primitives.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\refs\System.Security.Cryptography.X509Certificates.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\refs\System.Security.Cryptography.Xml.dll
@@ -298,6 +299,7 @@ H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الدات
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Dashboard-Ecommerce.runtimeconfig.json
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Dashboard-Ecommerce.pdb
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\JetBrains.Annotations.dll
+H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\MailKit.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
@@ -322,11 +324,13 @@ H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الدات
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\MimeKit.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\NToastNotify.Views.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\NToastNotify.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\Pipelines.Sockets.Unofficial.dll
+H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\BouncyCastle.Crypto.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\StackExchange.Redis.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\obj\Release\net6.0\PubTmp\Out\System.Drawing.Common.dll

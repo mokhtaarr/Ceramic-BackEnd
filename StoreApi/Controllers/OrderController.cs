@@ -1,7 +1,10 @@
 ﻿using DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using StoreApi.Dtos;
+using StoreApi.Extensions;
 
 namespace StoreApi.Controllers
 {
@@ -10,10 +13,12 @@ namespace StoreApi.Controllers
     public class OrderController : ControllerBase
     {
         private readonly MoDbContext _db;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public OrderController(MoDbContext db)
+        public OrderController(MoDbContext db , IWebHostEnvironment webHostEnvironment)
         {
             _db = db;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [HttpPost("CreateOrderHeader")]
@@ -22,7 +27,6 @@ namespace StoreApi.Controllers
             var book = from counter in _db.SysCounters
                        where counter.BookId == dto.Header_BookId && counter.TrIdName == "SalesOfferId"
                        select counter.Counter;
-
 
             //var getBookId = _db.SysBooks.FirstOrDefault(b => b.BookId == dto.Header_BookId);
 
@@ -35,12 +39,13 @@ namespace StoreApi.Controllers
                 RectSourceType = 1,
                 CreatedBy = dto.Header_CreatedBy,
                 CreatedAt = DateTime.Now,
-                NotPaid = dto.Header_NotPaid,
+                NotPaid = dto.Header_NotPaid / 100,
                 InvDueDate = DateTime.Now.Date,
                 TrDate = DateTime.Now,
                 TaxesId1 = dto.Header_TaxesId1 == 0 ? null : dto.Header_TaxesId1,
                 TaxesId2 = dto.Header_TaxesId2 == 0 ? null : dto.Header_TaxesId2,
                 TaxesId3 = dto.Header_TaxesId3 == 0 ? null : dto.Header_TaxesId3,
+                Email = dto.Email,
                 IsWebsite = true
 
                 //Remarks = dto.Remarks,
@@ -118,5 +123,95 @@ namespace StoreApi.Controllers
 
             return Ok(respone);
         }
+
+        [HttpGet("GetUserOrders")]
+        public async Task<IActionResult> GetUserOrders(string email)
+        {
+
+            var ExistingEmail = _db.MsSalesOffers.Where(s => s.Email == email);
+          
+            if(!ExistingEmail.Any())
+            {
+                return Ok();
+            }
+
+
+            var Orders = await (from orderHeader in _db.MsSalesOffers 
+                                join orderDetail in _db.MsSalesOfferItemCards on orderHeader.SalesOfferId equals orderDetail.SalesOfferId
+                                join itemCard in _db.MsItemCards on orderDetail.ItemCardId equals itemCard.ItemCardId
+                                where orderHeader.Email == email
+                                group new { orderHeader, orderDetail, itemCard } by orderHeader.SalesOfferId into grouped
+                                select new OrderDataDto
+                                {
+                                    SalesOfferId = grouped.Key,
+                                    NotPaid = grouped.FirstOrDefault().orderHeader.NotPaid,
+                                    CreatedAt = grouped.FirstOrDefault().orderHeader.CreatedAt,
+                                    Details = grouped.Select(g => new OrderDetailDataDto
+                                    {
+                                        ItemCardId = (int)g.orderDetail.ItemCardId,
+                                        ItemDescA = g.itemCard.ItemDescA,
+                                        ItemDescE = g.itemCard.ItemDescE,
+                                        Quantity = (int)g.orderDetail.Quantity,
+                                        Price = g.orderDetail.Price
+                                    }).ToList()
+                                })
+                                .OrderByDescending(o => o.CreatedAt)  // ترتيب حسب CreatedAt بترتيب تنازلي
+                                .ToListAsync();
+
+
+            return Ok(Orders);
+
+        }
+
+        
+
+        [HttpPost("AddingUnvaliableProduct")]
+        public async Task<IActionResult> AddingUnvaliableProduct([FromForm]UnvaliableProductDto dto)
+        {
+            try
+            {
+                var prd = new UnavailableProduct
+                {
+                    ProductNameAr = dto.ProductNameAr,
+                    Price = dto.Price,
+                    ProductDescA = dto.ProductDescA,
+                    Phone=dto.Phone
+
+                };
+
+                _db.UnavailableProducts.Add(prd);
+                await _db.SaveChangesAsync();
+
+                if (dto.Image != null && dto.Image.Length > 0)
+                {
+                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "UnvaliabProducts"); // اسم المجلد داخل wwwroot
+                    var cleanFileName = dto.Image.FileName.Replace("-", "");
+
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + cleanFileName;
+                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await dto.Image.CopyToAsync(fileStream);
+                    }
+
+                    // قم بتحديث اسم الصورة في الحقل المضاف للـ SrComplaint
+                    prd.Image = uniqueFileName;
+
+                    await _db.SaveChangesAsync(); // أعد حفظ التغييرات بما في ذلك اسم الصورة
+                }
+
+                return Ok();
+
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+
+
+
     }
 }

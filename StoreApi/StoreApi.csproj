@@ -23,4 +23,9 @@
     <ProjectReference Include="..\infrastrucure\infrastrucure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\UnvaliabProducts\" />
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
 </Project>

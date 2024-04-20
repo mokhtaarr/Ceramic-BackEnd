@@ -1,1379 +1,1547 @@
 {
   "Files": [
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Dashboard-Ecommerce.bundle.scp.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Dashboard-Ecommerce.bundle.scp.css",
       "PackagePath": "staticwebassets\\Dashboard-Ecommerce.bundle.scp.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\BigMixer.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\00b9a77a-362a-46b1-a860-705d0e780170img2.jpg",
+      "PackagePath": "staticwebassets\\Products\\00b9a77a-362a-46b1-a860-705d0e780170img2.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\024901db-62c9-45a9-91b2-ccadd22c5715beroia1.jpg",
+      "PackagePath": "staticwebassets\\Products\\024901db-62c9-45a9-91b2-ccadd22c5715beroia1.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\052d1c4a-1972-4d93-9f7b-530158ca3c2cberoia4.png.jpg",
+      "PackagePath": "staticwebassets\\Products\\052d1c4a-1972-4d93-9f7b-530158ca3c2cberoia4.png.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\112baa4a-4e52-4d48-8091-37e6bc10b4d2beroia3.jpg.jpg",
+      "PackagePath": "staticwebassets\\Products\\112baa4a-4e52-4d48-8091-37e6bc10b4d2beroia3.jpg.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\14786faa-f3e1-4215-94be-1d1526a59216beroia6.jpg",
+      "PackagePath": "staticwebassets\\Products\\14786faa-f3e1-4215-94be-1d1526a59216beroia6.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\1ab5c0d0-ddf1-49f6-bab6-9c627dba0e58beroia4.jpg",
+      "PackagePath": "staticwebassets\\Products\\1ab5c0d0-ddf1-49f6-bab6-9c627dba0e58beroia4.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\3221a014-32fc-401a-bdb0-9943e7542aedceramick1.jpg",
+      "PackagePath": "staticwebassets\\Products\\3221a014-32fc-401a-bdb0-9943e7542aedceramick1.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\3e8c31db-a20d-4ac2-aac4-f9b71a0677deimg6.jpg",
+      "PackagePath": "staticwebassets\\Products\\3e8c31db-a20d-4ac2-aac4-f9b71a0677deimg6.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\44d98b1f-74bb-4139-83f1-83eedea9c718beroia6.jpg",
+      "PackagePath": "staticwebassets\\Products\\44d98b1f-74bb-4139-83f1-83eedea9c718beroia6.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\45c8c8f0-1879-430f-84ca-25cbeec601b1beroia3.jpg.jpg",
+      "PackagePath": "staticwebassets\\Products\\45c8c8f0-1879-430f-84ca-25cbeec601b1beroia3.jpg.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\4b94d449-5af1-48e8-ab7f-073ea7fd6342حوض.jpg",
+      "PackagePath": "staticwebassets\\Products\\4b94d449-5af1-48e8-ab7f-073ea7fd6342حوض.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\56de3bed-41e6-4bd9-a70a-96f021f7652eceramick5.jpg",
+      "PackagePath": "staticwebassets\\Products\\56de3bed-41e6-4bd9-a70a-96f021f7652eceramick5.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\58206d34-8025-4b9a-9e34-9f90eaa13dbfberoia2.jpg",
+      "PackagePath": "staticwebassets\\Products\\58206d34-8025-4b9a-9e34-9f90eaa13dbfberoia2.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\686ca57d-8d84-4da5-8b59-155d83a6fd36beroia6.jpg",
+      "PackagePath": "staticwebassets\\Products\\686ca57d-8d84-4da5-8b59-155d83a6fd36beroia6.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\8c3faf15-f7f7-424e-b97e-2db4abc146c8beroia3.jpg",
+      "PackagePath": "staticwebassets\\Products\\8c3faf15-f7f7-424e-b97e-2db4abc146c8beroia3.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\91cb89e0-908d-4a54-842a-ee7dac88d45dimg1.jpg",
+      "PackagePath": "staticwebassets\\Products\\91cb89e0-908d-4a54-842a-ee7dac88d45dimg1.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\BigMixer.png",
       "PackagePath": "staticwebassets\\Products\\BigMixer.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic1.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic1.jpg",
       "PackagePath": "staticwebassets\\Products\\Ceramic1.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic2.png",
       "PackagePath": "staticwebassets\\Products\\Ceramic2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic3.png",
       "PackagePath": "staticwebassets\\Products\\Ceramic3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic4.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic4.jpg",
       "PackagePath": "staticwebassets\\Products\\Ceramic4.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic5.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic5.jpg",
       "PackagePath": "staticwebassets\\Products\\Ceramic5.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic6.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ceramic6.jpg",
       "PackagePath": "staticwebassets\\Products\\Ceramic6.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros1.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros1.jpg",
       "PackagePath": "staticwebassets\\Products\\Ciros1.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros2.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros2.jpg",
       "PackagePath": "staticwebassets\\Products\\Ciros2.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros3.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros3.jpg",
       "PackagePath": "staticwebassets\\Products\\Ciros3.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros4.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros4.jpg",
       "PackagePath": "staticwebassets\\Products\\Ciros4.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros5.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros5.jpg",
       "PackagePath": "staticwebassets\\Products\\Ciros5.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros6.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Ciros6.jpg",
       "PackagePath": "staticwebassets\\Products\\Ciros6.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\DecorRoyal5.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\DecorRoyal5.png",
       "PackagePath": "staticwebassets\\Products\\DecorRoyal5.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit1.png",
       "PackagePath": "staticwebassets\\Products\\Duravit1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit2.png",
       "PackagePath": "staticwebassets\\Products\\Duravit2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit3.png",
       "PackagePath": "staticwebassets\\Products\\Duravit3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit41.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit41.png",
       "PackagePath": "staticwebassets\\Products\\Duravit41.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit5.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit5.png",
       "PackagePath": "staticwebassets\\Products\\Duravit5.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit6.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Duravit6.jpg",
       "PackagePath": "staticwebassets\\Products\\Duravit6.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\FaceMixer.Png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\FaceMixer.Png",
       "PackagePath": "staticwebassets\\Products\\FaceMixer.Png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Lamba.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\Lamba.png",
       "PackagePath": "staticwebassets\\Products\\Lamba.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\PhotoRoyal6.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\PhotoRoyal6.png",
       "PackagePath": "staticwebassets\\Products\\PhotoRoyal6.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\RoyalCerimick4.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\RoyalCerimick4.jpg",
       "PackagePath": "staticwebassets\\Products\\RoyalCerimick4.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\SmallMixer.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\SmallMixer.png",
       "PackagePath": "staticwebassets\\Products\\SmallMixer.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\TheMixer.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\TheMixer.png",
       "PackagePath": "staticwebassets\\Products\\TheMixer.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\TheRoyal3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\TheRoyal3.png",
       "PackagePath": "staticwebassets\\Products\\TheRoyal3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\biglamaba.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\a080c84f-320e-4f3f-8def-0afa77e340b8img4.jpg",
+      "PackagePath": "staticwebassets\\Products\\a080c84f-320e-4f3f-8def-0afa77e340b8img4.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\abf58b28-4ee9-4570-8297-bfc21b5b0cfcberoia4.png.jpg",
+      "PackagePath": "staticwebassets\\Products\\abf58b28-4ee9-4570-8297-bfc21b5b0cfcberoia4.png.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\ac3506d4-fa8a-4b3b-850a-3438aedf4b7cberoia5.jpg",
+      "PackagePath": "staticwebassets\\Products\\ac3506d4-fa8a-4b3b-850a-3438aedf4b7cberoia5.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\aec8de26-9366-48d1-9e04-37793f2d7028beroia2.jpg",
+      "PackagePath": "staticwebassets\\Products\\aec8de26-9366-48d1-9e04-37793f2d7028beroia2.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\b0f375cb-2469-4f83-9105-472335da6227beroia5.jpg",
+      "PackagePath": "staticwebassets\\Products\\b0f375cb-2469-4f83-9105-472335da6227beroia5.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\b99c4081-106b-4209-a418-ab084b67b40fimg5.jpg",
+      "PackagePath": "staticwebassets\\Products\\b99c4081-106b-4209-a418-ab084b67b40fimg5.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\beroia1.jpg",
+      "PackagePath": "staticwebassets\\Products\\beroia1.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\beroia2.jpg",
+      "PackagePath": "staticwebassets\\Products\\beroia2.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\beroia3.jpg.jpg",
+      "PackagePath": "staticwebassets\\Products\\beroia3.jpg.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\beroia5.jpg",
+      "PackagePath": "staticwebassets\\Products\\beroia5.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\beroia6.jpg",
+      "PackagePath": "staticwebassets\\Products\\beroia6.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\biglamaba.jpg",
       "PackagePath": "staticwebassets\\Products\\biglamaba.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\bigroof.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\bigroof.png",
       "PackagePath": "staticwebassets\\Products\\bigroof.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\grayMixer.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\c6fff22c-006b-4830-aad4-d3a3636b2fbeberoia1.jpg",
+      "PackagePath": "staticwebassets\\Products\\c6fff22c-006b-4830-aad4-d3a3636b2fbeberoia1.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\c8207232-dfab-4581-b180-fbdc7455f82dberoia1.jpg",
+      "PackagePath": "staticwebassets\\Products\\c8207232-dfab-4581-b180-fbdc7455f82dberoia1.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\cafc9305-8c50-455f-8027-85192b0d5c5cceramick6.jpg",
+      "PackagePath": "staticwebassets\\Products\\cafc9305-8c50-455f-8027-85192b0d5c5cceramick6.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\ceramick4.jpg",
+      "PackagePath": "staticwebassets\\Products\\ceramick4.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\cfedabab-21e4-4172-b115-a9c1eefadb43img3.jpg",
+      "PackagePath": "staticwebassets\\Products\\cfedabab-21e4-4172-b115-a9c1eefadb43img3.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\fb921ce3-e5f1-4d70-9ae0-39196e93b8e6beroia6.jpg",
+      "PackagePath": "staticwebassets\\Products\\fb921ce3-e5f1-4d70-9ae0-39196e93b8e6beroia6.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\grayMixer.png",
       "PackagePath": "staticwebassets\\Products\\grayMixer.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali1.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali1.jpg",
       "PackagePath": "staticwebassets\\Products\\itali1.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali2.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali2.jpg",
       "PackagePath": "staticwebassets\\Products\\itali2.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali3.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali3.jpg",
       "PackagePath": "staticwebassets\\Products\\itali3.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali4.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali4.jpg",
       "PackagePath": "staticwebassets\\Products\\itali4.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali5.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali5.jpg",
       "PackagePath": "staticwebassets\\Products\\itali5.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali6.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\itali6.jpg",
       "PackagePath": "staticwebassets\\Products\\itali6.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble1.png",
       "PackagePath": "staticwebassets\\Products\\marble1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble2.png",
       "PackagePath": "staticwebassets\\Products\\marble2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble3.png",
       "PackagePath": "staticwebassets\\Products\\marble3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble4.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble4.png",
       "PackagePath": "staticwebassets\\Products\\marble4.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble5.jpeg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble5.jpeg",
       "PackagePath": "staticwebassets\\Products\\marble5.jpeg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble6.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\marble6.jpg",
       "PackagePath": "staticwebassets\\Products\\marble6.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\mixer.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\mixer.png",
       "PackagePath": "staticwebassets\\Products\\mixer.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\newblackroof.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\newblackroof.png",
       "PackagePath": "staticwebassets\\Products\\newblackroof.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio1.png",
       "PackagePath": "staticwebassets\\Products\\panio1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio2.png",
       "PackagePath": "staticwebassets\\Products\\panio2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio3.png",
       "PackagePath": "staticwebassets\\Products\\panio3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio4.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio4.png",
       "PackagePath": "staticwebassets\\Products\\panio4.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio5.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio5.png",
       "PackagePath": "staticwebassets\\Products\\panio5.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio7.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\panio7.png",
       "PackagePath": "staticwebassets\\Products\\panio7.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd1.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd1.jpg",
       "PackagePath": "staticwebassets\\Products\\prd1.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd2.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd2.jpg",
       "PackagePath": "staticwebassets\\Products\\prd2.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd3.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd3.jpg",
       "PackagePath": "staticwebassets\\Products\\prd3.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd4.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd4.jpg",
       "PackagePath": "staticwebassets\\Products\\prd4.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd5.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd5.jpg",
       "PackagePath": "staticwebassets\\Products\\prd5.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd6.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\prd6.jpg",
       "PackagePath": "staticwebassets\\Products\\prd6.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein.jpg",
       "PackagePath": "staticwebassets\\Products\\proclein.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein2.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein2.jpg",
       "PackagePath": "staticwebassets\\Products\\proclein2.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein3.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein3.jpg",
       "PackagePath": "staticwebassets\\Products\\proclein3.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein5.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein5.jpg",
       "PackagePath": "staticwebassets\\Products\\proclein5.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein6.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\proclein6.jpg",
       "PackagePath": "staticwebassets\\Products\\proclein6.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\replaceProclien4.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\replaceProclien4.png",
       "PackagePath": "staticwebassets\\Products\\replaceProclien4.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\roof.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\roof.png",
       "PackagePath": "staticwebassets\\Products\\roof.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\royal1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\royal1.png",
       "PackagePath": "staticwebassets\\Products\\royal1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\royalWall2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\royalWall2.png",
       "PackagePath": "staticwebassets\\Products\\royalWall2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slide1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slide1.png",
       "PackagePath": "staticwebassets\\Products\\slide1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slide2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slide2.png",
       "PackagePath": "staticwebassets\\Products\\slide2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slide3.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slide3.jpg",
       "PackagePath": "staticwebassets\\Products\\slide3.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slideWithOffer1.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slideWithOffer1.jpg",
       "PackagePath": "staticwebassets\\Products\\slideWithOffer1.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slideWithOffer2.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slideWithOffer2.jpg",
       "PackagePath": "staticwebassets\\Products\\slideWithOffer2.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slideWithOffer3.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\slideWithOffer3.jpg",
       "PackagePath": "staticwebassets\\Products\\slideWithOffer3.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\smalllamba.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\smalllamba.jpg",
       "PackagePath": "staticwebassets\\Products\\smalllamba.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\smallroof.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\smallroof.png",
       "PackagePath": "staticwebassets\\Products\\smallroof.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\thelamba.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\thelamba.png",
       "PackagePath": "staticwebassets\\Products\\thelamba.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\theroof.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\theroof.png",
       "PackagePath": "staticwebassets\\Products\\theroof.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\whitelamba.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\whitelamba.png",
       "PackagePath": "staticwebassets\\Products\\whitelamba.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\wideLamba.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\wideLamba.png",
       "PackagePath": "staticwebassets\\Products\\wideLamba.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\wideroof.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\wideroof.png",
       "PackagePath": "staticwebassets\\Products\\wideroof.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\PagedList.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\Products\\حوض.jpg",
+      "PackagePath": "staticwebassets\\Products\\حوض.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\PagedList.css",
       "PackagePath": "staticwebassets\\content\\PagedList.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\css\\bootstrap.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\content\\css\\bootstrap.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\css\\site.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\css\\site.css",
       "PackagePath": "staticwebassets\\content\\css\\site.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\css\\style.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\css\\style.css",
       "PackagePath": "staticwebassets\\content\\css\\style.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\Beshai Logo_Final Ceramic Final-01.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\Beshai Logo_Final Ceramic Final-01.png",
       "PackagePath": "staticwebassets\\content\\images\\Beshai Logo_Final Ceramic Final-01.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\Capture.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\Capture.png",
       "PackagePath": "staticwebassets\\content\\images\\Capture.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\Capture2.PNG",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\Capture2.PNG",
       "PackagePath": "staticwebassets\\content\\images\\Capture2.PNG"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\StaticImages\\B-TechLogo.PNG",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\StaticImages\\B-TechLogo.PNG",
       "PackagePath": "staticwebassets\\content\\images\\StaticImages\\B-TechLogo.PNG"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\StaticImages\\Eldwlia.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\StaticImages\\Eldwlia.jpg",
       "PackagePath": "staticwebassets\\content\\images\\StaticImages\\Eldwlia.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\StaticImages\\admin.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\StaticImages\\admin.png",
       "PackagePath": "staticwebassets\\content\\images\\StaticImages\\admin.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CeramikWalls.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CeramikWalls.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\CeramikWalls.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\ChineseBath1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath2.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\ChineseBath2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ChineseBath3.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\ChineseBath3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CleopatraCeramics1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CleopatraCeramics1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\CleopatraCeramics1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CleopatraCeramics2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\CleopatraCeramics2.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\CleopatraCeramics2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMarble1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble2.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMarble2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMarble3.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMarble3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMixer1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMixer1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMixer1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMixer2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\EgyptionMixer2.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\EgyptionMixer2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\Floor1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\Floor1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\Floor1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\FrancItaly1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\FrancItaly1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\FrancItaly1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\JewellyCeramics1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\JewellyCeramics1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\JewellyCeramics1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\JewellyCeramics2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\JewellyCeramics2.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\JewellyCeramics2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\ReemasCeramics1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics2.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics2.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\ReemasCeramics2.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics3.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\ReemasCeramics3.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\ReemasCeramics3.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\SpanishCeramics1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\SpanishCeramics1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\SpanishCeramics1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\TecLight1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\TecLight1.png",
       "PackagePath": "staticwebassets\\content\\images\\products\\TecLight1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\img1.PNG",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\img1.PNG",
       "PackagePath": "staticwebassets\\content\\images\\products\\img1.PNG"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\tree.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\images\\products\\tree.jpg",
       "PackagePath": "staticwebassets\\content\\images\\products\\tree.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\js\\main.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\js\\main.js",
       "PackagePath": "staticwebassets\\content\\js\\main.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\js\\site.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\js\\site.js",
       "PackagePath": "staticwebassets\\content\\js\\site.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\animate.css\\animate.compat.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\animate.css\\animate.compat.css",
       "PackagePath": "staticwebassets\\content\\lib\\animate.css\\animate.compat.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\animate.css\\animate.compat.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\animate.css\\animate.compat.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\animate.css\\animate.compat.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\animate.css\\animate.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\animate.css\\animate.css",
       "PackagePath": "staticwebassets\\content\\lib\\animate.css\\animate.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\animate.css\\animate.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\animate.css\\animate.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\animate.css\\animate.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootbox.js\\bootbox.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootbox.js\\bootbox.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\bootbox.js\\bootbox.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\LICENSE",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\chart\\chart.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\chart\\chart.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\chart\\chart.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\easing\\easing.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\content\\lib\\easing\\easing.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\easing\\easing.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\content\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\content\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\content\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\content\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\content\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery\\LICENSE.txt",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\content\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery\\dist\\jquery.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\content\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\content\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\LICENSE",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "PackagePath": "staticwebassets\\content\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "PackagePath": "staticwebassets\\content\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_accordion.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_accordion.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_accordion.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_alert.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_badge.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_button-group.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_buttons.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_card.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_carousel.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_close.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_containers.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_containers.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_containers.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_dropdown.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_forms.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_functions.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_grid.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_helpers.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_helpers.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_helpers.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_images.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_list-group.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_maps.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_maps.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_maps.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_mixins.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_modal.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_nav.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_navbar.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_offcanvas.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_pagination.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_placeholders.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_placeholders.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_placeholders.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_popover.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_progress.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_reboot.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_root.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_spinners.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_tables.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_toasts.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_tooltip.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_transitions.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_type.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_utilities.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_variables.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\bootstrap-utilities.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\bootstrap.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-check.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-control.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-range.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-select.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_form-text.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_input-group.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_labels.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\forms\\_validation.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_position.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_ratio.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_stacks.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\helpers\\_vr.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_banner.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_container.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_utilities.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\utilities\\_api.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\content\\lib\\twitter-bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\waypoints\\links.php",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\content\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\waypoints\\waypoints.min.js",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\content\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\loginStyle.css",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\content\\loginStyle.css",
       "PackagePath": "staticwebassets\\content\\loginStyle.css"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\favicon.ico",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand1.jpg",
-      "PackagePath": "staticwebassets\\uploads\\brand1.jpg"
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\01c5cd74-6bd0-41b6-81af-e2874c7ce646brand.jpg",
+      "PackagePath": "staticwebassets\\uploads\\01c5cd74-6bd0-41b6-81af-e2874c7ce646brand.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand11.jpg",
-      "PackagePath": "staticwebassets\\uploads\\brand11.jpg"
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\20441b1d-c365-459c-b287-2e243def2f5dceramick3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\20441b1d-c365-459c-b287-2e243def2f5dceramick3.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand3.jpg",
-      "PackagePath": "staticwebassets\\uploads\\brand3.jpg"
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\4e174143-5be9-4f08-b2d0-fcdfa02a1f7abrand.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4e174143-5be9-4f08-b2d0-fcdfa02a1f7abrand.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand4.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\65e2d5f7-02e8-452c-a39d-9e738f962ab4brand.jpg",
+      "PackagePath": "staticwebassets\\uploads\\65e2d5f7-02e8-452c-a39d-9e738f962ab4brand.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\9b7e3d63-9fa0-43a5-8266-5097c3e277d3ceramick5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9b7e3d63-9fa0-43a5-8266-5097c3e277d3ceramick5.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand4.jpg",
       "PackagePath": "staticwebassets\\uploads\\brand4.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand6.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand6.jpg",
       "PackagePath": "staticwebassets\\uploads\\brand6.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\brand8.jpg",
-      "PackagePath": "staticwebassets\\uploads\\brand8.jpg"
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\ceramick2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ceramick2.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\slide1.png",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\d715eef0-a02c-45b5-a850-ec91166fcd8dbrand.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d715eef0-a02c-45b5-a850-ec91166fcd8dbrand.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\d9b8a98d-8b95-41aa-89c2-23f29aab1a16ceramick6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d9b8a98d-8b95-41aa-89c2-23f29aab1a16ceramick6.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\ddd711e2-b596-41f0-9b34-ff028f6e7bf7img2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ddd711e2-b596-41f0-9b34-ff028f6e7bf7img2.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\e904d042-7d18-4ece-b51c-487ad512e880ceramick5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e904d042-7d18-4ece-b51c-487ad512e880ceramick5.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\f6bed29a-de2d-43f0-b6b4-17dbc1d6215fbrand.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f6bed29a-de2d-43f0-b6b4-17dbc1d6215fbrand.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\faadb9ec-8b4c-4871-9677-ae09d9ef3278brand.jpg",
+      "PackagePath": "staticwebassets\\uploads\\faadb9ec-8b4c-4871-9677-ae09d9ef3278brand.jpg"
+    },
+    {
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\slide1.png",
       "PackagePath": "staticwebassets\\uploads\\slide1.png"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\slideWithOffer1.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\slideWithOffer1.jpg",
       "PackagePath": "staticwebassets\\uploads\\slideWithOffer1.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\slideWithOffer2.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\slideWithOffer2.jpg",
       "PackagePath": "staticwebassets\\uploads\\slideWithOffer2.jpg"
     },
     {
-      "Id": "H:\\Work Soft Go Soluation\\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\slideWithOffer3.jpg",
+      "Id": "H:\\Work Soft Go Soluation\\الويب سايت قبل موضوع السيرش 25-1-2024\\StoreApi\\Dashboard-Ecommerce\\wwwroot\\uploads\\slideWithOffer3.jpg",
       "PackagePath": "staticwebassets\\uploads\\slideWithOffer3.jpg"
     },
     {

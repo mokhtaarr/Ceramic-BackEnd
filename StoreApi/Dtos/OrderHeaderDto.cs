@@ -14,6 +14,7 @@
         public int? Header_TaxesId1 { get; set; }
         public int? Header_TaxesId2 { get; set; }
         public int? Header_TaxesId3 { get; set; }
+        public string Email { get; set; }
 
         public OrderDetail[] OrderDetails { get; set; }
 

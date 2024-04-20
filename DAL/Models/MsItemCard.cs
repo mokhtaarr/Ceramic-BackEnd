@@ -93,6 +93,9 @@ namespace DAL.Models
         public string TaxItemCode { get; set; }
         public string ItemDescA { get; set; }
         public string ItemDescE { get; set; }
+
+        public string ProductDescA { get; set; }
+        public string ProductDescE { get; set; }
         public decimal? QtyPartiation { get; set; }
         public decimal? QtyInNotebook { get; set; }
         public decimal? TotalCost { get; set; }

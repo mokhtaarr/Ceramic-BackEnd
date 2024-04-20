@@ -9,107 +9,147 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dashboard_Ecommerce
 build_property.RootNamespace = Dashboard_Ecommerce
-build_property.ProjectDir = H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce\
+build_property.ProjectDir = H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\Dashboard-Ecommerce\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = H:\Work Soft Go Soluation\مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها\StoreApi\Dashboard-Ecommerce
+build_property.MSBuildProjectDirectory = H:\Work Soft Go Soluation\الويب سايت قبل موضوع السيرش 25-1-2024\StoreApi\Dashboard-Ecommerce
 build_property._RazorSourceGeneratorDebug = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Brand/BrandForm.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Brand/BrandForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQnJhbmRGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Brand/Index.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Brand/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Category/CategoryForm.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Category/CategoryForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Category/Index.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Home/Index.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Company/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Company/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Complaints/EmailReplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50c1xFbWFpbFJlcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Complaints/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGxhaW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Discount/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Discount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Home/Privacy.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Members/Index.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Members/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/OurCustomer/Edit.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/OurCustomer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3VyQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/OurCustomer/Index.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/OurCustomer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3VyQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/FinishedProduct.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Products/FinishedProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRmluaXNoZWRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/Index.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/ProductEdit.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Products/ProductEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/ProductForm.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Products/ProductForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUHJvZHVjdEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/productsWithOffer.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Products/productsWithOffer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNccHJvZHVjdHNXaXRoT2ZmZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Products/productsWithOutOffer.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Products/productsWithOutOffer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNccHJvZHVjdHNXaXRoT3V0T2ZmZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Shared/Error.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/SendOffers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VuZE9mZmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/UsersOrder/Index.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/unvalibleProduct/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdW52YWxpYmxlUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/UsersOrder/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNPcmRlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Users/Index.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/User/SignIn.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/User/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/User/GetAllAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRBbGxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/User/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/User/SignUp.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/User/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/_ViewImports.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/_ViewStart.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/Work Soft Go Soluation/مشروع الدوليه بعد تركيب الداتا بيز الجديده عليها/StoreApi/Dashboard-Ecommerce/Views/Shared/_Layout.cshtml]
+[H:/Work Soft Go Soluation/الويب سايت قبل موضوع السيرش 25-1-2024/StoreApi/Dashboard-Ecommerce/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7yn5ovv8jd

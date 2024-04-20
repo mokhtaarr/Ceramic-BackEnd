@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NToastNotify;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using X.PagedList;
 
@@ -26,9 +27,23 @@ namespace Dashboard_Ecommerce.Controllers
 
         public async Task<IActionResult> Index(int pageIndex = 1, int pageSize = 50)
         {
-            var cat = await _context.MsItemCategories.Where(c=>c.DeletedAt == null).ToPagedListAsync(pageIndex, pageSize);
+            var cat = await _context.MsItemCategories.OrderByDescending(c=>c.ItemCategoryId).ToPagedListAsync(pageIndex, pageSize);
             
             return View(cat);
+        }
+        [HttpPost]
+        public async Task<IActionResult> IndexFilter(int pageIndex = 1, int pageSize = 50,string ItemCatDescA = "")
+        {
+            var cat = await _context.MsItemCategories.OrderByDescending(c => c.ItemCategoryId).ToPagedListAsync(pageIndex, pageSize);
+
+            if(ItemCatDescA != string.Empty)
+            {
+                cat = await _context.MsItemCategories.OrderByDescending(c => c.ItemCategoryId).Where(c=>c.ItemCatDescA == ItemCatDescA).ToPagedListAsync(pageIndex, pageSize);
+                ViewBag.SelectedItemCatDescA = ItemCatDescA;
+
+            }
+
+            return View("Index", cat);
         }
 
         public IActionResult Create()
@@ -50,7 +65,7 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.ImageFile != null)
             {
                 string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
-                FileName = dto.ImageFile.FileName;
+                FileName = Guid.NewGuid().ToString() + dto.ImageFile.FileName;
                 string FullPath = Path.Combine(uploads, FileName);
                 dto.ImageFile.CopyTo(new FileStream(FullPath, FileMode.Create));
                 CategoryHaveImage = true;
@@ -118,16 +133,11 @@ namespace Dashboard_Ecommerce.Controllers
             if (dto.ImageFile != null)
             {
                 string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
-                FileName = dto.ImageFile.FileName;
+                FileName = Guid.NewGuid().ToString() + dto.ImageFile.FileName;
                 string FullPath = Path.Combine(uploads, FileName);
                 string OldFileName = catFromTable.ImagePath;
                 string FullOldPath = string.Empty;
-                if (!string.IsNullOrEmpty(OldFileName))
-                {
-                    FullOldPath = Path.Combine(uploads, OldFileName);
-                    System.IO.File.Delete(FullOldPath);
-                }
-                //delet old file name
+               
                 dto.ImageFile.CopyTo(new FileStream(FullPath, FileMode.Create));
                 CategoryHaveImage = true;
 

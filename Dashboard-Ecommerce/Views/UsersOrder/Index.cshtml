@@ -10,6 +10,33 @@
     }
     else
     {
+
+         <form id="frmCreate" method="post" asp-action="search">
+            <div class="row d-flex justify-content-end">
+
+                <div class="col-md-2">
+                    <div class="mb-3 custom-form mt-4">
+                        <a class="btn btn-outline-secondary" asp-action="index">إلغاء</a>
+
+                        <button type="submit" class="btn btn-primary">بحث </button>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="mb-3 custom-form">
+                        <label for="productname" class="d-flex justify-content-end">ابحث  برقم الهاتف</label>
+                        <input class="form-control mr-sm-2" type="search" placeholder="ابحث" name="term"
+                               style="margin-right:5px;margin-left:10px;direction:rtl" value="@ViewBag.Term" />
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
+
+
         <div class="container">
         @foreach (var order in Model.Items)
             {
